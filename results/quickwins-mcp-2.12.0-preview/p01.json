@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 12.3,
+  "is_error": false,
+  "cost_usd": 0.1819052,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width banner at the top of the page \u2014 it's purpose-built to render under the menu with a headline (Heading), two CTA buttons (cta1/cta2), and a 'Background Image' mode (BackgroundImage field) for the photo, covering the entire request in one component."
+      }
+    ]
+  }
+}

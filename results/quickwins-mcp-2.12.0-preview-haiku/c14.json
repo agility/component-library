@@ -1,0 +1,12 @@
+{
+  "id": "c14",
+  "kind": "content",
+  "seconds": 16.4,
+  "is_error": false,
+  "cost_usd": 0.0317544,
+  "num_turns": 8,
+  "answer": {
+    "referenceName": "FooterLink",
+    "reason": "FooterLink is the dedicated content model for footer links. It contains a single Link field and is used as nested content within the Footer model's column grids, making it the appropriate place to add the privacy policy link to the footer."
+  }
+}

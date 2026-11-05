@@ -1,0 +1,24 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 16.2,
+  "is_error": false,
+  "cost_usd": 0.0246421,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduction and context for the comparison, with heading, subheading, and description"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison table showing your product vs. two competitors"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Call-to-action at the bottom to drive user engagement (sign up, contact sales, etc.)"
+      }
+    ]
+  }
+}

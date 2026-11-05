@@ -1,0 +1,20 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 19.5,
+  "is_error": false,
+  "cost_usd": 0.0807812,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section intro \u2014 heading/subheading + description to introduce the 'Get a Quote' section (e.g. 'Get a Quote' headline with a short line about requesting project pricing)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The quote-request form itself \u2014 covers collecting name, company, and project details (configurable heading, description, submit URL, and success/error/loading messaging for the form submission)."
+      }
+    ]
+  }
+}

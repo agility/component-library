@@ -1,0 +1,12 @@
+{
+  "id": "c10",
+  "kind": "content",
+  "seconds": 13.2,
+  "is_error": false,
+  "cost_usd": 0.0220288,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "CustomerProfile",
+    "reason": "Existing Content List model with Name and Logo fields; currently includes Audience for personalization. Ideal for storing customer company profiles."
+  }
+}

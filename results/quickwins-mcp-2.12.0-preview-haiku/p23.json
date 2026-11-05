@@ -1,0 +1,16 @@
+{
+  "id": "p23",
+  "kind": "page",
+  "seconds": 11.6,
+  "is_error": false,
+  "cost_usd": 0.017964100000000004,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "TeamListing",
+        "purpose": "Displays all team members with photos, names, and titles"
+      }
+    ]
+  }
+}

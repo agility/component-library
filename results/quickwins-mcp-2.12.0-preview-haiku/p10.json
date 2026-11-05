@@ -1,0 +1,24 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 13.7,
+  "is_error": false,
+  "cost_usd": 0.023608,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section title and introduction for 'What our customers say'"
+      },
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Display six customer quotes"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Call-to-action button/link to read more customer stories"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "p27",
+  "kind": "page",
+  "seconds": 18.2,
+  "is_error": false,
+  "cost_usd": 0.0269876,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "A plain heading with a sentence (introductory heading)"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Our story as free-form text with images"
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "The company in numbers with a background image"
+      },
+      {
+        "referenceName": "TeamListing",
+        "purpose": "The team"
+      }
+    ]
+  }
+}

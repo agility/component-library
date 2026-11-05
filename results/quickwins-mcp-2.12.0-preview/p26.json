@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 65.7,
+  "is_error": false,
+  "cost_usd": 0.15234019999999998,
+  "num_turns": 11,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title and one-line intro, with background type set to a gradient (not an image) to satisfy the 'no image' requirement."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays the plans as cards."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Displays the full feature comparison grid across plans."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs section at the bottom of the page."
+      }
+    ]
+  }
+}

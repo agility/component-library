@@ -1,0 +1,32 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 25.7,
+  "is_error": false,
+  "cost_usd": 0.030946800000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Gradient banner with 'Join our team' heading and CTA button to open roles"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Grid display of open job positions/roles"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Image and text section showcasing company culture and why join"
+      },
+      {
+        "referenceName": "TeamListing",
+        "purpose": "Showcase team members to highlight company people"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form for career inquiries and applications"
+      }
+    ]
+  }
+}

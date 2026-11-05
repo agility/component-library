@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 11.3,
+  "is_error": false,
+  "cost_usd": 0.17934300000000003,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opens the page with the Heading (headline), Description (short paragraph), and CallToAction (one button) on the left, plus an Image (product screenshot) on the right via ImagePosition set to 'right'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 26.4,
+  "is_error": false,
+  "cost_usd": 0.1624518,
+  "num_turns": 15,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "The instance has a \"Carousel\" component (referenceName: carousel) which is the slider used for things like product screenshots, and its content comes from a nested \"Slides\" field whose linked content model is \"Carousel Slide\" (referenceName: carouselSlide). Each slide item (heading, description, background image, CTA link) is stored as a carouselSlide content item, so a new slide for the product screenshot slider should be created in that model."
+  }
+}

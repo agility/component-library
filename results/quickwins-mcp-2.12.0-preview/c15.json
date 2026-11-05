@@ -1,0 +1,12 @@
+{
+  "id": "c15",
+  "kind": "content",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.0404692,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Audience",
+    "reason": "The instance already has an \"Audience\" content model (reference name: Audience, container: Audiences) whose description is \"Used for personalization by a custom demographic.\" This is precisely the model used for defining visitor segments (e.g., existing items would represent audiences) that personalized components like heroes/banners target \u2014 note PersonalizedHeroItem and the PersonalizedBackgroundHero component already reference audience-based personalization. A new 'Healthcare' audience should be added as a content item in this Audience model/Audiences container rather than creating a new model."
+  }
+}

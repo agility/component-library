@@ -1,0 +1,12 @@
+{
+  "id": "c06",
+  "kind": "content",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.019863899999999997,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "TestimonialItem",
+    "reason": "The TestimonialItem model is designed specifically for customer testimonials/quotes. It contains all required fields: Name (customer name), Title (customer role), Quote (the testimonial text), and Image (customer photo). This is the standard content model used on this instance for displaying customer quotes."
+  }
+}

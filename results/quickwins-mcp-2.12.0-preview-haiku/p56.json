@@ -1,0 +1,16 @@
+{
+  "id": "p56",
+  "kind": "page",
+  "seconds": 18.9,
+  "is_error": false,
+  "cost_usd": 0.0293467,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Promotional strip for webinar announcement - displays as an alert message bar at the top of all pages to promote the upcoming webinar above everything else on the site"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c04",
+  "kind": "content",
+  "seconds": 5.8,
+  "is_error": false,
+  "cost_usd": 0.03314,
+  "num_turns": 3,
+  "answer": {
+    "referenceName": "Tag",
+    "reason": "The instance already has a dedicated \"Tag\" content model (reference name `Tag`, id 10), separate from Post, Category, and Author. It's a Content List model designed to hold reusable tag labels that Posts can link to, so a new 'AI' tag item belongs there rather than in the Post model itself."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 6.3,
+  "is_error": false,
+  "cost_usd": 0.15830139999999998,
+  "num_turns": 3,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The instance's content models include \"Post\" (id 11), described as \"A blog post or article,\" which is designed to link to Author content and Category content (per the Author model's description: \"Used as linked content in Posts to associate articles with their authors\"). This is the appropriate model for a new blog article about the spring release that needs an author and a category assigned."
+  }
+}

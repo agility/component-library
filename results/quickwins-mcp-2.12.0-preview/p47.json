@@ -1,0 +1,28 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 15.6,
+  "is_error": false,
+  "cost_usd": 0.07152800000000001,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page intro section \u2014 headline (e.g. \"How We Compare\") and supporting description framing the product-vs-competitors comparison."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Core feature-by-feature comparison grid \u2014 Column Names field holds our product + the two competitors, and the linked Rows (ComparisonRow) hold each feature with its per-column values."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Addresses follow-up questions prospects have after seeing the comparison (e.g. migration, pricing nuances, edge-case features not in the table)."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call-to-action encouraging the visitor to sign up / request a demo / talk to sales now that they've seen why the product wins."
+      }
+    ]
+  }
+}

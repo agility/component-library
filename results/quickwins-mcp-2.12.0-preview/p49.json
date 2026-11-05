@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 13.1,
+  "is_error": false,
+  "cost_usd": 0.0666272,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "Covers the entire 'How it works' section as a single numbered-process component (displayName 'Process'): its Heading field holds the section title (e.g. 'How it works') and its linked StepItems grid holds the three steps in order \u2014 Sign up, Connect your data, Publish."
+      }
+    ]
+  }
+}

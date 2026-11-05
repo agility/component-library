@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 23.3,
+  "is_error": false,
+  "cost_usd": 0.0258453,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 1 - Display first main benefit with paragraph text and image (image on left side)"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 2 - Display second main benefit with paragraph text and image (image on right side, alternating)"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 3 - Display third main benefit with paragraph text and image (image on left side, alternating)"
+      }
+    ]
+  }
+}

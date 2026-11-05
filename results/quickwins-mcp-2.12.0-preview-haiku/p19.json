@@ -1,0 +1,20 @@
+{
+  "id": "p19",
+  "kind": "page",
+  "seconds": 16.4,
+  "is_error": false,
+  "cost_usd": 0.025012400000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduction section with heading and description for the billing questions section"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Common questions people ask about billing and their answers"
+      }
+    ]
+  }
+}

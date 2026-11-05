@@ -1,0 +1,16 @@
+{
+  "id": "p11",
+  "kind": "page",
+  "seconds": 23.5,
+  "is_error": false,
+  "cost_usd": 0.0294918,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Displays a row of company logos with a description line (ctaDescription) and a link to case studies (cta)"
+      }
+    ]
+  }
+}

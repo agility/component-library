@@ -1,0 +1,16 @@
+{
+  "id": "p03",
+  "kind": "page",
+  "seconds": 20.0,
+  "is_error": false,
+  "cost_usd": 0.0296259,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner that displays different content to healthcare visitors and retail visitors while maintaining the same layout, using built-in personalization options to configure audience-specific variations"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 9.5,
+  "is_error": false,
+  "cost_usd": 0.049045599999999995,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Single component that covers the whole request: its Heading field holds 'Ready to try it?' and its PrimaryCTA link field is the 'Start free trial' button, placed mid-page on the product page."
+      }
+    ]
+  }
+}

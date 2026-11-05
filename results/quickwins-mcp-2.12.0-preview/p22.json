@@ -1,0 +1,20 @@
+{
+  "id": "p22",
+  "kind": "page",
+  "seconds": 33.3,
+  "is_error": false,
+  "cost_usd": 0.1033408,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PostDetails",
+        "purpose": "Core of the page \u2014 this component is purpose-built ('Meant for the blog post details page') to render the single Post item in context: Heading, Author, PostDate, Category, Tags, the featured Image, and the full HTML Content body. This alone fulfills 'shows a single blog article.'"
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Placed at the bottom, after the article. Not part of displaying the article itself, but a standard marketer addition to a blog-detail template \u2014 captures reader interest right after they finish the content."
+      }
+    ]
+  }
+}

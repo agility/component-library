@@ -1,0 +1,24 @@
+{
+  "id": "p32",
+  "kind": "page",
+  "seconds": 10.6,
+  "is_error": false,
+  "cost_usd": 0.0593262,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner \u2014 a hero/background section whose Heading, Description, CTAs, and background can be swapped per audience via its 'Personalized Hero Items' nested list, so the banner adapts to the visitor's detected industry."
+      },
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Logo row \u2014 pulls company/customer logos from the shared Companies list and shows personalized items per audience when a match is available, so the logo row adapts to the visitor's industry."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Feature cards \u2014 displays the grid of Feature Items (heading, subheading, configurable columns) to showcase the product's features at the bottom of the page."
+      }
+    ]
+  }
+}

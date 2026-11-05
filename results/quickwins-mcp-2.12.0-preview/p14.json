@@ -1,0 +1,16 @@
+{
+  "id": "p14",
+  "kind": "page",
+  "seconds": 8.9,
+  "is_error": false,
+  "cost_usd": 0.057920599999999996,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "Covers the entire 'Our company in numbers' section in one component: sectionTitle (section title), heading (heading), description (paragraph), backgroundImage (background image), and the nested stats grid (the stats)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p36",
+  "kind": "page",
+  "seconds": 14.7,
+  "is_error": false,
+  "cost_usd": 0.07244439999999999,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title over a full-width photo \u2014 set backgroundType to 'background-image', the event photo in BackgroundImage, and the page title in Heading."
+      },
+      {
+        "referenceName": "Header (modelID 25 \u2014 the generic 'A generic header section' component, not the other model also named 'Header' which is the global site header)",
+        "purpose": "The 'Upcoming events' heading, via its Heading field."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "The free-text list of dates, entered as free-form HTML in the TextBlob field."
+      }
+    ]
+  }
+}

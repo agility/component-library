@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 23.0,
+  "is_error": false,
+  "cost_usd": 0.032892500000000005,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays three pricing plans side by side as cards, each with its price and sign-up button"
+      }
+    ]
+  }
+}

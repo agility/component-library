@@ -1,0 +1,20 @@
+{
+  "id": "p33",
+  "kind": "page",
+  "seconds": 12.5,
+  "is_error": false,
+  "cost_usd": 0.022636100000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introductory heading/title for the legal terms section"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "All legal content including multiple headings, paragraphs, and lists written freely"
+      }
+    ]
+  }
+}

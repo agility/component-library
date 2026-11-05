@@ -1,0 +1,12 @@
+{
+  "id": "c05",
+  "kind": "content",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.0205336,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "FAQItem",
+    "reason": "The FAQItem content model (ID: 26) is a Content List designed specifically for FAQ items. It is the appropriate model for adding question and answer pairs to the pricing FAQs section."
+  }
+}

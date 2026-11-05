@@ -1,0 +1,16 @@
+{
+  "id": "p03",
+  "kind": "page",
+  "seconds": 17.4,
+  "is_error": false,
+  "cost_usd": 0.0685664,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner at the top of the homepage. One instance of this component delivers the entire request: it renders a single hero layout, but holds a list of 'Personalized Hero Items' (heading, description, CTAs, background) each tied to a Target Audience. Add two items \u2014 one linked to the Healthcare audience, one linked to the Retail audience \u2014 so healthcare visitors and retail visitors each see their own banner content/messaging while sharing identical layout/styling. No other component is needed to satisfy this specific request."
+      }
+    ]
+  }
+}

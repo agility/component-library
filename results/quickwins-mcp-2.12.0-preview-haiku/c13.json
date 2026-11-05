@@ -1,0 +1,12 @@
+{
+  "id": "c13",
+  "kind": "content",
+  "seconds": 18.6,
+  "is_error": false,
+  "cost_usd": 0.0344262,
+  "num_turns": 10,
+  "answer": {
+    "referenceName": "TopLevelNav",
+    "reason": "TopLevelNav is the content model designed for top-level navigation items in the site header. It includes a required Link field for the main navigation link and optional Sub Nav Links for dropdown sub-navigation items. This is the appropriate model for adding 'Docs' as a new top-level item in the main navigation menu."
+  }
+}

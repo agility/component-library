@@ -1,0 +1,16 @@
+{
+  "id": "p08",
+  "kind": "page",
+  "seconds": 20.2,
+  "is_error": false,
+  "cost_usd": 0.08411839999999998,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "The opening/top-of-page banner itself (hero with heading, description, CTAs, background), configured with two nested 'Personalized Hero Items' \u2014 one targeted to a 'Europe' audience and one to a 'North America' audience \u2014 so the banner's heading/description text swaps based on the visitor's region. This single component covers the entire request: it's the banner, and its built-in Personalization tab (linked to the shared Audience list) is what drives the region-based text variation."
+      }
+    ]
+  }
+}

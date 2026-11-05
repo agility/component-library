@@ -1,0 +1,12 @@
+{
+  "id": "c06",
+  "kind": "content",
+  "seconds": 8.6,
+  "is_error": false,
+  "cost_usd": 0.048151000000000006,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "TestimonialItem",
+    "reason": "TestimonialItem (model \"Testimonial Item\") has exactly the fields needed for a customer quote: Name (text), Title (the customer's role), Quote (long text for the testimonial), and Image. CustomerProfile was considered but is built around Audience personalization and a logo, not a quote/role pairing, so it doesn't fit the request."
+  }
+}

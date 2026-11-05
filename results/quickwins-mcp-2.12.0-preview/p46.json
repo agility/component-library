@@ -1,0 +1,16 @@
+{
+  "id": "p46",
+  "kind": "page",
+  "seconds": 6.1,
+  "is_error": false,
+  "cost_usd": 0.036165199999999995,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Covers the entire request: a self-contained signup box ('Signup form') where visitors enter their email address to subscribe to the monthly newsletter."
+      }
+    ]
+  }
+}

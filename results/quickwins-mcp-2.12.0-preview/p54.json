@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 23.6,
+  "is_error": false,
+  "cost_usd": 0.07302059999999999,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain page title with a one-sentence description \u2014 uses the Heading field for the title and the Description field for the single supporting sentence (no subheading needed)."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison with competitors \u2014 Heading for the section title, Columns for the competitor/product names, and Rows (linked ComparisonRow items) for each feature comparison."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Call to action to book a demo \u2014 Heading/Description to prompt the visitor, with PrimaryCTA as the 'Book a demo' button."
+      }
+    ]
+  }
+}

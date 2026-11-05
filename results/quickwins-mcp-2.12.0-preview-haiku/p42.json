@@ -1,0 +1,16 @@
+{
+  "id": "p42",
+  "kind": "page",
+  "seconds": 19.5,
+  "is_error": false,
+  "cost_usd": 0.026555699999999998,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Banner with heading and buttons to create the 'Talk to sales' section with one line of text, two buttons, and dark background styling"
+      }
+    ]
+  }
+}

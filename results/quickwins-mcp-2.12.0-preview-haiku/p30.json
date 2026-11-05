@@ -1,0 +1,20 @@
+{
+  "id": "p30",
+  "kind": "page",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.017513900000000002,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading 'Insights'"
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "Paged list of blog posts"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 15.5,
+  "is_error": false,
+  "cost_usd": 0.027789200000000007,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduce the pricing section with heading and description"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Display pricing plans as cards"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Show feature comparison with competitors"
+      }
+    ]
+  }
+}

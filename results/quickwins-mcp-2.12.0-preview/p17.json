@@ -1,0 +1,20 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 12.3,
+  "is_error": false,
+  "cost_usd": 0.0702042,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page-top heading/intro section introducing the pricing page (e.g. 'Pricing' headline and supporting description) before the plans are shown."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The core of the request \u2014 renders the three plans side by side as cards, with each card's nested Pricing Tier item providing the plan name, description, price (PriceMonthly/Currency/CurrencySymbol), highlights, and a sign-up CTA button (ctaButton link field)."
+      }
+    ]
+  }
+}

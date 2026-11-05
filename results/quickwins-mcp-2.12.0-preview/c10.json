@@ -1,0 +1,12 @@
+{
+  "id": "c10",
+  "kind": "content",
+  "seconds": 10.1,
+  "is_error": false,
+  "cost_usd": 0.048708,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "CustomerProfile",
+    "reason": "The instance already has a \"Customer Profile\" content model (referenceName: CustomerProfile, id 56) used by the \"Customers\" container in the Personalization category. It currently has Name and Logo (ImageAttachment) fields plus an Audience link for personalization \u2014 exactly the \"personalize logos\" use case described. It's missing an \"Industry\" field, which would need to be added to this existing model, but no new content model is warranted since this one already matches the intended purpose and is wired into the personalization system (Customers container, dynamic page list)."
+  }
+}

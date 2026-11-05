@@ -1,0 +1,12 @@
+{
+  "id": "c15",
+  "kind": "content",
+  "seconds": 10.8,
+  "is_error": false,
+  "cost_usd": 0.019373400000000002,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Audience",
+    "reason": "The 'Audience' model is specifically designed for personalization by custom demographic segments. It's a Content List model used to create audience definitions like 'Healthcare' that can be applied to banners and other content for targeted personalization."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 19.1,
+  "is_error": false,
+  "cost_usd": 0.0875714,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: event title (Heading) and a Register button (CTA1 link) displayed over a color gradient background \u2014 built specifically for a gradient/hero treatment at the top of a page."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda written as free-form text, placed below the hero."
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Registration form at the bottom of the page \u2014 a sign-up form (heading, description, consent text, submit button, mailing-list ID) used to capture webinar registrants."
+      }
+    ]
+  }
+}

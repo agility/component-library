@@ -1,0 +1,20 @@
+{
+  "id": "p21",
+  "kind": "page",
+  "seconds": 10.6,
+  "is_error": false,
+  "cost_usd": 0.053245,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page intro/heading area at the top of the blog index (e.g. 'Blog' title and optional description) \u2014 sets context for the listing below."
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "The paged list of all blog posts itself \u2014 this component is purpose-built to show a listing of blog posts with paging, directly fulfilling the core request."
+      }
+    ]
+  }
+}

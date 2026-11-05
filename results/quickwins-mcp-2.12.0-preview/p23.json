@@ -1,0 +1,16 @@
+{
+  "id": "p23",
+  "kind": "page",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.0613544,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "TeamListing",
+        "purpose": "Core 'Meet the team' section \u2014 renders the team roster (linked to the Author content model, which stores each person's Name, Title, and HeadShot photo) along with a section Heading."
+      }
+    ]
+  }
+}

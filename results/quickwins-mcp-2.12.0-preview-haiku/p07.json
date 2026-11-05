@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 28.5,
+  "is_error": false,
+  "cost_usd": 0.0370598,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Hero image beside the copy with image positioned on the left"
+      }
+    ]
+  }
+}

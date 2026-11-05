@@ -1,0 +1,16 @@
+{
+  "id": "p59",
+  "kind": "page",
+  "seconds": 12.9,
+  "is_error": false,
+  "cost_usd": 0.061155999999999995,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Covers the entire request: renders a grid (Columns field, e.g. 4 so 8 items form 2 rows) of eight integration partner items. Each item is a linked FeatureItem content item with an Icon (ImageAttachment) for the partner's icon, a Title for the partner's name, and a Description (LongText) for the one-sentence blurb about the integration. The component's own Heading/Subheading fields can be used for an intro like 'Integration Partners'."
+      }
+    ]
+  }
+}

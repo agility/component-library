@@ -1,0 +1,40 @@
+{
+  "id": "p51",
+  "kind": "page",
+  "seconds": 27.9,
+  "is_error": false,
+  "cost_usd": 0.092639,
+  "num_turns": 10,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opening headline with a screenshot beside it (Heading/Description text with Image + ImagePosition)"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #1 \u2014 explained with a picture beside the text"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #2 \u2014 explained with a picture beside the text"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #3 \u2014 explained with a picture beside the text"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Six capabilities with icons, using six FeatureItem entries (Title, Description, Icon)"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Short 'Start your trial' call to action (Heading + Primary button)"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "FAQs section with nested FAQItem question/answer entries"
+      }
+    ]
+  }
+}

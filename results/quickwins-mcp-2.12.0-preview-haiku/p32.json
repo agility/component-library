@@ -1,0 +1,24 @@
+{
+  "id": "p32",
+  "kind": "page",
+  "seconds": 16.8,
+  "is_error": false,
+  "cost_usd": 0.028223500000000002,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner that adapts to visitor's industry"
+      },
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Logo row that adapts to visitor's industry"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Feature cards section"
+      }
+    ]
+  }
+}

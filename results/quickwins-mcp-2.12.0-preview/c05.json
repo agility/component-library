@@ -1,0 +1,12 @@
+{
+  "id": "c05",
+  "kind": "content",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.026393200000000006,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "FAQItem",
+    "reason": "Search found a content model \"FAQ Item\" (referenceName: FAQItem) and a container specifically named \"pricing_FrequentlyAskedQuestions_FAQItem\" (containerReferenceName: pricing_FrequentlyAskedQuest7D73FE) that is built on this model \u2014 this is the container used for the Pricing page's FAQ section. New Q&A content for the pricing FAQs should be created as a new content item of the FAQItem model in that container."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p22",
+  "kind": "page",
+  "seconds": 14.0,
+  "is_error": false,
+  "cost_usd": 0.0231547,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PostDetails",
+        "purpose": "Display of the complete blog post content including title, publish date, author information, article body, featured image, and article metadata for a single blog article"
+      }
+    ]
+  }
+}

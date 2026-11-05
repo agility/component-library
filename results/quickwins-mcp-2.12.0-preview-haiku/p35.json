@@ -1,0 +1,20 @@
+{
+  "id": "p35",
+  "kind": "page",
+  "seconds": 10.8,
+  "is_error": false,
+  "cost_usd": 0.021593,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Display a single strong quote from the biggest customer"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Display the pricing cards that come after the customer quote"
+      }
+    ]
+  }
+}

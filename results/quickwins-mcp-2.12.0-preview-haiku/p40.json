@@ -1,0 +1,20 @@
+{
+  "id": "p40",
+  "kind": "page",
+  "seconds": 13.0,
+  "is_error": false,
+  "cost_usd": 0.0226851,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduction and context for the contact form section (heading, subheading, description)"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form component for visitors to send messages"
+      }
+    ]
+  }
+}

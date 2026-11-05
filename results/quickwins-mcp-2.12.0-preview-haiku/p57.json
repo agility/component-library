@@ -1,0 +1,16 @@
+{
+  "id": "p57",
+  "kind": "page",
+  "seconds": 14.2,
+  "is_error": false,
+  "cost_usd": 0.023160900000000005,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Picture on left and text on right explaining the security approach"
+      }
+    ]
+  }
+}

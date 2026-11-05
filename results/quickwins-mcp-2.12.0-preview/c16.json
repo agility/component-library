@@ -1,0 +1,12 @@
+{
+  "id": "c16",
+  "kind": "content",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.0638466,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "FeatureItem",
+    "reason": "The capabilities grid on the site is rendered by the \"Features\" component (referenceName FeatureGrid, described as \"Grid of items\"). Its grid entries are backed by the \"Feature Item\" content model (referenceName FeatureItem), which has Title, Description, an Icon (ImageAttachment) field, and an optional Link \u2014 exactly matching a \"Webhooks\" capability entry with an icon. There is no dedicated \"Capabilities\" model on the instance, so FeatureItem is the correct existing model to use."
+  }
+}

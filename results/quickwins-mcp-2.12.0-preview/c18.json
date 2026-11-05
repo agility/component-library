@@ -1,0 +1,12 @@
+{
+  "id": "c18",
+  "kind": "content",
+  "seconds": 31.4,
+  "is_error": false,
+  "cost_usd": 0.1527796,
+  "num_turns": 16,
+  "answer": {
+    "referenceName": "StepItem",
+    "reason": "The \"How it works\" section is rendered by the \"Process\" component (reference name `Steps`), which displays a shared grid of numbered items linked via its `StepItems` field. That field's linked content model is \"Step\" (reference name `StepItem`), explicitly described as \"Used in the Steps component.\" Each stage of the how-it-works process is one Step/StepItem record (with Title and Description fields), so a new fourth stage should be added as a new content item in the StepItem model/container."
+  }
+}

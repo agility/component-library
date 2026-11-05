@@ -1,0 +1,24 @@
+{
+  "id": "p28",
+  "kind": "page",
+  "seconds": 13.8,
+  "is_error": false,
+  "cost_usd": 0.0238962,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Hero section with text and an image beside it"
+      },
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Wall of quotes from customers"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Display logos of the customers"
+      }
+    ]
+  }
+}

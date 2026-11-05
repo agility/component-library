@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 15.9,
+  "is_error": false,
+  "cost_usd": 0.0237527,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Displays the office closure notice at the top of the homepage with text and a link to closure details. Configure with a pull date to automatically disappear after the office reopens."
+      }
+    ]
+  }
+}

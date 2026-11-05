@@ -49,6 +49,8 @@ customer's catalog often has them. That's where guidance has something to fix.
 | `baseline-mcp-2.11.0` (first 55 prompts, clean catalog) | 2026-11-05 | Sonnet | 2.11.0 | none | 82/84 (97.6%) | 163/168 | 1 | 1 |
 | `baseline-lookalikes-mcp-2.11.0` | 2026-11-05 | Sonnet | 2.11.0 | none | 113/121 (93.4%) | 226/242 | 4 | 1 |
 | `baseline-lookalikes-mcp-2.11.0-haiku` | 2026-11-05 | Haiku | 2.11.0 | none | 108/121 (89.3%) | 209/242 | 10 | 2 |
+| `quickwins-mcp-2.12.0-preview` | 2026-11-05 | Sonnet | 2.12.0 (PR preview) | none | 112/121 (92.6%) | 223/242 | 4 | 0 |
+| `quickwins-mcp-2.12.0-preview-haiku` | 2026-11-05 | Haiku | 2.12.0 (PR preview) | none | 109/121 (90.1%) | 216/242 | 6 | 1 |
 
 **Baseline notes.** The one violation is the core gap: asked for a registration form, the agent chose a
 *disabled* legacy form builder, because MCP 2.11.0 doesn't say a model is disabled. The other miss named the
@@ -60,3 +62,9 @@ what customers' catalogs look like.
 **With the look-alikes,** both models mix up comparison tables (plans vs competitors), and Haiku opens pages
 with the thinly described "Banner" (`CTABanner`) or "Image + Text" (`MediaSplit`) five times and picks the
 disabled form builder twice. Those are the mistakes agent guidance and the disabled label are meant to fix.
+
+**Quick wins** (MCP 2.12.0 lists descriptions and labels disabled models; no guidance yet): Sonnet stopped
+choosing the disabled form builder; Haiku chose it once instead of twice, and fell for 6 look-alikes instead
+of 10. The other changes are a point or two either way, which one run of each can't tell from noise. **From
+here, run each configuration three times and compare the averages.**
+

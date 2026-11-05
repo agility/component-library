@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 11.4,
+  "is_error": false,
+  "cost_usd": 0.0560906,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The page-opening hero: pairs the campaign copy (Heading, Description, Call To Action) with the hero image, using the built-in ImagePosition field set to 'left' to place the image beside the copy on the left as requested."
+      }
+    ]
+  }
+}

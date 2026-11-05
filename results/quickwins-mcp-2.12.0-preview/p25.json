@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 28.0,
+  "is_error": false,
+  "cost_usd": 0.11496600000000001,
+  "num_turns": 15,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner at the top of the page \u2014 supports a Heading, Description, and two separate CTA link fields (cta1, cta2) for the two buttons, plus a full-bleed gradient/background image."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos section \u2014 a simple nested grid of logo items, ideal for showcasing customer/partner logos without personalization logic."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots \u2014 subheading/heading plus a grid of Bento cards, each with a required 'Graphic' image, explicitly intended for showcasing screenshots or product graphics."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats \u2014 centered heading/description above a single row of stat tiles (value + label), a clean fit for exactly a few key numbers."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One customer quote \u2014 pulls a single testimonial item from the shared Testimonials list (as opposed to the Testimonials component, which renders a whole list)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form \u2014 dedicated contact form component with heading, description, submit URL, and contact details fields to close out the page."
+      }
+    ]
+  }
+}

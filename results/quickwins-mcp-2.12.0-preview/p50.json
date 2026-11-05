@@ -1,0 +1,20 @@
+{
+  "id": "p50",
+  "kind": "page",
+  "seconds": 14.9,
+  "is_error": false,
+  "cost_usd": 0.067428,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Intro heading/subheading for the post-booking confirmation section (e.g. 'You're booked \u2014 here's what happens next'), setting up the three stages that follow."
+      },
+      {
+        "referenceName": "Steps",
+        "purpose": "The three numbered stages explaining what happens after the demo is booked (via its linked StepItem grid), covering the core of the request."
+      }
+    ]
+  }
+}

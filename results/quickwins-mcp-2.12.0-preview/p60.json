@@ -1,0 +1,24 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 12.3,
+  "is_error": false,
+  "cost_usd": 0.0577704,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page intro heading/subheading introducing the pricing page (e.g. 'Simple, transparent pricing') \u2014 sets context above the plan cards."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays the plans as cards \u2014 covers 'the plans as cards' via its nested Pricing Tiers grid."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Covers 'a comparison with our competitors' \u2014 a heading, column names (e.g. our product vs. competitors), and rows of feature-by-feature comparison."
+      }
+    ]
+  }
+}

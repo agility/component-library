@@ -1,0 +1,16 @@
+{
+  "id": "p42",
+  "kind": "page",
+  "seconds": 7.2,
+  "is_error": false,
+  "cost_usd": 0.047853599999999996,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Covers the entire 'Talk to sales' section: the Heading field provides the one line of text, PrimaryCTA and SecondaryCTA provide the two buttons, and the Background field (set to 'dark') provides the dark background. Placed as the final component on the page."
+      }
+    ]
+  }
+}

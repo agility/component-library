@@ -1,0 +1,16 @@
+{
+  "id": "p40",
+  "kind": "page",
+  "seconds": 13.6,
+  "is_error": false,
+  "cost_usd": 0.0693226,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Renders the contact form (heading, description, submit URL, success/error/loading messages, and contact details) so homepage visitors can send a message. This single component fulfills the entire request."
+      }
+    ]
+  }
+}

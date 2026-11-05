@@ -1,0 +1,16 @@
+{
+  "id": "p12",
+  "kind": "page",
+  "seconds": 9.2,
+  "is_error": false,
+  "cost_usd": 0.0522896,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Covers the entire request: displays customer logos, and uses the linked Companies/Customers list's audience/industry field to personalize which logos are shown when the visitor's industry is known, falling back to a general set otherwise."
+      }
+    ]
+  }
+}

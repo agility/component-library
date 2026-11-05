@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 41.0,
+  "is_error": false,
+  "cost_usd": 0.07924490000000001,
+  "num_turns": 17,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "BentoCard is the content model used for items in the Bento Section component that displays picture tiles. It includes an ImageAttachment field (Graphic) perfect for product screenshots, along with Eyebrow, Title, and Description fields for accompanying text."
+  }
+}

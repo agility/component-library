@@ -1,0 +1,20 @@
+{
+  "id": "p38",
+  "kind": "page",
+  "seconds": 31.2,
+  "is_error": false,
+  "cost_usd": 0.0938514,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Provides the section heading (heading/description) and the key stats shown in a single row of tiles, via its nested 'Stats' content."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Renders the grid of feature cards (Title, Description, Icon image, optional Link) using the linked FeatureItem content, with configurable column count."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p31",
+  "kind": "page",
+  "seconds": 11.6,
+  "is_error": false,
+  "cost_usd": 0.021948099999999998,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Two different headlines (A/B testing variant)"
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Single testimonial"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form"
+      }
+    ]
+  }
+}

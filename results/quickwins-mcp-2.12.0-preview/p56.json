@@ -1,0 +1,16 @@
+{
+  "id": "p56",
+  "kind": "page",
+  "seconds": 10.4,
+  "is_error": false,
+  "cost_usd": 0.0485526,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Thin strip/message bar placed at the very top of the page, above all other content. Its Message + Link fields promote the upcoming webinar with a CTA, and its built-in StartDate/EndDate fields let it be scheduled to automatically show for the next two weeks only."
+      }
+    ]
+  }
+}

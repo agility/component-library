@@ -1,0 +1,16 @@
+{
+  "id": "p46",
+  "kind": "page",
+  "seconds": 8.6,
+  "is_error": false,
+  "cost_usd": 0.0166128,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Email subscription form for monthly newsletter signup"
+      }
+    ]
+  }
+}

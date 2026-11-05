@@ -1,0 +1,20 @@
+{
+  "id": "p24",
+  "kind": "page",
+  "seconds": 16.3,
+  "is_error": false,
+  "cost_usd": 0.0702532,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading \u2014 provides the 'Why teams choose us' heading and a short subheading, placed above the feature cards (this Header model, id 25, has Heading, Subheading, and Description fields; note there's also a model named 'Header' at id 15 that is the site's global header with Logo/Navigation \u2014 not this one)."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Feature cards \u2014 the existing grid of feature items below the new heading; its own built-in Heading/Subheading fields can be left blank since the Header component above already supplies the section title."
+      }
+    ]
+  }
+}

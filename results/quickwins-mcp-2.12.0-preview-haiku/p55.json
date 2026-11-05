@@ -1,0 +1,24 @@
+{
+  "id": "p55",
+  "kind": "page",
+  "seconds": 15.2,
+  "is_error": false,
+  "cost_usd": 0.0245737,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title over a full-width photo"
+      },
+      {
+        "referenceName": "Gallery",
+        "purpose": "Event photos in a grid with captions"
+      },
+      {
+        "referenceName": "Testimonials",
+        "purpose": "What attendees said"
+      }
+    ]
+  }
+}

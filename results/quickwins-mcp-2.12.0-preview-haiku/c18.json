@@ -1,0 +1,12 @@
+{
+  "id": "c18",
+  "kind": "content",
+  "seconds": 14.5,
+  "is_error": false,
+  "cost_usd": 0.029212099999999998,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "StepItem",
+    "reason": "The StepItem content model (ID 77) is designed for use in the Steps component, making it the appropriate model for adding stages to the 'How it works' section. Each step/stage is stored as a separate content item with Title and Description fields."
+  }
+}

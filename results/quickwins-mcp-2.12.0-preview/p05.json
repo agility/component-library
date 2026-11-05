@@ -1,0 +1,16 @@
+{
+  "id": "p05",
+  "kind": "page",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.0600988,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the entire request: use the 'Heading' field for the page title and the 'Description' field for the one sentence underneath. This component has no image or button fields, so it naturally satisfies the 'no image, no buttons' constraint. (Leave the optional 'Subheading' field empty since it's not part of the request.)"
+      }
+    ]
+  }
+}

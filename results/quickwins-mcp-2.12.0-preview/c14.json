@@ -1,0 +1,12 @@
+{
+  "id": "c14",
+  "kind": "content",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.0360418,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "FooterLink",
+    "reason": "The instance has a dedicated \"Footer Link\" content model (referenceName: FooterLink), which is designed specifically for individual link items displayed in the site footer (as opposed to \"Footer\" itself, which is the container item holding the list of footer links/social links, or \"FooterSocialLink\", which is for social media icons). A new privacy policy link is a standard footer navigation link, so it should be created as a FooterLink item and added to the Footer's links list."
+  }
+}

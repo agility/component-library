@@ -1,0 +1,16 @@
+{
+  "id": "p57",
+  "kind": "page",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.05089780000000001,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Covers the entire request \u2014 this is the 'Image + Text' component, which displays an image on one side and text on the other. Set ImagePosition to 'left' so the picture sits on the left and the Heading/Body text (explaining the security approach) sits on the right. It would be placed in the middle of the page's component zone, i.e. inserted between the existing components already there."
+      }
+    ]
+  }
+}

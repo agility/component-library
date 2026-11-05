@@ -1,0 +1,16 @@
+{
+  "id": "p09",
+  "kind": "page",
+  "seconds": 15.5,
+  "is_error": false,
+  "cost_usd": 0.07599360000000001,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Shows one big customer quote, placed directly under the hero component(s) on the homepage"
+      }
+    ]
+  }
+}

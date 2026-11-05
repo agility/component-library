@@ -1,0 +1,20 @@
+{
+  "id": "p50",
+  "kind": "page",
+  "seconds": 12.2,
+  "is_error": false,
+  "cost_usd": 0.022259,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduction and context \u2014 sets up 'what happens next after you book a demo' with a heading and optional description"
+      },
+      {
+        "referenceName": "Steps",
+        "purpose": "The three numbered stages \u2014 displays the progression of what happens next in a clear, sequential format"
+      }
+    ]
+  }
+}

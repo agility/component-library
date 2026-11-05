@@ -1,0 +1,24 @@
+{
+  "id": "p38",
+  "kind": "page",
+  "seconds": 12.8,
+  "is_error": false,
+  "cost_usd": 0.0228716,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading (with optional subheading and description)"
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Key stats in one row displayed as tiles"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Grid of feature cards with images"
+      }
+    ]
+  }
+}

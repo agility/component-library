@@ -1,0 +1,16 @@
+{
+  "id": "p11",
+  "kind": "page",
+  "seconds": 8.6,
+  "is_error": false,
+  "cost_usd": 0.051369399999999996,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Covers the entire request in a single component: the 'Logos' nested grid field provides the row of customer/company logos, 'ctaDescription' provides the short supporting line of text, and the 'cta' link field provides the link to the case studies page."
+      }
+    ]
+  }
+}

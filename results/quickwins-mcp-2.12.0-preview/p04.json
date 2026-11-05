@@ -1,0 +1,16 @@
+{
+  "id": "p04",
+  "kind": "page",
+  "seconds": 10.3,
+  "is_error": false,
+  "cost_usd": 0.17831760000000002,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Placed at the very top of the pricing page, this is the 'A/B Test Hero' component built specifically for headline/image split-testing. Its Control tab holds the baseline Heading + Description + Image (with Image Position for left/right layout), and its Variants tab (via the nested ABTestHeroItem list) lets you add a second variant with an alternate Heading/Image to test against the control, tied together by an Experiment Key. This single component fully covers the request to test two versions of the headline and image at the top of the pricing page."
+      }
+    ]
+  }
+}

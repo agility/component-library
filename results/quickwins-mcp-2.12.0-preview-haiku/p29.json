@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 22.0,
+  "is_error": false,
+  "cost_usd": 0.0295637,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Event title and register button over a gradient background"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda in free text"
+      },
+      {
+        "referenceName": "AgilityFormBuilder",
+        "purpose": "Registration form"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p31",
+  "kind": "page",
+  "seconds": 13.9,
+  "is_error": false,
+  "cost_usd": 0.0643872,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Top hero section covering the request for two different headlines to A/B test \u2014 uses its ExperimentKey and nested Variants grid to hold the Control headline plus a second headline variant."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Single testimonial section placed after the hero, linking to one TestimonialItem (the plural 'Testimonials' component was avoided since only a single testimonial was requested)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form at the bottom of the page for lead capture \u2014 a dedicated contact form component, chosen over the generic/legacy FormBuilder and AgilityFormBuilder components which are hidden and not intended for new pages."
+      }
+    ]
+  }
+}

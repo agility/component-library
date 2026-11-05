@@ -1,0 +1,16 @@
+{
+  "id": "p08",
+  "kind": "page",
+  "seconds": 34.8,
+  "is_error": false,
+  "cost_usd": 0.046132400000000004,
+  "num_turns": 10,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner with text that changes for Europe versus North America visitors based on the Target Audience personalization system"
+      }
+    ]
+  }
+}

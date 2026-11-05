@@ -1,0 +1,20 @@
+{
+  "id": "p12",
+  "kind": "page",
+  "seconds": 15.4,
+  "is_error": false,
+  "cost_usd": 0.024102900000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduces the logos section with a heading and description to contextualize the personalized customer logos display"
+      },
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Displays customer logos from the Companies list with personalization to show industry-specific logos based on visitor's industry when known"
+      }
+    ]
+  }
+}

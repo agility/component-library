@@ -1,0 +1,20 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 24.3,
+  "is_error": false,
+  "cost_usd": 0.0344862,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section introduction - displays the 'Get a Quote' heading, subheading, and description to introduce the quote request section"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Quote form component - collects visitor name, company, and project details with form submission handling and success/error messaging"
+      }
+    ]
+  }
+}

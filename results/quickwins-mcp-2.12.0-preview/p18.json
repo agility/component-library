@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 9.7,
+  "is_error": false,
+  "cost_usd": 0.049956,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed grid comparing every feature across all plans \u2014 fields support a Heading, Column Names (one per plan), and a linked grid of comparison Rows (feature rows), which is exactly a feature-by-feature comparison table. Placed directly below the existing plans section as requested."
+      }
+    ]
+  }
+}

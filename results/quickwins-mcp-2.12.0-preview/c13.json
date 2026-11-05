@@ -1,0 +1,12 @@
+{
+  "id": "c13",
+  "kind": "content",
+  "seconds": 12.4,
+  "is_error": false,
+  "cost_usd": 0.05679580000000001,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "TopLevelNav",
+    "reason": "The site's main navigation menu is driven by the Header content item's \"Navigation\" field, which is a nested linked-content grid of TopLevelNav items. Each TopLevelNav item represents one top-level entry in the main nav (with a required Link field and optional Sub Nav Links). Adding 'Docs' as a new top-level menu item means creating a new TopLevelNav content item (with its Link pointing to the docs page) and adding it to the Header's Navigation list \u2014 not a new page model or a different content type like NavLink (which is used only for sub-nav items) or Footer/FooterLink (which govern the footer, not main nav)."
+  }
+}

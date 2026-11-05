@@ -1,0 +1,16 @@
+{
+  "id": "p13",
+  "kind": "page",
+  "seconds": 8.9,
+  "is_error": false,
+  "cost_usd": 0.052992399999999995,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Covers the entire request in one component: the 'heading' field provides the centred heading, and four nested Stat items (name/value pairs) in the 'stats' grid provide the row of four key numbers \u2014 Customers, Countries, Uptime, and Years."
+      }
+    ]
+  }
+}

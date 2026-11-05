@@ -1,0 +1,24 @@
+{
+  "id": "p14",
+  "kind": "page",
+  "seconds": 23.4,
+  "is_error": false,
+  "cost_usd": 0.030852700000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Provides the background image container for the section"
+      },
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the section title, heading, and paragraph"
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "Covers the stats display"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p04",
+  "kind": "page",
+  "seconds": 14.8,
+  "is_error": false,
+  "cost_usd": 0.07077900000000001,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "A/B testing of headline and image variations at the top of the pricing page"
+      }
+    ]
+  }
+}

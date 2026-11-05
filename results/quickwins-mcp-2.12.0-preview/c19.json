@@ -1,0 +1,12 @@
+{
+  "id": "c19",
+  "kind": "content",
+  "seconds": 6.6,
+  "is_error": false,
+  "cost_usd": 0.037099599999999996,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "ComparisonRow",
+    "reason": "The instance has a \"Comparison Row\" content model (referenceName: ComparisonRow), described as \"Used in the Comparison Table component.\" A new row for 'Single sign-on' in the competitor comparison table belongs here, as it's the content model that defines individual rows (likely feature name + per-competitor support values) in that comparison table."
+  }
+}

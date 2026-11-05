@@ -1,0 +1,20 @@
+{
+  "id": "p43",
+  "kind": "page",
+  "seconds": 32.1,
+  "is_error": false,
+  "cost_usd": 0.0330598,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Provides a section title, subheading, and introductory description for the capabilities section"
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Displays the six capabilities in a three-column card grid, each with icon, title, and one-sentence description"
+      }
+    ]
+  }
+}

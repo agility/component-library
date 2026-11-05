@@ -1,0 +1,20 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 17.1,
+  "is_error": false,
+  "cost_usd": 0.025401200000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section introduction with heading, subheading, and description to introduce 'How it works'"
+      },
+      {
+        "referenceName": "Steps",
+        "purpose": "Three-step numbered process flow: sign up, connect your data, publish"
+      }
+    ]
+  }
+}

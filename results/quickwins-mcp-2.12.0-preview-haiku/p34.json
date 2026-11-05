@@ -1,0 +1,20 @@
+{
+  "id": "p34",
+  "kind": "page",
+  "seconds": 12.6,
+  "is_error": false,
+  "cost_usd": 0.022405,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Heading \u2013 a dedicated header component for the section title"
+      },
+      {
+        "referenceName": "carousel",
+        "purpose": "Screenshots slider \u2013 displays product screenshots one after another in a carousel format"
+      }
+    ]
+  }
+}

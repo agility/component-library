@@ -1,0 +1,24 @@
+{
+  "id": "p20",
+  "kind": "page",
+  "seconds": 14.2,
+  "is_error": false,
+  "cost_usd": 0.0235882,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and introduction"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Office address, phone number, and email"
+      }
+    ]
+  }
+}

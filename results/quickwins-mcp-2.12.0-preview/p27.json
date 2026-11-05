@@ -1,0 +1,28 @@
+{
+  "id": "p27",
+  "kind": "page",
+  "seconds": 17.8,
+  "is_error": false,
+  "cost_usd": 0.0783708,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain heading with a sentence \u2014 use the Heading field for the title and the Description field for the single supporting sentence; leave Subheading empty to keep it plain."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Our story as free-form text with images \u2014 a free-form rich text area supports mixed text and embedded images/media."
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "The company in numbers with a background image \u2014 has a backgroundImage field plus heading/description and a nested grid of stats (unlike StatsStrip, which has no background image option)."
+      },
+      {
+        "referenceName": "TeamListing",
+        "purpose": "The team \u2014 a dedicated team listing component with a heading and linked team members."
+      }
+    ]
+  }
+}
