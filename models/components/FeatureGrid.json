@@ -3,7 +3,28 @@
   "displayName": "Feature Grid",
   "kind": "component",
   "description": "A heading over a grid of equal-sized items, each with an icon, a title, a short description and an optional link. For listing capabilities or benefits.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Lists capabilities, benefits or integrations as a grid of equal items, each with an icon, a title and a sentence.",
+    "avoidWhen": "Showcasing screenshots or visuals in tiles of different sizes (use BentoSection), numbers (use StatsStrip), or a sequence (use Steps).",
+    "alternatives": [
+      {
+        "referenceName": "BentoSection",
+        "when": "picture-led tiles, screenshots"
+      },
+      {
+        "referenceName": "Steps",
+        "when": "an ordered process"
+      },
+      {
+        "referenceName": "StatsStrip",
+        "when": "key numbers"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

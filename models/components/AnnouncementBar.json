@@ -3,7 +3,21 @@
   "displayName": "Announcement Bar",
   "kind": "component",
   "description": "A thin one-line strip above the page content with a short message and a link, shown between a start and end date. For time-limited notices.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A one-line notice above the page content, with an optional link, shown between a start date and an end date: closures, launches, upcoming events.",
+    "avoidWhen": "A full call-to-action section (use CTABanner) or a page opener (use a hero).",
+    "alternatives": [
+      {
+        "referenceName": "CTABanner",
+        "when": "a full section with a heading and buttons"
+      }
+    ],
+    "placement": [
+      "top"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "Message",

@@ -3,7 +3,21 @@
   "displayName": "Frequently Asked Questions",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Questions and their answers under a heading.",
+    "avoidWhen": "Long free-form text (use RichTextArea) or a numbered process (use Steps).",
+    "alternatives": [
+      {
+        "referenceName": "RichTextArea",
+        "when": "free-form text"
+      }
+    ],
+    "placement": [
+      "body",
+      "bottom"
+    ]
+  },
   "fields": [
     {
       "name": "Subheading",

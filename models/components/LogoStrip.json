@@ -3,7 +3,24 @@
   "displayName": "Logo Strip",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A row of customer or partner logos with an optional line and link.",
+    "avoidWhen": "When the logos should match the visitor's industry (use PersonalizedLogoStrip), or partners described in words (use FeatureGrid).",
+    "alternatives": [
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "when": "logos chosen per visitor"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "when": "each partner with an icon, name and sentence"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "ctaDescription",

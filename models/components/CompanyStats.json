@@ -3,7 +3,20 @@
   "displayName": "Company Stats",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A company-in-numbers section: a section title, heading and description beside stats, optionally over a background image.",
+    "avoidWhen": "A simple centred row of numbers (use StatsStrip).",
+    "alternatives": [
+      {
+        "referenceName": "StatsStrip",
+        "when": "a plain row of numbers"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "tab_Details",

@@ -3,7 +3,24 @@
   "displayName": "Media Split",
   "kind": "component",
   "description": "Text beside an image, image on the left or right. Used repeatedly down a page to explain one point at a time, alternating sides.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Explains one point with text beside an image, partway down a page; repeat it with alternating sides for several points.",
+    "avoidWhen": "Opening the page (use Hero, which looks similar but is the page's headline).",
+    "alternatives": [
+      {
+        "referenceName": "Hero",
+        "when": "the same layout as the page opener"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "when": "several short points at once, each with an icon"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Eyebrow",

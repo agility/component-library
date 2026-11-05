@@ -3,6 +3,17 @@
   "displayName": "Post Listing",
   "kind": "component",
   "description": "Shows a listing of blog posts with paging.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "The paged list of blog posts, on the blog's index page.",
+    "avoidWhen": "The page that shows one article (use PostDetails).",
+    "alternatives": [
+      {
+        "referenceName": "PostDetails",
+        "when": "one article"
+      }
+    ],
+    "maxPerPage": 1
+  },
   "fields": []
 }

@@ -3,7 +3,24 @@
   "displayName": "Gallery",
   "kind": "component",
   "description": "A heading over a grid of images with captions, opening larger when clicked. All images visible at once.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Shows a set of photos with captions all at once in a grid, opening larger when clicked: events, places, work.",
+    "avoidWhen": "Images shown one at a time (use carousel), or company logos (use LogoStrip).",
+    "alternatives": [
+      {
+        "referenceName": "carousel",
+        "when": "one slide at a time"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "when": "logos"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

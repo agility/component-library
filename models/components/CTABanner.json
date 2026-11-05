@@ -3,7 +3,25 @@
   "displayName": "CTA Banner",
   "kind": "component",
   "description": "A short call-to-action section partway down or at the end of a page: a heading, a line of text and one or two buttons, on a colour or image background. Not the opening of a page.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A short call to action partway down or at the end of a page: a heading, a line of text and one or two buttons on a colour or image background.",
+    "avoidWhen": "Opening a page (use a hero), or a one-line, time-limited notice above the content (use AnnouncementBar).",
+    "alternatives": [
+      {
+        "referenceName": "BackgroundHero",
+        "when": "the banner that opens the page"
+      },
+      {
+        "referenceName": "AnnouncementBar",
+        "when": "a thin notice strip with a date range"
+      }
+    ],
+    "placement": [
+      "body",
+      "bottom"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

@@ -3,7 +3,25 @@
   "displayName": "Personalized Background Hero",
   "kind": "component",
   "description": "A hero with either color gradient or a background image and personalization options for different audiences",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Opens a page with a BackgroundHero whose text, buttons or background change for different visitor audiences, such as industries or regions.",
+    "avoidWhen": "When every visitor sees the same banner (use BackgroundHero), or when testing variants to find a winner (use ABTestHero).",
+    "alternatives": [
+      {
+        "referenceName": "BackgroundHero",
+        "when": "one banner for everyone"
+      },
+      {
+        "referenceName": "ABTestHero",
+        "when": "an A/B test, not audience targeting"
+      }
+    ],
+    "placement": [
+      "top"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "tab_Content",

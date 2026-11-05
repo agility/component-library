@@ -3,7 +3,24 @@
   "displayName": "Bento Section",
   "kind": "component",
   "description": "Shows a subheading, heading, and a list of \"Bento\" cards.  A great way to showcase some screenshots or graphics.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Showcases screenshots or graphics as a grid of picture-led cards with an eyebrow, title and description.",
+    "avoidWhen": "Short icon-led points (use FeatureGrid), or images shown one at a time (use carousel).",
+    "alternatives": [
+      {
+        "referenceName": "FeatureGrid",
+        "when": "icon, title and a sentence per item"
+      },
+      {
+        "referenceName": "Gallery",
+        "when": "photos with captions only"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Subheading",

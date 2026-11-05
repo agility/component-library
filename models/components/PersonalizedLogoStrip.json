@@ -3,7 +3,20 @@
   "displayName": "Personalized Logo Strip",
   "kind": "component",
   "description": "Shows items from the Companies list, with personalized items shown if possible.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A LogoStrip whose logos are chosen to match the visitor, from customer profiles.",
+    "avoidWhen": "When every visitor sees the same logos (use LogoStrip).",
+    "alternatives": [
+      {
+        "referenceName": "LogoStrip",
+        "when": "the same logos for everyone"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "ctaDescription",

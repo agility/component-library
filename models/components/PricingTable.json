@@ -3,7 +3,25 @@
   "displayName": "Pricing Table",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A detailed grid comparing every feature across our own plans.",
+    "avoidWhen": "Comparing our product with competitors or other products (use ComparisonTable), or plan cards with prices (use PricingCards).",
+    "alternatives": [
+      {
+        "referenceName": "ComparisonTable",
+        "when": "products or competitors, not plans"
+      },
+      {
+        "referenceName": "PricingCards",
+        "when": "plans as cards"
+      }
+    ],
+    "placement": [
+      "body"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "Title",

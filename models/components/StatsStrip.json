@@ -3,7 +3,20 @@
   "displayName": "Stats Strip",
   "kind": "component",
   "description": "A centered heading and description above a single row of key stats (value + label) shown as tiles.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "One row of key numbers with labels, under a centred heading and short description.",
+    "avoidWhen": "A company-in-numbers section with a section title and a background image (use CompanyStats).",
+    "alternatives": [
+      {
+        "referenceName": "CompanyStats",
+        "when": "stats beside a title, with a background image"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "tab_Details",

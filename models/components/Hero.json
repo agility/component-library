@@ -3,7 +3,32 @@
   "displayName": "Hero",
   "kind": "component",
   "description": "A basic hero component with text on the side and graphic on the other.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Opens a page: a headline, a short paragraph and one button, with an image beside the text (left or right).",
+    "avoidWhen": "Partway down a page (use MediaSplit), or when the opener needs a full-width background image or two buttons (use BackgroundHero).",
+    "alternatives": [
+      {
+        "referenceName": "BackgroundHero",
+        "when": "the image or a colour gradient sits behind the text"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "when": "text beside an image further down the page"
+      },
+      {
+        "referenceName": "Header",
+        "when": "a plain title with no image or button"
+      }
+    ],
+    "placement": [
+      "top"
+    ],
+    "maxPerPage": 1,
+    "fieldTips": {
+      "Heading": "the page's main headline; under 10 words"
+    }
+  },
   "fields": [
     {
       "name": "Heading",

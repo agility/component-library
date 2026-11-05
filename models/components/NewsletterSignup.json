@@ -3,7 +3,21 @@
   "displayName": "Newsletter Signup",
   "kind": "component",
   "description": "An email-only subscribe form: a heading, a line of text, an email box and a button, with consent text. For mailing lists, not enquiries.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "An email-only box to subscribe to a mailing list, with consent text.",
+    "avoidWhen": "Enquiries, quotes or registrations that ask for more than an email (use ContactUs).",
+    "alternatives": [
+      {
+        "referenceName": "ContactUs",
+        "when": "a multi-field enquiry form"
+      }
+    ],
+    "placement": [
+      "body",
+      "bottom"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

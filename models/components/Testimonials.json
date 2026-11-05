@@ -3,7 +3,24 @@
   "displayName": "Testimonials",
   "kind": "component",
   "description": "Shows a entire list of selected testimonials.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Several customer quotes together under a heading, with an optional link to more stories.",
+    "avoidWhen": "A single featured quote (use Testimonial), or logos without quotes (use LogoStrip).",
+    "alternatives": [
+      {
+        "referenceName": "Testimonial",
+        "when": "one quote"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "when": "logos only"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Subheading",

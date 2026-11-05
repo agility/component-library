@@ -3,7 +3,21 @@
   "displayName": "Contact Us",
   "kind": "component",
   "description": "A contact form component with configuration for form submission",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "An enquiry form (name, details, message) with the address, phone and email beside it.",
+    "avoidWhen": "An email-only subscribe box (use NewsletterSignup).",
+    "alternatives": [
+      {
+        "referenceName": "NewsletterSignup",
+        "when": "subscribe to a mailing list"
+      }
+    ],
+    "placement": [
+      "body",
+      "bottom"
+    ]
+  },
   "fields": [
     {
       "name": "heading",

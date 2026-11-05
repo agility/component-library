@@ -3,7 +3,20 @@
   "displayName": "Team Listing",
   "kind": "component",
   "description": "Shows a team listing.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "People with their photo, name and title, under a heading.",
+    "avoidWhen": "Customer quotes (use Testimonials).",
+    "alternatives": [
+      {
+        "referenceName": "Testimonials",
+        "when": "customers, not staff"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

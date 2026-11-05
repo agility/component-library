@@ -3,7 +3,25 @@
   "displayName": "Header",
   "kind": "component",
   "description": "A generic header section that can have just a heading, but also a subheading and description.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "A section heading: a heading with an optional subheading and one paragraph. Also opens a page that needs only a title and a sentence.",
+    "avoidWhen": "When the opener needs an image or a button (use Hero or BackgroundHero). This is not the site's navigation header.",
+    "alternatives": [
+      {
+        "referenceName": "Hero",
+        "when": "a headline with an image and a button"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "when": "longer free-form text"
+      }
+    ],
+    "placement": [
+      "top",
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Subheading",

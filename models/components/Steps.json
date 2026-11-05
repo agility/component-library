@@ -3,7 +3,20 @@
   "displayName": "Steps",
   "kind": "component",
   "description": "A numbered sequence explaining how something works or what happens next: step 1, step 2, step 3.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "An ordered sequence: how something works, or what happens next, as numbered steps.",
+    "avoidWhen": "Points with no order (use FeatureGrid) or questions and answers (use FrequentlyAskedQuestions).",
+    "alternatives": [
+      {
+        "referenceName": "FeatureGrid",
+        "when": "unordered points"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

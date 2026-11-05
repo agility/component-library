@@ -3,7 +3,20 @@
   "displayName": "Comparison Table",
   "kind": "component",
   "description": "A table comparing products, options or competitors feature by feature. Not for plan prices.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Compares our product with competitors, or options with each other, feature by feature.",
+    "avoidWhen": "Comparing our own plans (use PricingTable).",
+    "alternatives": [
+      {
+        "referenceName": "PricingTable",
+        "when": "our plans, feature by feature"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Heading",

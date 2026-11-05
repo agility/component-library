@@ -3,7 +3,25 @@
   "displayName": "A/B Test Hero",
   "kind": "component",
   "description": "A basic hero for A/B testing. A component with text on the side and graphic on the other.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Opens a page with a Hero (text beside an image) whose headline or image is being A/B tested across variants.",
+    "avoidWhen": "When no experiment is running (use Hero), or when content changes by audience rather than at random (use PersonalizedBackgroundHero).",
+    "alternatives": [
+      {
+        "referenceName": "Hero",
+        "when": "no experiment"
+      },
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "when": "targeting a known audience"
+      }
+    ],
+    "placement": [
+      "top"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "ExperimentKey",

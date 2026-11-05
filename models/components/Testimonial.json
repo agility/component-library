@@ -3,7 +3,20 @@
   "displayName": "Testimonial",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "One customer quote, given prominence.",
+    "avoidWhen": "Several quotes together (use Testimonials).",
+    "alternatives": [
+      {
+        "referenceName": "Testimonials",
+        "when": "a wall of several quotes"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "Testimonial",

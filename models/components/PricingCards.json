@@ -3,7 +3,25 @@
   "displayName": "Pricing Cards",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Plans side by side as cards, each with its price and a sign-up button.",
+    "avoidWhen": "A detailed feature-by-plan grid (use PricingTable), or comparing with competitors (use ComparisonTable).",
+    "alternatives": [
+      {
+        "referenceName": "PricingTable",
+        "when": "every feature across plans"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "when": "us versus competitors"
+      }
+    ],
+    "placement": [
+      "body"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "tab_Heading",

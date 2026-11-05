@@ -3,7 +3,24 @@
   "displayName": "Carousel",
   "kind": "component",
   "description": null,
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Shows slides one at a time with controls to move between them, under a heading.",
+    "avoidWhen": "When every image should be visible at once (use Gallery) or for logos (use LogoStrip).",
+    "alternatives": [
+      {
+        "referenceName": "Gallery",
+        "when": "all images visible at once"
+      },
+      {
+        "referenceName": "BentoSection",
+        "when": "picture cards side by side"
+      }
+    ],
+    "placement": [
+      "body"
+    ]
+  },
   "fields": [
     {
       "name": "subheading",

@@ -17,9 +17,10 @@ understands, in an instance set up from these models.
 
 ## Status
 
-**Early.** The models come from Agility's 2026 Next.js demo site. `agentGuidance` is `null` on every model for
-now: Agility is adding a place to store it on models, and the guidance is being written and measured against
-the evals before it's published here. The model JSON format is described in
+**Early.** Twenty components come from Agility's 2026 Next.js demo site and eight were added from a survey of
+other block libraries ([roadmap.md](roadmap.md)). **Every component has `agentGuidance` (version 1)**; content
+models don't yet. Agility is adding a place to store guidance on models; until that ships, an agent can read it
+here. It will be changed by what the [evals](evals/) show. The model JSON format is described in
 [models/README.md](models/README.md).
 
 ## Installing into an instance

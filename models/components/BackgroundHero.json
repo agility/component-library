@@ -3,7 +3,29 @@
   "displayName": "Background Hero",
   "kind": "component",
   "description": "A hero with either color gradient or a background image to be used at the top of a page (renders under the menu) or elsewhere rendered normally..",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Opens a page with a full-width banner: a headline, a short paragraph and up to two buttons over a colour gradient or a background photo.",
+    "avoidWhen": "A call to action partway down or at the end of a page (use CTABanner), or when the image belongs beside the text (use Hero).",
+    "alternatives": [
+      {
+        "referenceName": "Hero",
+        "when": "the image sits beside the text"
+      },
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "when": "the banner must change by visitor audience"
+      },
+      {
+        "referenceName": "CTABanner",
+        "when": "a call to action that doesn't open the page"
+      }
+    ],
+    "placement": [
+      "top"
+    ],
+    "maxPerPage": 1
+  },
   "fields": [
     {
       "name": "tab_Content",

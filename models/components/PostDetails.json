@@ -3,6 +3,20 @@
   "displayName": "Post Details",
   "kind": "component",
   "description": "Shows a blog post details.  Meant for the blog post details page.",
-  "agentGuidance": null,
+  "agentGuidance": {
+    "version": 1,
+    "useWhen": "Shows one blog post, on the dynamic page that renders each article.",
+    "avoidWhen": "Listing posts (use PostListing).",
+    "alternatives": [
+      {
+        "referenceName": "PostListing",
+        "when": "the list of posts"
+      }
+    ],
+    "placement": [
+      "body"
+    ],
+    "maxPerPage": 1
+  },
   "fields": []
 }
