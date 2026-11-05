@@ -13,6 +13,7 @@ understands, in an instance set up from these models.
 | [`frameworks/nextjs/`](frameworks/nextjs/) | How each component renders in Next.js. Other frameworks will follow |
 | [`evals/`](evals/) | Prompts and a runner that measure how well an agent picks components |
 | [`catalog.md`](catalog.md) | The components grouped by job, with the look-alikes side by side |
+| [`roadmap.md`](roadmap.md) | Components to add, from a survey of other block libraries |
 
 ## Status
 
