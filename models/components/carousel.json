@@ -1,0 +1,34 @@
+{
+  "referenceName": "carousel",
+  "displayName": "Carousel",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "subheading",
+      "label": "Subheading",
+      "type": "Text"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "type": "Text"
+    },
+    {
+      "name": "Slides",
+      "label": "Slides",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "carouselSlide",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "heading,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

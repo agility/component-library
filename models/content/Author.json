@@ -1,0 +1,36 @@
+{
+  "referenceName": "Author",
+  "displayName": "Author",
+  "kind": "content",
+  "description": "Stores author information including name, title, and headshot photo. Used as linked content in Posts to associate articles with their authors. The AuthorID and AuthorName fields are automatically populated in the Post model when an author is selected.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "false"
+      }
+    },
+    {
+      "name": "HeadShot",
+      "label": "HeadShot",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "false",
+        "AltTextRequired": "true"
+      }
+    }
+  ],
+  "listType": "item"
+}

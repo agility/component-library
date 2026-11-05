@@ -1,0 +1,35 @@
+{
+  "referenceName": "LogoItem",
+  "displayName": "Logo Item",
+  "kind": "content",
+  "description": "Used on the Logo Strip component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "description": "Name of the org the logo represents.",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Logo",
+      "label": "Logo",
+      "type": "ImageAttachment",
+      "description": "The actual logo image.  SVG is preferred.",
+      "settings": {
+        "ValidFileTypes": "*.png, *.gif, *.svg",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/logos",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

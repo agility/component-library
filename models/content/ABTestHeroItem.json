@@ -1,0 +1,84 @@
+{
+  "referenceName": "ABTestHeroItem",
+  "displayName": "A/B Test Hero Item",
+  "kind": "content",
+  "description": "Used on the A/B Test hero component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Variant",
+      "label": "Variant",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Content",
+      "label": "Content",
+      "type": "CustomSection",
+      "settings": {
+        "CustomSectionValue": "A/B Test Variant Content"
+      }
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "CallToAction",
+      "label": "CallToAction",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/hero",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "ImagePosition",
+      "label": "Image Position",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultValue": "right",
+        "Choices": "Right|right\nLeft|left"
+      }
+    }
+  ],
+  "listType": "list"
+}

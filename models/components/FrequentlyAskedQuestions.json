@@ -1,0 +1,44 @@
+{
+  "referenceName": "FrequentlyAskedQuestions",
+  "displayName": "Frequently Asked Questions",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Subheading",
+      "label": "Subheading",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "faqs",
+      "label": "FAQs",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "FAQItem",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Question,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

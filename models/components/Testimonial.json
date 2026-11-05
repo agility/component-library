@@ -1,0 +1,48 @@
+{
+  "referenceName": "Testimonial",
+  "displayName": "Testimonial",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Testimonial",
+      "label": "Testimonial",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "TestimonialItem",
+        "RenderAs": "dropdown",
+        "ContentView": "Testimonials",
+        "SharedContent": "Testimonials",
+        "LinkeContentDropdownTextField": "Testimonial_TextField",
+        "LinkeContentDropdownValueField": "Testimonial_ValueField",
+        "DisplayColumn": "Name",
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Testimonial_TextField",
+      "label": "Testimonial_TextField",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Length": "0"
+      }
+    },
+    {
+      "name": "Testimonial_ValueField",
+      "label": "Testimonial_ValueField",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Length": "0"
+      }
+    }
+  ]
+}

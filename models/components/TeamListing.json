@@ -1,0 +1,28 @@
+{
+  "referenceName": "TeamListing",
+  "displayName": "Team Listing",
+  "kind": "component",
+  "description": "Shows a team listing.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Team",
+      "label": "Team",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Author",
+        "Required": "False"
+      }
+    }
+  ]
+}

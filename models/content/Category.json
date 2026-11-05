@@ -1,0 +1,44 @@
+{
+  "referenceName": "Category",
+  "displayName": "Category",
+  "kind": "content",
+  "description": "Categories for organizing content with images and descriptions",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "description": "This is the name of the category.",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "false",
+        "Length": "500"
+      }
+    },
+    {
+      "name": "CategoryImage",
+      "label": "Category Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ImageWidthCheck": "false",
+        "ImageWidth": "400",
+        "ImageHeightCheck": "false",
+        "ImageHeight": "300",
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "false",
+        "AltTextRequired": "true"
+      }
+    }
+  ],
+  "listType": "item"
+}

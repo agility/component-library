@@ -1,0 +1,53 @@
+{
+  "referenceName": "TestimonialItem",
+  "displayName": "Testimonial Item",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Quote",
+      "label": "Quote",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg, *.png, *.jpeg, *.gif",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/testimonials",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

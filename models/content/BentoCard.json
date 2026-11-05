@@ -1,0 +1,55 @@
+{
+  "referenceName": "BentoCard",
+  "displayName": "Bento Card",
+  "kind": "content",
+  "description": "Used on the Bento components.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Eyebrow",
+      "label": "Eyebrow",
+      "type": "Text",
+      "description": "Small text ahead of the title.",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "Graphic",
+      "label": "Graphic",
+      "type": "ImageAttachment",
+      "description": "An image to display about the text.",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/bento-cards",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

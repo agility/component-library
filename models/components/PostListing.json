@@ -1,0 +1,8 @@
+{
+  "referenceName": "PostListing",
+  "displayName": "Post Listing",
+  "kind": "component",
+  "description": "Shows a listing of blog posts with paging.",
+  "agentGuidance": null,
+  "fields": []
+}

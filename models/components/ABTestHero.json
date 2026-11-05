@@ -1,0 +1,101 @@
+{
+  "referenceName": "ABTestHero",
+  "displayName": "A/B Test Hero",
+  "kind": "component",
+  "description": "A basic hero for A/B testing. A component with text on the side and graphic on the other.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "ExperimentKey",
+      "label": "Experiment Key",
+      "type": "Text",
+      "description": "The identifier of this experiment.  The A/B testing features will not work until this value has been set and matched in an experiment.",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "True"
+      }
+    },
+    {
+      "name": "tab_Control",
+      "label": "Control",
+      "type": "Tab"
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "CallToAction",
+      "label": "Call To Action",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/hero",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "ImagePosition",
+      "label": "Image Position",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultValue": "right",
+        "Choices": "Right|right\nLeft|left"
+      }
+    },
+    {
+      "name": "tab_Variants",
+      "label": "Variants",
+      "type": "Tab"
+    },
+    {
+      "name": "Variants",
+      "label": "Variants",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "ABTestHeroItem",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Variant,Heading,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

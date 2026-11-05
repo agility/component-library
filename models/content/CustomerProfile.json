@@ -1,0 +1,71 @@
+{
+  "referenceName": "CustomerProfile",
+  "displayName": "Customer Profile",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Audience",
+      "label": "Choose Audience",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Audience",
+        "RenderAs": "dropdown",
+        "ContentView": "Audiences",
+        "SharedContent": "Audiences",
+        "LinkeContentDropdownTextField": "Audience_TextField",
+        "LinkeContentDropdownValueField": "Audience_ValueField",
+        "DisplayColumn": "Name",
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Logo",
+      "label": "Logo",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "logos",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "Audience_TextField",
+      "label": "Audience",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Audience_ValueField",
+      "label": "Audience_ValueField",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Length": "0"
+      }
+    }
+  ],
+  "listType": "list"
+}

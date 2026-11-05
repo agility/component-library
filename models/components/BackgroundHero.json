@@ -1,0 +1,95 @@
+{
+  "referenceName": "BackgroundHero",
+  "displayName": "Background Hero",
+  "kind": "component",
+  "description": "A hero with either color gradient or a background image to be used at the top of a page (renders under the menu) or elsewhere rendered normally..",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Content",
+      "label": "Content",
+      "type": "Tab"
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "cta1",
+      "label": "CTA 1",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "cta2",
+      "label": "CTA 2",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "tab_Background",
+      "label": "Background",
+      "type": "Tab"
+    },
+    {
+      "name": "Details",
+      "label": "Details",
+      "type": "CustomSection",
+      "settings": {
+        "CustomSectionValue": "Choose the colors for the gradient."
+      }
+    },
+    {
+      "name": "backgroundType",
+      "label": "Background Type",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultValue": "yellow-pink",
+        "Choices": "Gradient - Yellow-Pink|yellow-pink\nGradient - Green-Blue-Yellow|green-blue-yellow\nGradient - Grayscale|grays\nGradient - 3-Reds|3-reds\nBackground Image|background-image"
+      }
+    },
+    {
+      "name": "BackgroundImage",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "HideWhenFormula": "backgroundType[ne]\"background-image\"",
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/hero-bgs",
+        "AltTextRequired": "False"
+      }
+    }
+  ]
+}

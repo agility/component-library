@@ -1,0 +1,44 @@
+{
+  "referenceName": "NavLink",
+  "displayName": "Nav Link",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Icon",
+      "label": "Icon",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/icons",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

@@ -1,0 +1,42 @@
+{
+  "referenceName": "Audience",
+  "displayName": "Audience",
+  "kind": "content",
+  "description": "Used for personalization by a custom demographic.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "Icon",
+      "label": "Icon",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

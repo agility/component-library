@@ -1,0 +1,42 @@
+{
+  "referenceName": "Header",
+  "displayName": "Header",
+  "kind": "component",
+  "description": "A generic header section that can have just a heading, but also a subheading and description.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Subheading",
+      "label": "Subheading",
+      "type": "Text",
+      "description": "Optional text that appears above the main heading. Used for category labels or eyebrow text.",
+      "settings": {
+        "Required": "false",
+        "Unique": "false",
+        "CopyAcrossAllLanguages": "false"
+      }
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "description": "The main headline text. Should be compelling and descriptive.",
+      "settings": {
+        "Required": "true",
+        "Unique": "false",
+        "CopyAcrossAllLanguages": "false"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "description": "Supporting text that provides additional context about the header content.",
+      "settings": {
+        "Required": "false",
+        "CopyAcrossAllLanguages": "false",
+        "Unique": "false"
+      }
+    }
+  ]
+}

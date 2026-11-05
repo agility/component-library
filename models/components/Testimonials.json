@@ -1,0 +1,89 @@
+{
+  "referenceName": "Testimonials",
+  "displayName": "Testimonials",
+  "kind": "component",
+  "description": "Shows a entire list of selected testimonials.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Subheading",
+      "label": "Subheading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "ctaText",
+      "label": "CTA Text",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "ctaLink",
+      "label": "CTA Link",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Testimonials",
+      "label": "Testimonials",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "TestimonialItem",
+        "RenderAs": "searchlistbox",
+        "ContentView": "Testimonials",
+        "SharedContent": "Testimonials",
+        "LinkeContentDropdownTextField": "Testimonials_TextField",
+        "LinkeContentDropdownValueField": "Testimonials_ValueField",
+        "Required": "False",
+        "DefaultColumns": "Name"
+      }
+    },
+    {
+      "name": "Testimonials_TextField",
+      "label": "Testimonials_TextField",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Length": "0"
+      }
+    },
+    {
+      "name": "Testimonials_ValueField",
+      "label": "Testimonials_ValueField",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Length": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "referenceName": "TopLevelNav",
+  "displayName": "Top Level Nav",
+  "kind": "content",
+  "description": "Used on the Header.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_MainLink",
+      "label": "Main Link",
+      "type": "Tab"
+    },
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "tab_OptionalSubNav",
+      "label": "Optional Sub-Nav",
+      "type": "Tab"
+    },
+    {
+      "name": "SubNavLinks",
+      "label": "Sub Nav Links",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "NavLink",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Link,createdDate,userName,state",
+        "LinkedContentNestedTypeID": "1"
+      }
+    },
+    {
+      "name": "BottomLink1",
+      "label": "Bottom Link 1",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "BottomLink2",
+      "label": "Bottom Link 2",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

@@ -1,0 +1,21 @@
+{
+  "referenceName": "FooterLink",
+  "displayName": "Footer Link",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

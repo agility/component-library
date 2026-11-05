@@ -1,0 +1,181 @@
+{
+  "referenceName": "Post",
+  "displayName": "Post",
+  "kind": "content",
+  "description": "A blog post or article.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Details",
+      "label": "Details",
+      "type": "Tab"
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "Slug",
+      "label": "Slug",
+      "type": "Text",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "PostDate",
+      "label": "Post Date",
+      "type": "Date",
+      "settings": {
+        "Required": "true",
+        "ShowTime": "false"
+      }
+    },
+    {
+      "name": "Category",
+      "label": "Choose Category",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Category",
+        "RenderAs": "dropdown",
+        "ContentView": "Categories",
+        "LinkeContentDropdownTextField": "CategoryName",
+        "LinkeContentDropdownValueField": "CategoryID",
+        "DisplayColumn": "Name"
+      }
+    },
+    {
+      "name": "CategoryID",
+      "label": "CategoryID",
+      "type": "Integer",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "CategoryName",
+      "label": "Category",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Tags",
+      "label": "Choose Tags",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Tag",
+        "RenderAs": "searchlistbox",
+        "ContentView": "Tags",
+        "LinkeContentDropdownTextField": "TagNames",
+        "LinkeContentDropdownValueField": "TagIDs",
+        "DefaultColumns": "Name"
+      }
+    },
+    {
+      "name": "TagIDs",
+      "label": "TagIDs",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "TagNames",
+      "label": "Tags",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Author",
+      "label": "Choose Author",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Author",
+        "RenderAs": "dropdown",
+        "ContentView": "Authors",
+        "LinkeContentDropdownTextField": "AuthorName",
+        "LinkeContentDropdownValueField": "AuthorID",
+        "DisplayColumn": "Name"
+      }
+    },
+    {
+      "name": "AuthorID",
+      "label": "AuthorID",
+      "type": "Integer",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "AuthorName",
+      "label": "Author",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "tab_Content",
+      "label": "Content",
+      "type": "Tab"
+    },
+    {
+      "name": "Content",
+      "label": "Content",
+      "type": "Html",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "tab_Image",
+      "label": "Image",
+      "type": "Tab"
+    },
+    {
+      "name": "ImagePrompt",
+      "label": "Image Prompt",
+      "type": "CustomSection"
+    },
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "description": "Make sure this image is a vector image",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "item"
+}

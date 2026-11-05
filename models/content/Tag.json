@@ -1,0 +1,20 @@
+{
+  "referenceName": "Tag",
+  "displayName": "Tag",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

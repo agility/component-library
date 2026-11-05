@@ -1,0 +1,8 @@
+{
+  "referenceName": "PostDetails",
+  "displayName": "Post Details",
+  "kind": "component",
+  "description": "Shows a blog post details.  Meant for the blog post details page.",
+  "agentGuidance": null,
+  "fields": []
+}

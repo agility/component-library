@@ -1,0 +1,46 @@
+{
+  "referenceName": "LogoStrip",
+  "displayName": "Logo Strip",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "ctaDescription",
+      "label": "CTA Description",
+      "type": "Text",
+      "description": "An optional text blurb to place before the CTA.",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "cta",
+      "label": "CTA",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Logos",
+      "label": "Logos",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "LogoItem",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Title,createdDate,userName,state",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

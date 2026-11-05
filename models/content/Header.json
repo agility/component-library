@@ -1,0 +1,70 @@
+{
+  "referenceName": "Header",
+  "displayName": "Header",
+  "kind": "content",
+  "description": "The global header.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Details",
+      "label": "Details",
+      "type": "Tab"
+    },
+    {
+      "name": "SiteName",
+      "label": "Site Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "BannerLink",
+      "label": "Banner Link",
+      "type": "Link",
+      "description": "A label and link displayed beside the logo.  Leave this field blank if no banner is needed.",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Logo",
+      "label": "Logo",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.png, *.gif, *.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "tab_Navigation",
+      "label": "Navigation",
+      "type": "Tab"
+    },
+    {
+      "name": "Navigation",
+      "label": "Navigation",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "TopLevelNav",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Link,createdDate,userName,state",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ],
+  "listType": "list"
+}

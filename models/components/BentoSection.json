@@ -1,0 +1,45 @@
+{
+  "referenceName": "BentoSection",
+  "displayName": "Bento Section",
+  "kind": "component",
+  "description": "Shows a subheading, heading, and a list of \"Bento\" cards.  A great way to showcase some screenshots or graphics.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Subheading",
+      "label": "Sub-heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "BentoCards",
+      "label": "Bento Cards",
+      "type": "Content",
+      "description": "The Bento cards to display in this component. They layout is automatic.",
+      "settings": {
+        "ContentDefinition": "BentoCard",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Title,createdDate,userName,state",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

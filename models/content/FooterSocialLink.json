@@ -1,0 +1,35 @@
+{
+  "referenceName": "FooterSocialLink",
+  "displayName": "Footer Social Link",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Icon",
+      "label": "Icon",
+      "type": "ImageAttachment",
+      "description": "SVG Preferred",
+      "settings": {
+        "ValidFileTypes": "*.svg, *.png",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultUploadFolderPath": "images/social",
+        "AltTextRequired": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

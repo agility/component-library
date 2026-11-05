@@ -1,0 +1,55 @@
+{
+  "referenceName": "PricingCards",
+  "displayName": "Pricing Cards",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Heading",
+      "label": "Heading",
+      "type": "Tab"
+    },
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Subtitle",
+      "label": "Subtitle",
+      "type": "LongText",
+      "settings": {
+        "Required": "False",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "tab_Cards",
+      "label": "Cards",
+      "type": "Tab"
+    },
+    {
+      "name": "PricingTiers",
+      "label": "Pricing Tiers",
+      "type": "Content",
+      "description": "The pricing tiers below can be personalized based on Region.  If there is no region set on the pricing card, it will be used if the user has not been associated with a region.",
+      "settings": {
+        "ContentDefinition": "PricingTier",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "Name,RegionName,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

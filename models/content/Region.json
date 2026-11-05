@@ -1,0 +1,20 @@
+{
+  "referenceName": "Region",
+  "displayName": "Region",
+  "kind": "content",
+  "description": "Used for personalization by region.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

@@ -1,0 +1,40 @@
+{
+  "referenceName": "PricingTable",
+  "displayName": "Pricing Table",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Subtitle",
+      "label": "Subtitle",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "FeaturesJSON",
+      "label": "Features JSON",
+      "type": "LongText",
+      "description": "The JSON structure for the features.",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    }
+  ]
+}

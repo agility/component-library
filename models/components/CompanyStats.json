@@ -1,0 +1,76 @@
+{
+  "referenceName": "CompanyStats",
+  "displayName": "Company Stats",
+  "kind": "component",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Details",
+      "label": "Details",
+      "type": "Tab"
+    },
+    {
+      "name": "sectionTitle",
+      "label": "Section Title",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "backgroundImage",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "tab_Stats",
+      "label": "Stats",
+      "type": "Tab"
+    },
+    {
+      "name": "stats",
+      "label": "Stats",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Stat",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "SharedContent": "_newcontent_agility_",
+        "Required": "False",
+        "Sort": "itemOrder",
+        "DefaultColumns": "name,value,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

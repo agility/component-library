@@ -1,0 +1,64 @@
+{
+  "referenceName": "ContactUs",
+  "displayName": "Contact Us",
+  "kind": "component",
+  "description": "A contact form component with configuration for form submission",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "heading",
+      "label": "Heading",
+      "type": "Text"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "Text"
+    },
+    {
+      "name": "submitURL",
+      "label": "Submit URL",
+      "type": "Text"
+    },
+    {
+      "name": "Notes",
+      "label": "Notes",
+      "type": "Text",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "successMessage",
+      "label": "Success Message",
+      "type": "Text"
+    },
+    {
+      "name": "errorMessage",
+      "label": "Error Message",
+      "type": "Text"
+    },
+    {
+      "name": "loadingMessage",
+      "label": "Loading Message",
+      "type": "Text"
+    },
+    {
+      "name": "address",
+      "label": "Office Address",
+      "type": "Text"
+    },
+    {
+      "name": "phone",
+      "label": "Phone Number",
+      "type": "Text"
+    },
+    {
+      "name": "email",
+      "label": "Email Address",
+      "type": "Text"
+    }
+  ]
+}

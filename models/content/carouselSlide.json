@@ -1,0 +1,42 @@
+{
+  "referenceName": "carouselSlide",
+  "displayName": "Carousel Slide",
+  "kind": "content",
+  "description": "A single slide used within a Carousel component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "heading",
+      "label": "Heading",
+      "type": "Text"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "LongText"
+    },
+    {
+      "name": "image",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg, *.jpeg, *.png",
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "cta",
+      "label": "Call To Action",
+      "type": "Link"
+    },
+    {
+      "name": "ctaText",
+      "label": "CTA Text Override",
+      "type": "Text"
+    }
+  ],
+  "listType": "item"
+}

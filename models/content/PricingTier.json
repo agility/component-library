@@ -1,0 +1,122 @@
+{
+  "referenceName": "PricingTier",
+  "displayName": "Pricing Tier",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Region",
+      "label": "Choose Region",
+      "type": "Content",
+      "description": "Optional region selection if you would like to have regionalized pricing.",
+      "settings": {
+        "ContentDefinition": "Region",
+        "RenderAs": "dropdown",
+        "ContentView": "Regions",
+        "SharedContent": "Regions",
+        "LinkeContentDropdownTextField": "RegionName",
+        "LinkeContentDropdownValueField": "RegionID",
+        "DisplayColumn": "Name",
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "PriceMonthly",
+      "label": "Price Monthly",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Currency",
+      "label": "Currency",
+      "type": "Text",
+      "description": "The currency of the pricing.",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "CurrencySymbol",
+      "label": "Currency Symbol",
+      "type": "Text",
+      "description": "The currency symbol (eg: $) of the pricing.",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "ctaButton",
+      "label": "CTA Button",
+      "type": "Link",
+      "settings": {
+        "Required": "True",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Highlights",
+      "label": "Highlights",
+      "type": "LongText",
+      "description": "1 per line",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "RegionName",
+      "label": "Region",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "RegionID",
+      "label": "RegionID",
+      "type": "Integer",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

@@ -1,0 +1,53 @@
+{
+  "referenceName": "StatsStrip",
+  "displayName": "Stats Strip",
+  "kind": "component",
+  "description": "A centered heading and description above a single row of key stats (value + label) shown as tiles.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Details",
+      "label": "Details",
+      "type": "Tab"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "true",
+        "Unique": "false",
+        "CopyAcrossAllLanguages": "false"
+      }
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "false",
+        "CopyAcrossAllLanguages": "false",
+        "Unique": "false"
+      }
+    },
+    {
+      "name": "tab_Stats",
+      "label": "Stats",
+      "type": "Tab"
+    },
+    {
+      "name": "stats",
+      "label": "Stats",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Stat",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "Sort": "itemOrder",
+        "SortDirection": "asc",
+        "DefaultColumns": "name,value,createdDate,userName",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

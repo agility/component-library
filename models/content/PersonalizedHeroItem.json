@@ -1,0 +1,100 @@
+{
+  "referenceName": "PersonalizedHeroItem",
+  "displayName": "Personalized Hero Item",
+  "kind": "content",
+  "description": "A hero item with personalization options for specific audiences",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "audienceDropdown",
+      "label": "Target Audience",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "Audience",
+        "RenderAs": "dropdown",
+        "ContentView": "Audiences",
+        "SharedContent": "Audiences",
+        "LinkeContentDropdownTextField": "audienceText",
+        "LinkeContentDropdownValueField": "audienceID",
+        "DisplayColumn": "Name",
+        "Required": "False"
+      }
+    },
+    {
+      "name": "tab_Content",
+      "label": "Content",
+      "type": "Tab"
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText"
+    },
+    {
+      "name": "cta1",
+      "label": "CTA 1",
+      "type": "Link"
+    },
+    {
+      "name": "cta2",
+      "label": "CTA 2",
+      "type": "Link"
+    },
+    {
+      "name": "tab_Background",
+      "label": "Background",
+      "type": "Tab"
+    },
+    {
+      "name": "Details",
+      "label": "Background Details",
+      "type": "CustomSection",
+      "settings": {
+        "CustomSectionValue": "Configure the background for this hero section. You can choose between a color gradient or a background image."
+      }
+    },
+    {
+      "name": "backgroundType",
+      "label": "Background Type",
+      "type": "DropdownList",
+      "settings": {
+        "Choices": "Yellow Pink (Default)|yellow-pink\n3 Blues|3-blues\nGreen Blue Yellow|green-blue-yellow\n3 Reds|3-reds\nGrays|grays\nBackground Image|background-image"
+      }
+    },
+    {
+      "name": "BackgroundImage",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "HideWhenFormula": "backgroundType[ne]\"background-image\"",
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg"
+      }
+    },
+    {
+      "name": "audienceID",
+      "label": "Audience ID",
+      "type": "Integer",
+      "hidden": true
+    },
+    {
+      "name": "audienceText",
+      "label": "Audience",
+      "type": "Text",
+      "hidden": true,
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "item"
+}

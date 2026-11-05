@@ -1,0 +1,64 @@
+{
+  "referenceName": "Hero",
+  "displayName": "Hero",
+  "kind": "component",
+  "description": "A basic hero component with text on the side and graphic on the other.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    },
+    {
+      "name": "CallToAction",
+      "label": "Call To Action",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg",
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "AltTextRequired": "False"
+      }
+    },
+    {
+      "name": "ImagePosition",
+      "label": "Image Position",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False",
+        "DefaultValue": "right",
+        "Choices": "Right|right\nLeft|left"
+      }
+    }
+  ]
+}

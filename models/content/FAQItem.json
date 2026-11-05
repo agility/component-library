@@ -1,0 +1,30 @@
+{
+  "referenceName": "FAQItem",
+  "displayName": "FAQ Item",
+  "kind": "content",
+  "description": null,
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Question",
+      "label": "Question",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Answer",
+      "label": "Answer",
+      "type": "LongText",
+      "settings": {
+        "Required": "True",
+        "CopyAcrossAllLanguages": "False",
+        "Unique": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}

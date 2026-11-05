@@ -1,0 +1,45 @@
+{
+  "referenceName": "PersonalizedLogoStrip",
+  "displayName": "Personalized Logo Strip",
+  "kind": "component",
+  "description": "Shows items from the Companies list, with personalized items shown if possible.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "ctaDescription",
+      "label": "CTA Description",
+      "type": "Text",
+      "description": "An optional text blurb to place before the CTA.",
+      "settings": {
+        "Required": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "cta",
+      "label": "CTA",
+      "type": "Link",
+      "settings": {
+        "Required": "False",
+        "DefaultTarget": "False",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "Logos",
+      "label": "Logos",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "CustomerProfile",
+        "RenderAs": "grid",
+        "ContentView": "Customers",
+        "SharedContent": "Customers",
+        "Required": "False",
+        "DefaultColumns": "Name,Audience_TextField,createdDate,userName,state",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

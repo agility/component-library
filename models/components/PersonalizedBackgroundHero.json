@@ -1,0 +1,84 @@
+{
+  "referenceName": "PersonalizedBackgroundHero",
+  "displayName": "Personalized Background Hero",
+  "kind": "component",
+  "description": "A hero with either color gradient or a background image and personalization options for different audiences",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "tab_Content",
+      "label": "Content",
+      "type": "Tab"
+    },
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "true"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText"
+    },
+    {
+      "name": "cta1",
+      "label": "CTA 1",
+      "type": "Link"
+    },
+    {
+      "name": "cta2",
+      "label": "CTA 2",
+      "type": "Link"
+    },
+    {
+      "name": "tab_Background",
+      "label": "Background",
+      "type": "Tab"
+    },
+    {
+      "name": "Details",
+      "label": "Background Details",
+      "type": "CustomSection",
+      "settings": {
+        "CustomSectionValue": "Configure the background for this hero section. You can choose between a color gradient or a background image."
+      }
+    },
+    {
+      "name": "backgroundType",
+      "label": "Background Type",
+      "type": "DropdownList",
+      "settings": {
+        "Choices": "Yellow Pink (Default)|yellow-pink\n3 Blues|3-blues\nGreen Blue Yellow|green-blue-yellow\n3 Reds|3-reds\nGrays|grays\nBackground Image|background-image"
+      }
+    },
+    {
+      "name": "BackgroundImage",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "HideWhenFormula": "backgroundType[ne]\"background-image\"",
+        "ValidFileTypes": "*.jpg,*.png,*.jpeg,*.gif,*.svg"
+      }
+    },
+    {
+      "name": "tab_Personalization",
+      "label": "Personalization",
+      "type": "Tab"
+    },
+    {
+      "name": "personalizedHeroItems",
+      "label": "Personalized Hero Items",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "PersonalizedHeroItem",
+        "RenderAs": "grid",
+        "ContentView": "_newcontent_agility_",
+        "DefaultColumns": "Heading,audienceText,createddate,username",
+        "LinkedContentNestedTypeID": "1"
+      }
+    }
+  ]
+}

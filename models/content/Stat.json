@@ -1,0 +1,30 @@
+{
+  "referenceName": "Stat",
+  "displayName": "Stat",
+  "kind": "content",
+  "description": "Used in the Company Stats component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    },
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "Text",
+      "settings": {
+        "Required": "True",
+        "Unique": "False",
+        "CopyAcrossAllLanguages": "False"
+      }
+    }
+  ],
+  "listType": "list"
+}
