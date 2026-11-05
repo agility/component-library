@@ -1,0 +1,16 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 19.6,
+  "is_error": false,
+  "cost_usd": 0.072178,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Single section covering the full 'Get a quote' request \u2014 heading/description fields for the section title and intro, plus form submission configuration (submitURL, Notes, success/error/loading messages) to power the quote form collecting name, company, and project details."
+      }
+    ]
+  }
+}

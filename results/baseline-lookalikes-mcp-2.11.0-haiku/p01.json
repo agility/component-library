@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 19.6,
+  "is_error": false,
+  "cost_usd": 0.07171,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Full-width banner with headline and two buttons over a background photo for the spring sale opening"
+      }
+    ]
+  }
+}

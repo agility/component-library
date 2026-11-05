@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.0524438,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "The 'Alert' (Message Bar) component, placed as the very first item in the homepage's top content zone. Its Message field holds the office closure notice text, its Link field provides the 'details' hyperlink, and its EndDate field is set to the closure date so the notice automatically stops displaying after that date (StartDate can optionally be left blank or set to today so it shows immediately)."
+      }
+    ]
+  }
+}

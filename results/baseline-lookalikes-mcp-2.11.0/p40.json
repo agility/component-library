@@ -1,0 +1,20 @@
+{
+  "id": "p40",
+  "kind": "page",
+  "seconds": 26.7,
+  "is_error": false,
+  "cost_usd": 0.0726598,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduces the contact section with a heading/subheading/description (e.g. 'Get in Touch'), giving context before the form."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The actual message/contact form itself \u2014 lets visitors submit a message, with configurable heading, description, submit URL, success/error messages, and company contact info."
+      }
+    ]
+  }
+}

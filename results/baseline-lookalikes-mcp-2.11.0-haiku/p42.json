@@ -1,0 +1,16 @@
+{
+  "id": "p42",
+  "kind": "page",
+  "seconds": 22.4,
+  "is_error": false,
+  "cost_usd": 0.0322356,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Provides heading text, two CTA buttons (PrimaryCTA and SecondaryCTA), and dark background option for the 'Talk to sales' section"
+      }
+    ]
+  }
+}

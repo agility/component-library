@@ -1,0 +1,20 @@
+{
+  "id": "p40",
+  "kind": "page",
+  "seconds": 16.1,
+  "is_error": false,
+  "cost_usd": 0.027090800000000005,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduce the contact section with a heading and description (e.g., 'Send us a message')"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Provide the contact form for visitors to submit their message"
+      }
+    ]
+  }
+}

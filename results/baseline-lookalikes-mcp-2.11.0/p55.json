@@ -1,0 +1,24 @@
+{
+  "id": "p55",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.0374238,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title over a full-width photo \u2014 a hero component with a background image and heading, used at the top of the page."
+      },
+      {
+        "referenceName": "Gallery",
+        "purpose": "All the event photos in a grid with captions \u2014 an image grid component."
+      },
+      {
+        "referenceName": "Testimonials",
+        "purpose": "What attendees said \u2014 shows a list of selected testimonials/quotes."
+      }
+    ]
+  }
+}

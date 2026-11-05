@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 18.8,
+  "is_error": false,
+  "cost_usd": 0.09424260000000001,
+  "num_turns": 11,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "The instance has a \"Carousel\" component (reference name `carousel`) that is used for slider-style content (e.g., a product screenshot slider). Its model has a single nested Linked Content field, \"Slides\", which points to the \"Carousel Slide\" content model (reference name `carouselSlide`). Each slide item carries heading, description, a background image (ideal for a screenshot), and an optional CTA link/text \u2014 exactly the shape needed for a new slide. Since Slides is a nested grid field on the Carousel item, new slide content items are created as children of that field using the carouselSlide model/definition."
+  }
+}

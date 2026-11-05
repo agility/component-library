@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 9.7,
+  "is_error": false,
+  "cost_usd": 0.0500578,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #1 \u2014 paragraph beside picture, Image Position = Left"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #2 \u2014 paragraph beside picture, Image Position = Right (alternated)"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #3 \u2014 paragraph beside picture, Image Position = Left (alternated back)"
+      }
+    ]
+  }
+}

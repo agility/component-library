@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 23.9,
+  "is_error": false,
+  "cost_usd": 0.0317191,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Full-width opening banner with two buttons"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos section"
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots"
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats display"
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Single customer quote"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form"
+      }
+    ]
+  }
+}

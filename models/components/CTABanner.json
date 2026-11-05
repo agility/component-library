@@ -1,0 +1,59 @@
+{
+  "referenceName": "CTABanner",
+  "displayName": "CTA Banner",
+  "kind": "component",
+  "description": "A short call-to-action section partway down or at the end of a page: a heading, a line of text and one or two buttons, on a colour or image background. Not the opening of a page.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "PrimaryCTA",
+      "label": "Primary Button",
+      "type": "Link",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "SecondaryCTA",
+      "label": "Secondary Button",
+      "type": "Link",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Background",
+      "label": "Background",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Choices": "Brand colour|brand\nDark|dark\nImage|image",
+        "DefaultValue": "brand"
+      }
+    },
+    {
+      "name": "BackgroundImage",
+      "label": "Background Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

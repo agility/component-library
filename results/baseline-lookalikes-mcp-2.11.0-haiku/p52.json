@@ -1,0 +1,28 @@
+{
+  "id": "p52",
+  "kind": "page",
+  "seconds": 16.4,
+  "is_error": false,
+  "cost_usd": 0.025139100000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "One-line notice about new release at the very top"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Full-width opening banner with two buttons and heading"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos section"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Final 'Get started' call to action banner"
+      }
+    ]
+  }
+}

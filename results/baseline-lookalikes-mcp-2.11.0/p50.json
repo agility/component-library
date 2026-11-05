@@ -1,0 +1,20 @@
+{
+  "id": "p50",
+  "kind": "page",
+  "seconds": 16.6,
+  "is_error": false,
+  "cost_usd": 0.06830620000000001,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Intro heading/subheading/description framing the 'what happens next' message shown right after booking a demo."
+      },
+      {
+        "referenceName": "Steps",
+        "purpose": "The three numbered stages themselves, via its linked grid of numbered StepItem entries describing the post-booking process."
+      }
+    ]
+  }
+}

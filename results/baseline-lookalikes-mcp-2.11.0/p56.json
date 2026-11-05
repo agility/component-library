@@ -1,0 +1,16 @@
+{
+  "id": "p56",
+  "kind": "page",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.048879599999999995,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Covers the entire request: a message-bar/strip ('Alert' component) placed at the very top of the page, above everything else, to promote the upcoming webinar. Its Message field holds the promo text, the Link field can point to the webinar registration page, and the built-in StartDate/EndDate fields let you schedule it to show for exactly the next two weeks (today 2026-11-05 through 2026-11-19) and automatically stop appearing afterward \u2014 no other component is needed for this request."
+      }
+    ]
+  }
+}

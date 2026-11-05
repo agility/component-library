@@ -1,0 +1,24 @@
+{
+  "id": "p32",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.0363078,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner \u2014 a hero with personalization options so the headline/background can adapt to the visitor's detected industry audience."
+      },
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Logo row \u2014 shows items from the Companies list with personalized items shown per audience, so the logos adapt to the visitor's industry."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Feature cards \u2014 grid of items used to present the feature cards section."
+      }
+    ]
+  }
+}

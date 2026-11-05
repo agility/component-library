@@ -1,0 +1,16 @@
+{
+  "id": "p46",
+  "kind": "page",
+  "seconds": 9.6,
+  "is_error": false,
+  "cost_usd": 0.048057199999999994,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Covers the entire request \u2014 a 'Signup form' box with Heading, Description, Button Text, Mailing List ID (for the email capture/subscription submission), Consent Text, and Success Message fields. This is the dedicated newsletter-subscription component on the instance, so it's the only one needed; no other component needs to be stacked with it."
+      }
+    ]
+  }
+}

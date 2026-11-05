@@ -1,0 +1,34 @@
+{
+  "referenceName": "ComparisonRow",
+  "displayName": "Comparison Row",
+  "kind": "content",
+  "listType": "list",
+  "description": "Used in the Comparison Table component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Feature",
+      "label": "Feature",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Values",
+      "label": "Values",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Note",
+      "label": "Note",
+      "type": "Text",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

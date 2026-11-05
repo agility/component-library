@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 10.7,
+  "is_error": false,
+  "cost_usd": 0.0530548,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: event title (Heading field) and a register button (CTA1 link field) displayed over a color gradient (backgroundType field)."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda written as free-form text, placed below the hero."
+      },
+      {
+        "referenceName": "AgilityFormBuilder",
+        "purpose": "Registration form at the bottom of the page for visitors to sign up for the webinar (supports storing submissions, emailing, and/or webhook posting)."
+      }
+    ]
+  }
+}

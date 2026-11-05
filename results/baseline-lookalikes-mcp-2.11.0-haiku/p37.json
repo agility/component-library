@@ -1,0 +1,24 @@
+{
+  "id": "p37",
+  "kind": "page",
+  "seconds": 14.9,
+  "is_error": false,
+  "cost_usd": 0.0239733,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Hero with a picture beside the text"
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Partners' logos"
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form for partnership enquiries"
+      }
+    ]
+  }
+}

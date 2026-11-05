@@ -1,0 +1,16 @@
+{
+  "id": "p04",
+  "kind": "page",
+  "seconds": 11.7,
+  "is_error": false,
+  "cost_usd": 0.0540668,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Placed at the top of the pricing page to A/B test the headline and image \u2014 the Control tab holds the current/original Heading, Description, CTA, and Image, while the nested 'Variants' content list (ABTestHeroItem) holds the alternate headline/image version. The ExperimentKey field ties the two variants together as a single test."
+      }
+    ]
+  }
+}

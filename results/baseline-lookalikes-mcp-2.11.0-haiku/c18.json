@@ -1,0 +1,12 @@
+{
+  "id": "c18",
+  "kind": "content",
+  "seconds": 15.0,
+  "is_error": false,
+  "cost_usd": 0.0291453,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "StepItem",
+    "reason": "The 'How it works' section uses the Steps component, which displays items from the StepItem content model. Each stage in the process is stored as a StepItem with a Title and Description field."
+  }
+}

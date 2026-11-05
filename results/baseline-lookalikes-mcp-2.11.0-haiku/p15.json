@@ -1,0 +1,20 @@
+{
+  "id": "p15",
+  "kind": "page",
+  "seconds": 14.0,
+  "is_error": false,
+  "cost_usd": 0.023514,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Heading"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Grid of cards, each with a screenshot and a short description"
+      }
+    ]
+  }
+}

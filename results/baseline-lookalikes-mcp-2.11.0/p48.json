@@ -1,0 +1,16 @@
+{
+  "id": "p48",
+  "kind": "page",
+  "seconds": 15.0,
+  "is_error": false,
+  "cost_usd": 0.0613484,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Gallery",
+        "purpose": "Covers the full request: displays the conference photos all at once in a grid layout (via its Layout field), with each linked GalleryImage item providing the photo plus a Caption field for captions; its Heading field can also label the section (e.g. 'Annual Conference Photos')."
+      }
+    ]
+  }
+}

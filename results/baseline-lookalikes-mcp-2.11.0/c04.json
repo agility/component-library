@@ -1,0 +1,12 @@
+{
+  "id": "c04",
+  "kind": "content",
+  "seconds": 7.2,
+  "is_error": false,
+  "cost_usd": 0.035077000000000004,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Tag",
+    "reason": "The instance has a purpose-built content model \"Tag\" (referenceName: Tag) stored in the shared \"Tags\" container (category: Blog). This model is designed exactly for creating labels like 'AI' that Posts can be tagged with \u2014 Posts link to Tag items rather than storing tags as inline text."
+  }
+}

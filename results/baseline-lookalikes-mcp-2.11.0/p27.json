@@ -1,0 +1,28 @@
+{
+  "id": "p27",
+  "kind": "page",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.0541564,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain heading with a sentence \u2014 the Header component supports a heading plus a short description/subheading, used as the page intro."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Our story as free-form text with images \u2014 a free-form rich text area that supports inline text, graphics, and media."
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "The company in numbers with a background image \u2014 has a dedicated Background Image field plus a nested grid of stats (name/value) for key company metrics."
+      },
+      {
+        "referenceName": "TeamListing",
+        "purpose": "The team \u2014 displays a listing of team members."
+      }
+    ]
+  }
+}

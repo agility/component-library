@@ -1,0 +1,16 @@
+{
+  "id": "p05",
+  "kind": "page",
+  "seconds": 22.3,
+  "is_error": false,
+  "cost_usd": 0.028204800000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Displays the page title in the heading field and the one-sentence introduction in the description field"
+      }
+    ]
+  }
+}

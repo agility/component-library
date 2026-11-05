@@ -1,0 +1,12 @@
+{
+  "id": "c10",
+  "kind": "content",
+  "seconds": 11.1,
+  "is_error": false,
+  "cost_usd": 0.061392,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "CustomerProfile",
+    "reason": "The instance already has a \"Customer Profile\" content model (CustomerProfile, container \"Customers\") in the Personalization category, purpose-built for exactly this use case: it has a Name text field and a Logo ImageAttachment field, and is used elsewhere for personalizing content by customer. It currently lacks an explicit \"Industry\" field (it has an Audience link instead), but it's clearly the intended home for customer company profiles used to personalize logos \u2014 a new Industry text field could be added to it rather than creating a separate model."
+  }
+}

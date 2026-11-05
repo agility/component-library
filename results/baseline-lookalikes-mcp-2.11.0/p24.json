@@ -1,0 +1,20 @@
+{
+  "id": "p24",
+  "kind": "page",
+  "seconds": 12.1,
+  "is_error": false,
+  "cost_usd": 0.0609336,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the 'Why teams choose us' section heading with its short subheading, placed directly above the feature cards. This component (id 25, 'A generic header section that can have just a heading, but also a subheading and description') has a Subheading field (eyebrow/short text) and a Heading field (main headline) \u2014 Subheading would hold the short supporting line and Heading would hold 'Why teams choose us'."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "The existing/pre-existing feature cards section ('Grid of items') that the new heading sits above \u2014 included here only for placement context, not something new to add."
+      }
+    ]
+  }
+}

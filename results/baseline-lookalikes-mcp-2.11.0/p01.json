@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 12.0,
+  "is_error": false,
+  "cost_usd": 0.052968600000000005,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Top, full-width hero banner for the spring sale: Heading field for the headline, cta1 and cta2 Link fields for the two buttons, and backgroundType set to 'Background Image' with the BackgroundImage field for the background photo. This component is specifically built to render full-width at the top of a page under the menu."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "p51",
+  "kind": "page",
+  "seconds": 28.7,
+  "is_error": false,
+  "cost_usd": 0.0345441,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opening headline with screenshot beside it"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "First benefit with picture beside text"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Second benefit with picture beside text"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Third benefit with picture beside text"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Six capabilities with icons"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Start your trial call to action"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "FAQ section"
+      }
+    ]
+  }
+}

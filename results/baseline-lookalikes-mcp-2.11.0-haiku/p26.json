@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 11.8,
+  "is_error": false,
+  "cost_usd": 0.0222388,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro with no image"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Plans displayed as cards"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Full comparison grid showing feature differences across plans"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs section"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p24",
+  "kind": "page",
+  "seconds": 12.0,
+  "is_error": false,
+  "cost_usd": 0.0218018,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Display the section heading 'Why teams choose us' with a short subheading above the feature cards"
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Display the feature cards in a grid layout below the header"
+      }
+    ]
+  }
+}

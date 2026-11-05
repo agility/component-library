@@ -5,8 +5,8 @@ counts) is scored against the same prompts before and after, so we keep what hel
 
 ## What's here
 
-- **[`prompts.jsonl`](prompts.jsonl):** 40 "build a page that…" prompts and 15 "add this content…" prompts,
-  84 scored slots. A prompt describes what the page needs in plain words and never names a component. Each
+- **[`prompts.jsonl`](prompts.jsonl):** 60 "build a page that…" prompts and 19 "add this content…" prompts,
+  121 scored slots. A prompt describes what the page needs in plain words and never names a component. Each
   slot lists the **right** model, **acceptable** alternatives, and **wrong** look-alikes (another hero, the
   single quote instead of the wall of quotes, a disabled legacy form).
 - **[`run.py`](run.py):** gives an agent each prompt in a fresh Claude Code session, with only the Agility MCP
@@ -37,11 +37,18 @@ the components are really used. On top of that, `LegacyHero`: Hero's fields and 
 legacy duplicates usually are. Choosing it, or the two disabled legacy form builders, is a rule violation.
 Availability rules (where a component may go) come later: this instance has one page model and one zone.
 
+It also has the library's eight newer components (`CTABanner`, `FeatureGrid`, `MediaSplit`, `AnnouncementBar`,
+`NewsletterSignup`, `ComparisonTable`, `Gallery`, `Steps`) with the thin names and descriptions in
+[`instance-overrides.json`](instance-overrides.json) ("Banner", "Banner with heading and buttons."), as a
+customer's catalog often has them. That's where guidance has something to fix.
+
 ## Scores
 
-| Run | Date | MCP | Guidance | Right | Score | Violations |
-|---|---|---|---|---|---|---|
-| `baseline-mcp-2.11.0` | 2026-11-05 | 2.11.0 | none | 82/84 (97.6%) | 163/168 | 1 |
+| Run | Date | Model | MCP | Guidance | Right | Score | Look-alikes | Violations |
+|---|---|---|---|---|---|---|---|---|
+| `baseline-mcp-2.11.0` (first 55 prompts, clean catalog) | 2026-11-05 | Sonnet | 2.11.0 | none | 82/84 (97.6%) | 163/168 | 1 | 1 |
+| `baseline-lookalikes-mcp-2.11.0` | 2026-11-05 | Sonnet | 2.11.0 | none | 113/121 (93.4%) | 226/242 | 4 | 1 |
+| `baseline-lookalikes-mcp-2.11.0-haiku` | 2026-11-05 | Haiku | 2.11.0 | none | 108/121 (89.3%) | 209/242 | 10 | 2 |
 
 **Baseline notes.** The one violation is the core gap: asked for a registration form, the agent chose a
 *disabled* legacy form builder, because MCP 2.11.0 doesn't say a model is disabled. The other miss named the
@@ -49,3 +56,7 @@ Availability rules (where a component may go) come later: this instance has one 
 have clear names and good descriptions. **That's a ceiling:** on a catalog this clean there's little left for
 guidance to fix, so the next runs need a harder catalog (more look-alikes, thinner descriptions), which is
 what customers' catalogs look like.
+
+**With the look-alikes,** both models mix up comparison tables (plans vs competitors), and Haiku opens pages
+with the thinly described "Banner" (`CTABanner`) or "Image + Text" (`MediaSplit`) five times and picks the
+disabled form builder twice. Those are the mistakes agent guidance and the disabled label are meant to fix.

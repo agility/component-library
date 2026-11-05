@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 17.6,
+  "is_error": false,
+  "cost_usd": 0.0734864,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Headline, short paragraph, and button on the left; product screenshot on the right"
+      }
+    ]
+  }
+}

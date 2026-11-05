@@ -1,0 +1,24 @@
+{
+  "id": "p38",
+  "kind": "page",
+  "seconds": 15.5,
+  "is_error": false,
+  "cost_usd": 0.0738264,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading at the top of the page \u2014 a simple heading (plus optional subheading/description) introducing the 'Why us' content."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "The key stats shown together in a single row of tiles (value + label)."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "The grid of feature cards with images, showcasing the reasons/benefits in a column grid layout."
+      }
+    ]
+  }
+}

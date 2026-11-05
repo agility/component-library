@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 21.6,
+  "is_error": false,
+  "cost_usd": 0.0427369,
+  "num_turns": 9,
+  "answer": {
+    "referenceName": "GalleryImage",
+    "reason": "GalleryImage is the content model used for individual picture tiles in the Gallery component. It contains an Image field (for the product screenshot) and an optional Caption field, making it the appropriate model for adding new tiles to a picture tiles section."
+  }
+}

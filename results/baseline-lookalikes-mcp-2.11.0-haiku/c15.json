@@ -1,0 +1,12 @@
+{
+  "id": "c15",
+  "kind": "content",
+  "seconds": 11.6,
+  "is_error": false,
+  "cost_usd": 0.023378799999999998,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "Audience",
+    "reason": "The 'Audience' content model (id: 42) is specifically designed for personalization by custom demographic. It contains fields for Name (required), Description, and Icon, making it the appropriate model for adding the 'Healthcare' visitor audience that can be used for banner personalization."
+  }
+}

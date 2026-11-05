@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 11.6,
+  "is_error": false,
+  "cost_usd": 0.0476294,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Renders the detailed grid comparing every feature across all plans, to be placed directly below the pricing/plans section. It has a Heading field, Column Names (for the plan columns), and a Rows grid linked to the ComparisonRow content model (one row per feature, with values per plan)."
+      }
+    ]
+  }
+}

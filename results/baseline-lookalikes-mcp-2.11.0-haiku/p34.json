@@ -1,0 +1,20 @@
+{
+  "id": "p34",
+  "kind": "page",
+  "seconds": 12.1,
+  "is_error": false,
+  "cost_usd": 0.0217724,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Heading section at the top of the product tour page"
+      },
+      {
+        "referenceName": "carousel",
+        "purpose": "Slider to display screenshots one after another"
+      }
+    ]
+  }
+}

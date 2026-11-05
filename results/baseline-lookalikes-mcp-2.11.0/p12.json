@@ -1,0 +1,16 @@
+{
+  "id": "p12",
+  "kind": "page",
+  "seconds": 8.6,
+  "is_error": false,
+  "cost_usd": 0.047401799999999994,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Displays the customer logos grid pulled from the Companies/Customers list, and automatically personalizes which logos are shown based on the visitor's known industry/audience (falling back to the default set when the industry is unknown). This single component covers the entire request: showing customer logos with industry-based personalization."
+      }
+    ]
+  }
+}

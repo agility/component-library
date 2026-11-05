@@ -1,0 +1,16 @@
+{
+  "id": "p59",
+  "kind": "page",
+  "seconds": 27.5,
+  "is_error": false,
+  "cost_usd": 0.0354679,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Displays 8 integration partners in a grid layout with each partner's icon, name, and one-sentence integration description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c06",
+  "kind": "content",
+  "seconds": 6.5,
+  "is_error": false,
+  "cost_usd": 0.03504260000000001,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "TestimonialItem",
+    "reason": "The instance has a \"Testimonial Item\" content model (reference name TestimonialItem), used in the \"Testimonials\" container, which is purpose-built for customer quotes (quote text, customer name, and role/title). This is the correct model for a happy customer quote, rather than Customer Profile (broader bio info) or Author (used for blog post bylines)."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 6.4,
+  "is_error": false,
+  "cost_usd": 0.03732340000000001,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The instance has a dedicated \"Post\" content model (container: Posts) described as \"A blog post or article,\" which includes linked-content fields for Author and Category \u2014 matching the request to add a blog article with an author and a category."
+  }
+}

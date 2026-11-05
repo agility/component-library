@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 16.0,
+  "is_error": false,
+  "cost_usd": 0.027340000000000003,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #1 \u2013 Paragraph with picture alternating to one side"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #2 \u2013 Paragraph with picture alternating to opposite side"
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #3 \u2013 Paragraph with picture alternating back to first side"
+      }
+    ]
+  }
+}

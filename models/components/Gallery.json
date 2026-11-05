@@ -1,0 +1,38 @@
+{
+  "referenceName": "Gallery",
+  "displayName": "Gallery",
+  "kind": "component",
+  "description": "A heading over a grid of images with captions, opening larger when clicked. All images visible at once.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Layout",
+      "label": "Layout",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Choices": "Grid|grid\nMasonry|masonry",
+        "DefaultValue": "grid"
+      }
+    },
+    {
+      "name": "Images",
+      "label": "Images",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "GalleryImage",
+        "RenderAs": "grid",
+        "LinkedContentNestedTypeID": "1",
+        "Sort": "itemOrder"
+      }
+    }
+  ]
+}

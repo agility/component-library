@@ -1,0 +1,20 @@
+{
+  "id": "p39",
+  "kind": "page",
+  "seconds": 9.7,
+  "is_error": false,
+  "cost_usd": 0.020520399999999998,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain title for the FAQ page"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Questions and answers content"
+      }
+    ]
+  }
+}

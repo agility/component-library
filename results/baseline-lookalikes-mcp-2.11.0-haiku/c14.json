@@ -1,0 +1,12 @@
+{
+  "id": "c14",
+  "kind": "content",
+  "seconds": 13.2,
+  "is_error": false,
+  "cost_usd": 0.0293485,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "FooterLink",
+    "reason": "FooterLink is specifically designed for footer links in this Agility CMS instance. It contains a required Link field for storing both the URL and display text, making it the ideal content model for adding a privacy policy link to the site footer."
+  }
+}

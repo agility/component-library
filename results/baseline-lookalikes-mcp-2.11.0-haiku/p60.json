@@ -1,0 +1,24 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 16.3,
+  "is_error": false,
+  "cost_usd": 0.0272217,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduces the pricing page with a heading, subheading, and description"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays plan options as cards for easy visual comparison of pricing tiers"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Shows detailed feature and pricing comparison with competitors"
+      }
+    ]
+  }
+}

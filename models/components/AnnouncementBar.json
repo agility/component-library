@@ -1,0 +1,46 @@
+{
+  "referenceName": "AnnouncementBar",
+  "displayName": "Announcement Bar",
+  "kind": "component",
+  "description": "A thin one-line strip above the page content with a short message and a link, shown between a start and end date. For time-limited notices.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Message",
+      "label": "Message",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Dismissible",
+      "label": "Dismissible",
+      "type": "Boolean"
+    },
+    {
+      "name": "StartDate",
+      "label": "Start Date",
+      "type": "Date",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "EndDate",
+      "label": "End Date",
+      "type": "Date",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

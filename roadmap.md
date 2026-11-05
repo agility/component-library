@@ -1,5 +1,9 @@
 # Components to add
 
+**Added 2026-11-05 as models** (no Next.js implementation yet): `CTABanner`, `FeatureGrid`, `MediaSplit`,
+`AnnouncementBar`, `NewsletterSignup`, `ComparisonTable`, `Gallery`, `Steps`. Still to add: `RichText` (the
+built-in Rich Text Area covers it today), `Timeline`, `VideoSection`.
+
 What common block libraries have that this one doesn't yet, from a survey on 2026-11-05 of 11 libraries:
 Tailwind Plus, Flowbite, HyperUI, Preline, Relume, Mantine UI, shadcnblocks, Aceternity / Magic UI, Payload's
 website template, Sanity's page-builder template and Builder.io. "Libraries" is how many of the 11 have the

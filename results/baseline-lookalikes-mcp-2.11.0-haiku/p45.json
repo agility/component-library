@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 18.1,
+  "is_error": false,
+  "cost_usd": 0.0318015,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Display office closure notice at the top of the homepage with a link to details and automatic disappearance after the closure period ends via the EndDate field"
+      }
+    ]
+  }
+}

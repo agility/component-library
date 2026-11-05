@@ -1,0 +1,20 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 17.9,
+  "is_error": false,
+  "cost_usd": 0.029618699999999998,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page heading, subheading, and introductory description for the pricing section"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Three pricing plans displayed as cards side by side, each with price and sign-up button"
+      }
+    ]
+  }
+}

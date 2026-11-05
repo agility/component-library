@@ -1,0 +1,24 @@
+{
+  "id": "p21",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.0432642,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page header/intro area at the top of the blog index \u2014 title such as 'Blog' and optional short description, giving context before the post list."
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "Core of the request \u2014 'Shows a listing of blog posts with paging,' directly fulfilling the paged list of all posts (backed by the Posts container)."
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Optional closing section below the post list to capture newsletter signups from engaged blog visitors \u2014 common marketer addition, not strictly required by the request."
+      }
+    ]
+  }
+}

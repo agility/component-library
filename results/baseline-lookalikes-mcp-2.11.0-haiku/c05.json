@@ -1,0 +1,12 @@
+{
+  "id": "c05",
+  "kind": "content",
+  "seconds": 22.2,
+  "is_error": false,
+  "cost_usd": 0.0477431,
+  "num_turns": 11,
+  "answer": {
+    "referenceName": "FAQItem",
+    "reason": "The FAQItem content model (ID: 26) is used for pricing FAQs. It contains Question (Text) and Answer (LongText) fields. The model is referenced in the pricing_FrequentlyAskedQuest7D73FE container which manages all FAQ items for the pricing page."
+  }
+}

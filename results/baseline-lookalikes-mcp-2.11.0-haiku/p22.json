@@ -1,0 +1,24 @@
+{
+  "id": "p22",
+  "kind": "page",
+  "seconds": 22.4,
+  "is_error": false,
+  "cost_usd": 0.031389600000000004,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Displays the article hero section with title, featured image, and visual impact at the top of the blog article page"
+      },
+      {
+        "referenceName": "PostDetails",
+        "purpose": "Shows the complete blog post content including article body, author information, publication date, and metadata"
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Provides a call-to-action for reader engagement with newsletter signup form at the bottom of the article"
+      }
+    ]
+  }
+}

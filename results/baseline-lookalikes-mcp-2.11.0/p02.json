@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 14.1,
+  "is_error": false,
+  "cost_usd": 0.0506654,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Covers the entire request in one component: the 'Heading' field holds the headline, 'Description' holds the short paragraph, 'CallToAction' (Link field) is the one button \u2014 all placed on the left \u2014 and the 'Image' field holds the product screenshot, placed on the right via setting 'ImagePosition' to 'right'."
+      }
+    ]
+  }
+}

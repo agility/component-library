@@ -1,0 +1,20 @@
+{
+  "id": "p21",
+  "kind": "page",
+  "seconds": 12.9,
+  "is_error": false,
+  "cost_usd": 0.0211537,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and introductory description for the blog index"
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "The paged list of all blog posts with pagination controls"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 7.1,
+  "is_error": false,
+  "cost_usd": 0.0369764,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain title with one sentence \u2014 Header supports a heading plus a short description/subheading, ideal for a simple page intro without imagery."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison with competitors \u2014 purpose-built comparison table component."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Call to action to book a demo \u2014 a banner with heading and buttons, used to drive the demo-booking action."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p48",
+  "kind": "page",
+  "seconds": 14.6,
+  "is_error": false,
+  "cost_usd": 0.023061200000000004,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Gallery",
+        "purpose": "Show photos from the annual conference all at once in a grid with captions"
+      }
+    ]
+  }
+}

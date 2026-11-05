@@ -1,0 +1,24 @@
+{
+  "id": "p31",
+  "kind": "page",
+  "seconds": 9.5,
+  "is_error": false,
+  "cost_usd": 0.051328799999999994,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Top hero section that covers the 'two different headlines' requirement \u2014 it has a Control tab (Heading/Description/CTA/Image) plus a built-in Variants nested grid (ABTestHeroItem) where marketing can add the second headline variant for A/B testing."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Single testimonial block placed below the hero \u2014 the singular 'Testimonial' component (as opposed to the 'Testimonials' list component) matches the request for just one testimonial."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form at the bottom of the page \u2014 a purpose-built contact form component with form submission configuration, satisfying the 'contact form' requirement."
+      }
+    ]
+  }
+}

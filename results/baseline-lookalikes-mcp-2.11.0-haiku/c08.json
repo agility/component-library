@@ -1,0 +1,12 @@
+{
+  "id": "c08",
+  "kind": "content",
+  "seconds": 14.1,
+  "is_error": false,
+  "cost_usd": 0.025356200000000002,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "Stat",
+    "reason": "The Stat content model (reference name: \"Stat\") is specifically designed for company statistics and is used in the Company Stats component. It has two text fields: 'name' for the label and 'value' for the numeric value, making it the ideal model for adding '120 countries' to the stats."
+  }
+}

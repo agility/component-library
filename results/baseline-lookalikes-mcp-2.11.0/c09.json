@@ -1,0 +1,12 @@
+{
+  "id": "c09",
+  "kind": "content",
+  "seconds": 6.7,
+  "is_error": false,
+  "cost_usd": 0.038410400000000004,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "LogoItem",
+    "reason": "The homepage logo row is powered by the \"Logo Strip\" component, whose nested list container (home_LogoStrip_LogoItem) contains items like Reform, SavvyCal, Statamatic, Transistor, and Tuple \u2014 all built on the \"Logo Item\" content model (reference name: LogoItem). A new partner logo should be added as another LogoItem in that same list."
+  }
+}

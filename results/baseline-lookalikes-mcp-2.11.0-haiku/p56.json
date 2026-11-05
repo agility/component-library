@@ -1,0 +1,20 @@
+{
+  "id": "p56",
+  "kind": "page",
+  "seconds": 16.3,
+  "is_error": false,
+  "cost_usd": 0.020323800000000003,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Temporary notice strip at the very top displaying the upcoming webinar announcement"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Prominent webinar promotion section with heading and call-to-action buttons for registration"
+      }
+    ]
+  }
+}

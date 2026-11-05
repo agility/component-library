@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.052767800000000004,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opens the campaign page with a hero section pairing the headline copy and a graphic/image side-by-side; set the component's ImagePosition field to 'left' so the hero image appears on the left of the copy, as requested."
+      }
+    ]
+  }
+}

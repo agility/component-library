@@ -1,0 +1,16 @@
+{
+  "id": "p05",
+  "kind": "page",
+  "seconds": 14.6,
+  "is_error": false,
+  "cost_usd": 0.062337000000000004,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the entire page: use the 'Heading' field for the page title ('About us') and the 'Description' field for the one sentence underneath. This component model (ID 25) has no image or button fields, so it naturally satisfies the 'no image, no buttons' constraint without needing any workarounds."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p28",
+  "kind": "page",
+  "seconds": 6.9,
+  "is_error": false,
+  "cost_usd": 0.0356412,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Hero section with text on one side and an image beside it, introducing the customer stories page."
+      },
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Wall of quotes \u2014 displays an entire list of selected customer testimonials/quotes."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Displays the row/grid of customer logos."
+      }
+    ]
+  }
+}

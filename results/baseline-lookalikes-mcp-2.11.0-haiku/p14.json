@@ -1,0 +1,24 @@
+{
+  "id": "p14",
+  "kind": "page",
+  "seconds": 28.2,
+  "is_error": false,
+  "cost_usd": 0.0333109,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Single component solution: Provides section heading, description/paragraph, and stats display in a centered layout with tiles. Recommended primary choice."
+      },
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Alternative approach (if background image control is needed): Provides the background image and section container."
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "Alternative approach (paired with BackgroundHero): Displays the statistics/numbers for the section."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 8.4,
+  "is_error": false,
+  "cost_usd": 0.045552800000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "Covers the entire 'How it works' section \u2014 its Heading field holds the section title, and its StepItems grid holds the three numbered steps: 'Sign up', 'Connect your data', and 'Publish'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c17",
+  "kind": "content",
+  "seconds": 9.2,
+  "is_error": false,
+  "cost_usd": 0.0457286,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "GalleryImage",
+    "reason": "The instance has a \"Gallery\" component (displayName \"Images\", description \"Image grid.\") that renders an image grid on pages. Its Images field is a LinkedContentSharedGrid pointing to the GalleryImage content model, so new photo content (e.g., a conference photo) should be created as a GalleryImage item to appear in the grid."
+  }
+}

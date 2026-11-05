@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 8.2,
+  "is_error": false,
+  "cost_usd": 0.048911,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Covers the entire request in one component: its 'Heading' field holds 'Ready to try it?' and its required 'Primary Button' (Link) field holds the 'Start free trial' CTA. This is the single short section to insert halfway down the product page (its Background and optional Description/Secondary Button fields can be left minimal/unused to keep it short)."
+      }
+    ]
+  }
+}

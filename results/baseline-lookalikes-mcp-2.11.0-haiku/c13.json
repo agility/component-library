@@ -1,0 +1,12 @@
+{
+  "id": "c13",
+  "kind": "content",
+  "seconds": 15.2,
+  "is_error": false,
+  "cost_usd": 0.0249484,
+  "num_turns": 8,
+  "answer": {
+    "referenceName": "TopLevelNav",
+    "reason": "The TopLevelNav Content Model is specifically designed for top-level navigation menu items in the site header. It includes a required Link field for the main navigation link and optional sub-navigation options. This is the standard model used for all top-level menu items in the site."
+  }
+}

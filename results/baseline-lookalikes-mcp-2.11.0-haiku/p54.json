@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 11.6,
+  "is_error": false,
+  "cost_usd": 0.018161200000000002,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain title with one sentence"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison with competitors"
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Call to action to book a demo"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "note": "Eval instance only: display names and descriptions as a customer catalog often has them. The library's own models keep their full descriptions.",
+  "models": {
+    "CTABanner": {
+      "displayName": "Banner",
+      "description": "Banner with heading and buttons."
+    },
+    "FeatureGrid": {
+      "displayName": "Features",
+      "description": "Grid of items."
+    },
+    "MediaSplit": {
+      "displayName": "Image + Text",
+      "description": "Image and text."
+    },
+    "AnnouncementBar": {
+      "displayName": "Alert",
+      "description": "Message bar."
+    },
+    "NewsletterSignup": {
+      "displayName": "Signup",
+      "description": "Signup form."
+    },
+    "ComparisonTable": {
+      "displayName": "Comparison",
+      "description": "Table."
+    },
+    "Gallery": {
+      "displayName": "Images",
+      "description": "Image grid."
+    },
+    "Steps": {
+      "displayName": "Process",
+      "description": "Numbered items."
+    }
+  }
+}

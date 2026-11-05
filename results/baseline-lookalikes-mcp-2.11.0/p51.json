@@ -1,0 +1,40 @@
+{
+  "id": "p51",
+  "kind": "page",
+  "seconds": 12.8,
+  "is_error": false,
+  "cost_usd": 0.0577774,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opening headline with a screenshot beside it \u2014 a hero with text on one side and a graphic (the product screenshot) on the other."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #1 \u2014 image-and-text split section explaining the first benefit with a picture beside the text."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #2 \u2014 second image-and-text split section (alternate image position for visual rhythm)."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit #3 \u2014 third image-and-text split section."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Six capabilities with icons \u2014 a grid of items (linked FeatureItem content, which supports icons) set to a 3-column layout to hold six entries."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Short 'Start your trial' call to action \u2014 a banner with heading and button(s)."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "FAQs section at the end of the page."
+      }
+    ]
+  }
+}

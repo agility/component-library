@@ -1,0 +1,16 @@
+{
+  "id": "p12",
+  "kind": "page",
+  "seconds": 14.8,
+  "is_error": false,
+  "cost_usd": 0.0239517,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Display customer logos with personalization to show industry-relevant logos when visitor's industry is known"
+      }
+    ]
+  }
+}

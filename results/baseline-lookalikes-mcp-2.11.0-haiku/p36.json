@@ -1,0 +1,24 @@
+{
+  "id": "p36",
+  "kind": "page",
+  "seconds": 14.5,
+  "is_error": false,
+  "cost_usd": 0.023824100000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title over a full-width photo"
+      },
+      {
+        "referenceName": "Header",
+        "purpose": "Heading 'Upcoming events'"
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Free-text list of dates"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p23",
+  "kind": "page",
+  "seconds": 10.2,
+  "is_error": false,
+  "cost_usd": 0.057955000000000007,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "TeamListing",
+        "purpose": "Covers the entire request: renders the 'Meet the Team' section heading and a listing of team members, each pulled from the linked Author content model which provides photo (HeadShot), Name, and Title for every person."
+      }
+    ]
+  }
+}

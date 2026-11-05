@@ -1,0 +1,12 @@
+{
+  "id": "c09",
+  "kind": "content",
+  "seconds": 11.5,
+  "is_error": false,
+  "cost_usd": 0.0234438,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "LogoItem",
+    "reason": "LogoItem is the content model designed specifically for logos in the Logo Strip component. It contains a Title field (for the organization name) and a Logo field (for the image asset, with SVG preferred). This is the appropriate model for adding new partner logos to the logo row."
+  }
+}

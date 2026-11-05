@@ -1,0 +1,26 @@
+{
+  "referenceName": "GalleryImage",
+  "displayName": "Gallery Image",
+  "kind": "content",
+  "listType": "list",
+  "description": "Used in the Gallery component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Image",
+      "label": "Image",
+      "type": "ImageAttachment",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Caption",
+      "label": "Caption",
+      "type": "Text",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

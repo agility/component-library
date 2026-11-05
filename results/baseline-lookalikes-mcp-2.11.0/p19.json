@@ -1,0 +1,16 @@
+{
+  "id": "p19",
+  "kind": "page",
+  "seconds": 11.0,
+  "is_error": false,
+  "cost_usd": 0.048297200000000005,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Placed at the end of the pricing page to list the common billing questions and their answers. Its Heading/Subheading fields can introduce the section (e.g. 'Billing Questions'), and its nested 'faqs' grid (FAQItem: Question + Answer) holds each billing Q&A pair."
+      }
+    ]
+  }
+}

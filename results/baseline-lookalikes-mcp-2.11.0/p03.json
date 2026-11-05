@@ -1,0 +1,16 @@
+{
+  "id": "p03",
+  "kind": "page",
+  "seconds": 11.3,
+  "is_error": false,
+  "cost_usd": 0.0507986,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner at the top of the homepage. Renders one consistent hero layout (heading, description, CTAs, background) but swaps the displayed content based on audience \u2014 using its nested 'Personalized Hero Items' list, you'd add one item targeted at healthcare visitors and one targeted at retail visitors, so each segment sees a different message/offer in the same banner layout."
+      }
+    ]
+  }
+}

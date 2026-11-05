@@ -1,0 +1,20 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 11.5,
+  "is_error": false,
+  "cost_usd": 0.0181445,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays the pricing plans at the top"
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Detailed grid comparing every feature across all plans below"
+      }
+    ]
+  }
+}

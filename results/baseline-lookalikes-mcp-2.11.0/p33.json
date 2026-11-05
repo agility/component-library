@@ -1,0 +1,20 @@
+{
+  "id": "p33",
+  "kind": "page",
+  "seconds": 6.7,
+  "is_error": false,
+  "cost_usd": 0.036486,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Top section heading/title for the legal terms section (e.g., 'Terms & Conditions'), with optional short intro description."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Free-form body content holding the long legal text itself \u2014 sub-headings, paragraphs, and bulleted/numbered lists \u2014 authored directly as rich text/HTML."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 9.4,
+  "is_error": false,
+  "cost_usd": 0.052652599999999994,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Covers the entire section in one module: Heading/Subheading for the 'What our customers say' title, the Testimonials linked-content field to select the six customer quotes, and the built-in ctaText/ctaLink fields for the 'read more stories' link."
+      }
+    ]
+  }
+}

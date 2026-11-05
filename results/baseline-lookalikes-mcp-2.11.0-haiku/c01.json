@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 14.8,
+  "is_error": false,
+  "cost_usd": 0.07269959999999999,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model is purpose-built for blog articles and includes dedicated fields for both Author (LinkedContentDropdown linking to the Author model) and Category (LinkedContentDropdown linking to the Category model). It also includes all necessary fields for a complete article: Heading, Slug, PostDate, Tags, HTML Content, and Image attachment."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p53",
+  "kind": "page",
+  "seconds": 10.0,
+  "is_error": false,
+  "cost_usd": 0.0200983,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PostListing",
+        "purpose": "Displays a paged list of blog posts"
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Provides an email subscription form for blog subscribers"
+      }
+    ]
+  }
+}

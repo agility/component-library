@@ -1,0 +1,20 @@
+{
+  "id": "p22",
+  "kind": "page",
+  "seconds": 21.7,
+  "is_error": false,
+  "cost_usd": 0.064847,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PostDetails",
+        "purpose": "Core of the page \u2014 dynamically renders the full single blog article (title, author, image, body) when bound to an item in the Posts dynamic page list. This is the component Agility built specifically for a blog post details template, so it anchors the top/main area of the page."
+      },
+      {
+        "referenceName": "NewsletterSignup",
+        "purpose": "Placed below the article body as a marketer-oriented engagement component, giving readers who just finished the post a clear next step to subscribe \u2014 a standard pattern for blog article templates."
+      }
+    ]
+  }
+}

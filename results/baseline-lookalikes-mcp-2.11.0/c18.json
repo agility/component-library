@@ -1,0 +1,12 @@
+{
+  "id": "c18",
+  "kind": "content",
+  "seconds": 22.2,
+  "is_error": false,
+  "cost_usd": 0.114946,
+  "num_turns": 12,
+  "answer": {
+    "referenceName": "StepItem",
+    "reason": "The \"How it works\" section is rendered by the \"Process\" component (referenceName: Steps), which displays a numbered list of items pulled from a nested linked content list. That linked content model is \"Step\" (referenceName: StepItem), described as \"Used in the Steps component.\" Adding a fourth stage means creating a new content item in the StepItem model/container and linking it into the Steps component's Variants/items list on the relevant page."
+  }
+}

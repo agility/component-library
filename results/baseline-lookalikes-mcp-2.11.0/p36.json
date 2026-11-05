@@ -1,0 +1,24 @@
+{
+  "id": "p36",
+  "kind": "page",
+  "seconds": 17.3,
+  "is_error": false,
+  "cost_usd": 0.0701334,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Covers the 'title over a full-width photo' requirement \u2014 its Heading field provides the page title, and setting Background Type to 'Background Image' with an uploaded image in BackgroundImage gives the full-width photo background. This sits at the top of the page."
+      },
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the 'Upcoming events' heading \u2014 this is the generic header/section-heading component (modelID 25, not the global site Header), whose Heading field would be set to 'Upcoming events', with the optional Description field available if any intro copy is needed."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Covers the 'free-text list of dates' \u2014 a free-form rich text area where the event dates can be entered as a simple list (bullets or lines of text) without needing a structured content model."
+      }
+    ]
+  }
+}

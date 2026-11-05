@@ -1,0 +1,20 @@
+{
+  "id": "p30",
+  "kind": "page",
+  "seconds": 6.1,
+  "is_error": false,
+  "cost_usd": 0.0355678,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading 'Insights' \u2014 the generic header component supports a standalone heading (with optional subheading/description left unused) at the top of the blog home page."
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "The paged list of posts \u2014 purpose-built component that shows a listing of blog posts with paging, placed below the heading."
+      }
+    ]
+  }
+}

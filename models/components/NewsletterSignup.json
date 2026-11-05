@@ -1,0 +1,57 @@
+{
+  "referenceName": "NewsletterSignup",
+  "displayName": "Newsletter Signup",
+  "kind": "component",
+  "description": "An email-only subscribe form: a heading, a line of text, an email box and a button, with consent text. For mailing lists, not enquiries.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "ButtonText",
+      "label": "Button Text",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "ListID",
+      "label": "Mailing List ID",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "ConsentText",
+      "label": "Consent Text",
+      "type": "LongText",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "SuccessMessage",
+      "label": "Success Message",
+      "type": "Text",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

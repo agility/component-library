@@ -37,7 +37,11 @@ have the same fields as their base, plus a list of variants. Use the base unless
 | Component | Use it for |
 |---|---|
 | `BentoSection` | A heading over a grid of cards (`BentoCard`), each with a picture: screenshots, graphics |
+| `FeatureGrid` | A heading over a grid of equal items (`FeatureItem`): icon, title, one sentence. Capabilities, benefits, integrations |
+| `MediaSplit` | Text beside an image, part-way down a page, repeated and alternating sides. Not the page opener (that's `Hero`) |
+| `Steps` | A numbered sequence (`StepItem`): how it works, what happens next |
 | `carousel` | A heading over slides (`carouselSlide`) shown one at a time |
+| `Gallery` | Images with captions (`GalleryImage`), all visible at once in a grid. `carousel` shows one at a time |
 
 ## Commercial
 
@@ -45,8 +49,12 @@ have the same fields as their base, plus a list of variants. Use the base unless
 |---|---|---|
 | `PricingCards` | Plans side by side as cards (`PricingTier`) | `PricingTable` |
 | `PricingTable` | A feature-by-plan comparison grid, from JSON | `PricingCards` |
+| `ComparisonTable` | Products, options or competitors compared feature by feature (`ComparisonRow`) | `PricingTable` compares *plans* |
 | `FrequentlyAskedQuestions` | Questions and answers (`FAQItem`) | |
-| `ContactUs` | A contact form with address, phone and email | |
+| `ContactUs` | A contact form with address, phone and email | `NewsletterSignup` |
+| `NewsletterSignup` | An email-only subscribe form for a mailing list | `ContactUs` is for enquiries |
+| `CTABanner` | A short call to action part-way down or at the end of a page: heading, a line, one or two buttons | The heroes open a page, once |
+| `AnnouncementBar` | A one-line, time-limited notice above the page content | `CTABanner` is a full section |
 
 ## Blog and people
 

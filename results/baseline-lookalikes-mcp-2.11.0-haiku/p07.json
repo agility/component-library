@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 20.4,
+  "is_error": false,
+  "cost_usd": 0.0317376,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Hero section with image on left and campaign copy on right, including eyebrow, heading, body, and CTA button"
+      }
+    ]
+  }
+}

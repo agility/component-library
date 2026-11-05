@@ -1,0 +1,12 @@
+{
+  "id": "c19",
+  "kind": "content",
+  "seconds": 13.4,
+  "is_error": false,
+  "cost_usd": 0.0225361,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "ComparisonRow",
+    "reason": "ComparisonRow is a Content List model designed specifically for comparison table rows. It contains fields for Feature, Values, and optional Notes\u2014the perfect structure for adding a 'Single sign-on' row to a competitor comparison table."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "referenceName": "ComparisonTable",
+  "displayName": "Comparison Table",
+  "kind": "component",
+  "description": "A table comparing products, options or competitors feature by feature. Not for plan prices.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Columns",
+      "label": "Column Names",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Rows",
+      "label": "Rows",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "ComparisonRow",
+        "RenderAs": "grid",
+        "LinkedContentNestedTypeID": "1",
+        "Sort": "itemOrder"
+      }
+    }
+  ]
+}

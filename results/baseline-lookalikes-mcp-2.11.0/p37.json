@@ -1,0 +1,24 @@
+{
+  "id": "p37",
+  "kind": "page",
+  "seconds": 11.4,
+  "is_error": false,
+  "cost_usd": 0.037737999999999994,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Hero section with text on one side and a picture/graphic on the other \u2014 covers the 'hero with a picture beside the text' requirement."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Displays a strip of logos \u2014 covers showcasing the partners' logos."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Contact form component configurable for form submission \u2014 covers the contact form for partnership enquiries."
+      }
+    ]
+  }
+}

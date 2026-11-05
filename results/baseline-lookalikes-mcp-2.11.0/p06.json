@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.0358362,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Top-of-page gradient banner with the heading 'Join our team' and a call-to-action button linking to open roles \u2014 directly fulfills the gradient banner + button requirement."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 14.7,
+  "is_error": false,
+  "cost_usd": 0.054452,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page intro/title introducing the comparison (e.g. 'See How We Compare')."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Core feature-by-feature comparison: Heading, Column Names for our product + the two competitors, and Rows (linked ComparisonRow items) for each feature."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Answers follow-up questions/objections prompted by the comparison."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call-to-action to convert the visitor after reviewing the comparison."
+      }
+    ]
+  }
+}

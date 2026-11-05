@@ -1,0 +1,20 @@
+{
+  "id": "p09",
+  "kind": "page",
+  "seconds": 14.6,
+  "is_error": false,
+  "cost_usd": 0.056724,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Existing hero at the top of the homepage \u2014 not part of this request, shown for context on placement ('under the hero')."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Placed directly under the hero to display one big customer quote \u2014 this component links to a single TestimonialItem, which matches 'one big customer quote' (as opposed to the 'Testimonials' component, which shows a list of many quotes)."
+      }
+    ]
+  }
+}

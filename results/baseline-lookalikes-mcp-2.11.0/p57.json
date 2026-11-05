@@ -1,0 +1,16 @@
+{
+  "id": "p57",
+  "kind": "page",
+  "seconds": 8.5,
+  "is_error": false,
+  "cost_usd": 0.0476354,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "The 'Image + Text' component covers the entire request: set ImagePosition to 'left' so the picture renders on the left, with Heading/Body (and optional CTA) text on the right explaining the security approach. This is the single component placed in the middle of the security page."
+      }
+    ]
+  }
+}

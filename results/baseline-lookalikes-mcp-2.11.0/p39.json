@@ -1,0 +1,20 @@
+{
+  "id": "p39",
+  "kind": "page",
+  "seconds": 21.5,
+  "is_error": false,
+  "cost_usd": 0.0670124,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain page title \u2014 use only the required 'Heading' field for the title and leave Subheading/Description empty, so it renders as a plain title at the top of the page."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The questions and answers \u2014 its nested 'faqs' grid (FAQItem) holds the list of Q&A pairs; leave its own optional Heading/Subheading blank since the Header component above already provides the page title."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p43",
+  "kind": "page",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.058643400000000005,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Covers the entire request: a 'Features' grid component configured with Columns = 3, and six linked 'FeatureItem' entries (Icon, Title, and a one-sentence Description each) to display the six capabilities as icon + title + sentence cards in a three-column layout."
+      }
+    ]
+  }
+}

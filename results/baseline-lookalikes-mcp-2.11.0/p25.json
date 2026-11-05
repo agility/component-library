@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 30.4,
+  "is_error": false,
+  "cost_usd": 0.1235594,
+  "num_turns": 13,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner at the top of the page, with Heading/Description and two button fields (cta1, cta2) for the two required CTAs."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos section \u2014 a nested grid of LogoItem entries to showcase client/partner logos."
+      },
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Features grid with screenshots \u2014 configurable 2/3/4 column grid of FeatureItem entries, each with its own image attachment to show a screenshot/graphic per feature."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats \u2014 heading/description above a row of stat tiles (value + label) via the nested Stats grid."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One customer quote \u2014 links to a single TestimonialItem to display one customer testimonial."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form \u2014 heading/description plus configured contact form fields and submit handling."
+      }
+    ]
+  }
+}

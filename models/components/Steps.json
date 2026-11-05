@@ -1,0 +1,28 @@
+{
+  "referenceName": "Steps",
+  "displayName": "Steps",
+  "kind": "component",
+  "description": "A numbered sequence explaining how something works or what happens next: step 1, step 2, step 3.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "StepItems",
+      "label": "Steps",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "StepItem",
+        "RenderAs": "grid",
+        "LinkedContentNestedTypeID": "1",
+        "Sort": "itemOrder"
+      }
+    }
+  ]
+}

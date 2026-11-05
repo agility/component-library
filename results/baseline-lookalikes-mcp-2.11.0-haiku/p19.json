@@ -1,0 +1,20 @@
+{
+  "id": "p19",
+  "kind": "page",
+  "seconds": 11.7,
+  "is_error": false,
+  "cost_usd": 0.022085099999999996,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Introduces the FAQ section with a heading like 'Frequently Asked Questions' or 'Billing FAQs'"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Displays the actual Q&A content about billing, including common questions people ask and their corresponding answers"
+      }
+    ]
+  }
+}

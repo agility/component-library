@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 15.0,
+  "is_error": false,
+  "cost_usd": 0.023879400000000002,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Displays the heading 'Ready to try it?' and renders the 'Start free trial' button as a call-to-action"
+      }
+    ]
+  }
+}

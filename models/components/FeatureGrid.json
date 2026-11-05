@@ -1,0 +1,46 @@
+{
+  "referenceName": "FeatureGrid",
+  "displayName": "Feature Grid",
+  "kind": "component",
+  "description": "A heading over a grid of equal-sized items, each with an icon, a title, a short description and an optional link. For listing capabilities or benefits.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Heading",
+      "label": "Heading",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Subheading",
+      "label": "Subheading",
+      "type": "Text",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Columns",
+      "label": "Columns",
+      "type": "DropdownList",
+      "settings": {
+        "Required": "True",
+        "Choices": "2|2\n3|3\n4|4",
+        "DefaultValue": "3"
+      }
+    },
+    {
+      "name": "Items",
+      "label": "Items",
+      "type": "Content",
+      "settings": {
+        "ContentDefinition": "FeatureItem",
+        "RenderAs": "grid",
+        "LinkedContentNestedTypeID": "1",
+        "Sort": "itemOrder"
+      }
+    }
+  ]
+}

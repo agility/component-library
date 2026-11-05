@@ -1,0 +1,42 @@
+{
+  "referenceName": "FeatureItem",
+  "displayName": "Feature Item",
+  "kind": "content",
+  "listType": "list",
+  "description": "Used in the Feature Grid component.",
+  "agentGuidance": null,
+  "fields": [
+    {
+      "name": "Title",
+      "label": "Title",
+      "type": "Text",
+      "settings": {
+        "Required": "True"
+      }
+    },
+    {
+      "name": "Description",
+      "label": "Description",
+      "type": "LongText",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Icon",
+      "label": "Icon",
+      "type": "ImageAttachment",
+      "settings": {
+        "Required": "False"
+      }
+    },
+    {
+      "name": "Link",
+      "label": "Link",
+      "type": "Link",
+      "settings": {
+        "Required": "False"
+      }
+    }
+  ]
+}

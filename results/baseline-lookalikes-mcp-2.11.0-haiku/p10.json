@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 16.8,
+  "is_error": false,
+  "cost_usd": 0.0254373,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Displays the section title, six customer quotes/testimonials, and provides a link to read more stories"
+      }
+    ]
+  }
+}

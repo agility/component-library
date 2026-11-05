@@ -1,0 +1,12 @@
+{
+  "id": "c02",
+  "kind": "content",
+  "seconds": 6.2,
+  "is_error": false,
+  "cost_usd": 0.035049,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Author",
+    "reason": "The instance has a purpose-built \"Author\" content model (referenceName: Author, container: Authors) whose description explicitly states it \"Stores author information including name, title, and headshot photo. Used as linked content in Posts to associate articles with their authors.\" This exactly matches the fields needed for a new blog writer (name, title, headshot)."
+  }
+}

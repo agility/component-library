@@ -1,0 +1,16 @@
+{
+  "id": "p08",
+  "kind": "page",
+  "seconds": 43.6,
+  "is_error": false,
+  "cost_usd": 0.1530994,
+  "num_turns": 13,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Placed as the single top-of-page component to serve as the opening banner; its nested 'Personalized Hero Items' (PersonalizedHeroItem, linked to the Audience personalization list) let you define distinct Heading/Description/CTA text variants \u2014 one targeted to a Europe audience entry and one to a North America audience entry \u2014 so the banner's text automatically changes based on visitor segment, while visitors who don't match either show the component's default Heading/Description content."
+      }
+    ]
+  }
+}

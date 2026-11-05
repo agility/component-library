@@ -1,0 +1,16 @@
+{
+  "id": "p15",
+  "kind": "page",
+  "seconds": 11.9,
+  "is_error": false,
+  "cost_usd": 0.0600766,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "FeatureGrid",
+        "purpose": "Provides the section heading (Heading/Subheading fields) and renders the grid of cards (Columns setting) by pulling in linked FeatureItem content items, each of which supplies an image (used as the screenshot) and a short Description \u2014 covering the entire 'heading + grid of cards with screenshot and description' request in one component."
+      }
+    ]
+  }
+}
