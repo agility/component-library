@@ -5,7 +5,9 @@ The implementations of these components live in Agility's
 registered by its `referenceName` in
 [`src/components/agility-components/index.ts`](https://github.com/agility/nextjs-demo-site-2026/blob/83a9d8a/src/components/agility-components/index.ts).
 
-Self-contained copies, installable into any Next.js site, will move into this folder.
+Self-contained copies, installable into any Next.js site, will move into this folder. They follow
+[PERFORMANCE.md](PERFORMANCE.md), so they will differ from the demo site where the demo site doesn't (for
+example, which components are Client Components and how images are prioritised).
 
 | Component | Source in the demo site (`src/components/agility-components/`) |
 |---|---|
