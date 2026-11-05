@@ -33,8 +33,9 @@ settings off, and only the Agility read tools allowed. The signed-in user's own 
 ## The instance
 
 A copy of the instance the models in [`../models/`](../models/) came from, so its pages and content show how
-the components are really used. On top of that: one component disabled, and availability rules on two
-components, so the evals also catch an agent choosing something the page won't accept.
+the components are really used. On top of that, `LegacyHero`: Hero's fields and description, disabled, as
+legacy duplicates usually are. Choosing it, or the two disabled legacy form builders, is a rule violation.
+Availability rules (where a component may go) come later: this instance has one page model and one zone.
 
 ## Scores
 
