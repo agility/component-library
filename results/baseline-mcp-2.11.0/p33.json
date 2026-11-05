@@ -1,0 +1,16 @@
+{
+  "id": "p33",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.034212400000000004,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "A free-form rich text/HTML editor component that can hold the entire long legal terms section \u2014 headings (H2/H3), multiple paragraphs of legal copy, and bulleted/numbered lists \u2014 all authored freely in one WYSIWYG block, which is exactly what this request calls for."
+      }
+    ]
+  }
+}

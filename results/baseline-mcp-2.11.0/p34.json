@@ -1,0 +1,20 @@
+{
+  "id": "p34",
+  "kind": "page",
+  "seconds": 11.8,
+  "is_error": false,
+  "cost_usd": 0.060319,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Provides the page's heading (with optional subheading/description) introducing the product tour."
+      },
+      {
+        "referenceName": "carousel",
+        "purpose": "Displays the product screenshots one after another in a slider (carousel), fulfilling the 'screenshots shown one after another in a slider' part of the request."
+      }
+    ]
+  }
+}

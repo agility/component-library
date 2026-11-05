@@ -1,0 +1,24 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 16.1,
+  "is_error": false,
+  "cost_usd": 0.0751084,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page heading/intro at the top (e.g. 'Pricing' heading with a short subheading) to introduce the pricing page before the plans."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The core of the request \u2014 renders the three plans side by side as cards (via its nested PricingTier items), each with a Name, Price (PriceMonthly/Currency/CurrencySymbol), Highlights, and a CTA 'sign-up' button link."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Optional follow-up section below the cards to address common pricing/billing questions and reduce sign-up friction (not explicitly requested, but commonly paired with pricing cards \u2014 can be omitted if the marketer wants a minimal page)."
+      }
+    ]
+  }
+}

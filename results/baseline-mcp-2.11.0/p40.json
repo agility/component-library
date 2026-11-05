@@ -1,0 +1,16 @@
+{
+  "id": "p40",
+  "kind": "page",
+  "seconds": 8.5,
+  "is_error": false,
+  "cost_usd": 0.04696360000000001,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Provides the message-submission form itself (heading, description, and a built-in contact form with configurable submit URL, success/error/loading messages, plus office address/phone/email) \u2014 this single component fully covers the request to let visitors send us a message on the homepage."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p32",
+  "kind": "page",
+  "seconds": 24.7,
+  "is_error": false,
+  "cost_usd": 0.09123099999999999,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "Opening banner \u2014 a hero component with a built-in 'Personalization' tab (nested PersonalizedHeroItem list keyed by audienceText), so its heading/description/CTAs adapt to the visitor's detected industry/audience."
+      },
+      {
+        "referenceName": "PersonalizedLogoStrip",
+        "purpose": "Logo row \u2014 pulls from the shared Customers list and shows personalized logos per audience (via the CustomerProfile model's Audience field), so the logos shown adapt to the visitor's industry."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Feature cards section that follows \u2014 displays a heading/subheading plus a grid of cards (BentoCard: eyebrow, title, description, graphic), used here as the page's feature cards."
+      }
+    ]
+  }
+}

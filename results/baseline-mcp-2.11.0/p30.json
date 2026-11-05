@@ -1,0 +1,20 @@
+{
+  "id": "p30",
+  "kind": "page",
+  "seconds": 7.5,
+  "is_error": false,
+  "cost_usd": 0.031841400000000006,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading 'Insights' \u2014 a generic header component used to display the heading text at the top of the blog home page."
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "The paged list of blog posts \u2014 displays a listing of blog posts with paging support."
+      }
+    ]
+  }
+}

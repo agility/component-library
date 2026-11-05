@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 9.2,
+  "is_error": false,
+  "cost_usd": 0.04626280000000001,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "Renders the detailed feature-comparison grid below the plan cards \u2014 its FeaturesJSON field drives a row-by-row matrix of every feature across all plans."
+      }
+    ]
+  }
+}

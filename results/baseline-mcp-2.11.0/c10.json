@@ -1,0 +1,12 @@
+{
+  "id": "c10",
+  "kind": "content",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.0459564,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "CustomerProfile",
+    "reason": "The instance already has a \"Customer Profile\" content model (referenceName: CustomerProfile, model ID 56) in the \"Personalization\" category, backed by the \"Customers\" container. It's designed for exactly this use case \u2014 company profiles used to personalize content (e.g., logos) \u2014 fitting alongside related personalization models like Audience and Region. No new model is needed; the new company profile content item should be created in this model's container."
+  }
+}

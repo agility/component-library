@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 20.9,
+  "is_error": false,
+  "cost_usd": 0.1012504,
+  "num_turns": 10,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "The instance has a \"Carousel\" component (referenceName: carousel) that renders a slider, with its Slides field being a nested linked-content grid pointing to the \"Carousel Slide\" content model (referenceName: carouselSlide). This model has the fields needed for a product screenshot slide \u2014 heading, description, a Background Image attachment (for the screenshot), and an optional CTA link. There is no separate \"screenshot\" or \"slider\" specific model; sliders on this instance are built from Carousel + carouselSlide items (seen in use on pages like contactus and testpage via nested containers such as contactus_Carousel_CarouselSlide). Therefore, a new slide for the product screenshot slider should be created as a new carouselSlide content item nested under the relevant page's Carousel component."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "p27",
+  "kind": "page",
+  "seconds": 10.9,
+  "is_error": false,
+  "cost_usd": 0.0516896,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain heading with a sentence \u2014 a simple heading/subheading plus a short description line for the top of the About page."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "\"Our story\" \u2014 free-form rich text content that can include images embedded alongside the narrative text."
+      },
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "\"Company in numbers\" \u2014 section with heading/description, a background image field, and a linked grid of stat items (name + value)."
+      },
+      {
+        "referenceName": "TeamListing",
+        "purpose": "The team \u2014 displays a listing of team members."
+      }
+    ]
+  }
+}

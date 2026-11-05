@@ -1,0 +1,12 @@
+{
+  "id": "c05",
+  "kind": "content",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.0448448,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "FAQItem",
+    "reason": "The instance has a content model \"FAQ Item\" (referenceName: FAQItem) with fields Question (Text) and Answer (LongText) \u2014 exactly matching the need to add a question/answer pair for pricing FAQs. No other model is purpose-built for FAQ entries, so new pricing FAQ content should be created using this model (likely in a container/nested list tied to the pricing page)."
+  }
+}

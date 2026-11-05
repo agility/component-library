@@ -1,0 +1,20 @@
+{
+  "id": "p39",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.050177,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Provides the plain page title (use only the Heading field; leave Subheading and Description blank)"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Provides the questions and answers (leave its own Subheading/Heading blank, populate the nested FAQItem list with Question/Answer pairs)"
+      }
+    ]
+  }
+}

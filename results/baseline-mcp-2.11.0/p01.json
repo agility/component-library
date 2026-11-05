@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 8.4,
+  "is_error": false,
+  "cost_usd": 0.045484000000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Covers the entire opening banner request: full-width hero with a Heading field for the headline, two Link fields (cta1, cta2) for the two buttons, and a Background Image (via backgroundType = 'background-image') for the photo behind the content."
+      }
+    ]
+  }
+}

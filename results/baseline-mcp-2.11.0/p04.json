@@ -1,0 +1,16 @@
+{
+  "id": "p04",
+  "kind": "page",
+  "seconds": 14.1,
+  "is_error": false,
+  "cost_usd": 0.0507828,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Top-of-page hero placed first on the Pricing page. Its Control tab (Heading, Description, Image, CallToAction, ImagePosition) holds Version A of the headline/image, and its Variants tab (nested ABTestHeroItem grid) holds Version B \u2014 the alternate headline/image to test. The ExperimentKey field ties both versions together into a single A/B experiment, directly fulfilling the request to test two versions of the headline and image at the top of the pricing page."
+      }
+    ]
+  }
+}

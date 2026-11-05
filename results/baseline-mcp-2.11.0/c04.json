@@ -1,0 +1,12 @@
+{
+  "id": "c04",
+  "kind": "content",
+  "seconds": 6.1,
+  "is_error": false,
+  "cost_usd": 0.0333192,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Tag",
+    "reason": "The instance has a dedicated \"Tag\" content model (referenceName: Tag), exposed via the shared \"Tags\" container, which is the linked-content source Posts use for labeling/tagging. Adding a new tag item 'AI' belongs in this Tag model/container rather than modifying the Post model itself."
+  }
+}

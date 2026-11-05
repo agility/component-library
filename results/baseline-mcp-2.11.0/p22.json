@@ -1,0 +1,16 @@
+{
+  "id": "p22",
+  "kind": "page",
+  "seconds": 12.4,
+  "is_error": false,
+  "cost_usd": 0.058358400000000005,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PostDetails",
+        "purpose": "Core component purpose-built for the blog post details page \u2014 renders the single blog article's content (title, author, body, etc.), pulled dynamically from the Post content item bound to this page. This fully satisfies the request to show a single blog article, so no additional components are needed in the zone."
+      }
+    ]
+  }
+}

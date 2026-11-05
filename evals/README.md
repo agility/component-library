@@ -40,4 +40,11 @@ components, so the evals also catch an agent choosing something the page won't a
 
 | Run | Date | MCP | Guidance | Right | Score | Violations |
 |---|---|---|---|---|---|---|
-| (baseline pending) | | 2.11.0 | none | | | |
+| `baseline-mcp-2.11.0` | 2026-11-05 | 2.11.0 | none | 82/84 (97.6%) | 163/168 | 1 |
+
+**Baseline notes.** The one violation is the core gap: asked for a registration form, the agent chose a
+*disabled* legacy form builder, because MCP 2.11.0 doesn't say a model is disabled. The other miss named the
+`Posts` container instead of the `Post` model. Otherwise the agent chose right, because this instance's models
+have clear names and good descriptions. **That's a ceiling:** on a catalog this clean there's little left for
+guidance to fix, so the next runs need a harder catalog (more look-alikes, thinner descriptions), which is
+what customers' catalogs look like.

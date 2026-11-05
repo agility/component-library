@@ -1,0 +1,20 @@
+{
+  "id": "p35",
+  "kind": "page",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.0455222,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Displays a single strong quote \u2014 pulled from the shared Testimonials content list \u2014 which would be set to the quote from your biggest customer. Placed directly above the pricing section as requested."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Renders the pricing cards that the testimonial should appear right before."
+      }
+    ]
+  }
+}

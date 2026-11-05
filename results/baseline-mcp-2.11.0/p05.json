@@ -1,0 +1,16 @@
+{
+  "id": "p05",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.056661,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Covers the entire page: the 'Heading' field holds the page title ('About us') and the 'Description' field holds the one sentence underneath. No image or button fields exist on this component, matching the request exactly."
+      }
+    ]
+  }
+}

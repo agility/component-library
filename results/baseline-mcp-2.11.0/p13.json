@@ -1,0 +1,16 @@
+{
+  "id": "p13",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.0492384,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Covers the entire request: provides the centred heading (and optional description) plus the single row of four key stat tiles \u2014 one nested Stat item each for Customers, Countries, Uptime, and Years."
+      }
+    ]
+  }
+}

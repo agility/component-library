@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 12.3,
+  "is_error": false,
+  "cost_usd": 0.06696540000000001,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: event title (Heading field) and a 'Register Now' CTA button (cta1 Link field), displayed over a color gradient background (backgroundType field, e.g. yellow-pink/green-blue-yellow)."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short free-text agenda section listing the webinar schedule/session breakdown."
+      },
+      {
+        "referenceName": "AgilityFormBuilder",
+        "purpose": "Registration form for sign-ups, with configurable submit button, success/error messaging, and webhook/email delivery of registrant data."
+      }
+    ]
+  }
+}

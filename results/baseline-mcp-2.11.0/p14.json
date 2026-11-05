@@ -1,0 +1,16 @@
+{
+  "id": "p14",
+  "kind": "page",
+  "seconds": 9.1,
+  "is_error": false,
+  "cost_usd": 0.0494784,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CompanyStats",
+        "purpose": "Single component covering the entire 'Our company in numbers' section: sectionTitle field for the section title, heading field for the heading, description (LongText) field for the paragraph, backgroundImage field for the background image behind the section, and the nested 'stats' grid (linked Stat items) for the statistics themselves."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p23",
+  "kind": "page",
+  "seconds": 13.3,
+  "is_error": false,
+  "cost_usd": 0.0630772,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "TeamListing",
+        "purpose": "Covers the entire 'Meet the team' section in one component: its built-in Heading field provides the section title (e.g. 'Meet the Team'), and it links to the Author content list where each team member's Photo (HeadShot), Name, and Title are stored and displayed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c07",
+  "kind": "content",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.0321484,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "PricingTier",
+    "reason": "The instance has a \"Pricing Tier\" content model (referenceName: PricingTier) which represents individual pricing plans (e.g., with name, price, and feature list). A new price plan called 'Scale' fits this model exactly, rather than any of the other models (which cover things like authors, posts, testimonials, navigation, etc.)."
+  }
+}

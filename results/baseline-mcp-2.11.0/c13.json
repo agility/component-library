@@ -1,0 +1,12 @@
+{
+  "id": "c13",
+  "kind": "content",
+  "seconds": 21.1,
+  "is_error": false,
+  "cost_usd": 0.0900888,
+  "num_turns": 12,
+  "answer": {
+    "referenceName": "TopLevelNav",
+    "reason": "The site's main navigation is driven by the Header content item (model: Header), whose \"Navigation\" field is a nested Linked Content grid pointing to the TopLevelNav content model (id 13, referenceName \"TopLevelNav\"). Each item in that list represents one top-level menu entry (a Link field, plus optional Sub-Nav links built from the NavLink model, and optional bottom links). Since 'Docs' is a new top-level item in the main nav menu, it should be created as a new TopLevelNav content item (linked into the Header's Navigation field), not a NavLink (which is for sub-nav items) or the Header/Footer models themselves (which are singleton containers, not per-link content)."
+  }
+}

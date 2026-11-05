@@ -50,6 +50,6 @@
 {"id": "c10", "kind": "content", "prompt": "Add a customer company profile that we can personalize logos with: name, industry and logo.", "slots": [{"slot": "model", "right": ["CustomerProfile"], "acceptable": ["LogoItem"], "wrong": ["Author"]}]}
 {"id": "c11", "kind": "content", "prompt": "Add a new card with a screenshot to the features grid.", "slots": [{"slot": "model", "right": ["BentoCard"], "acceptable": [], "wrong": ["carouselSlide"]}]}
 {"id": "c12", "kind": "content", "prompt": "Add a new slide to the product screenshot slider.", "slots": [{"slot": "model", "right": ["carouselSlide"], "acceptable": [], "wrong": ["BentoCard"]}]}
-{"id": "c13", "kind": "content", "prompt": "Add 'Docs' to the site's main navigation menu.", "slots": [{"slot": "model", "right": ["NavLink"], "acceptable": ["TopLevelNav"], "wrong": ["FooterLink"]}]}
+{"id": "c13", "kind": "content", "prompt": "Add 'Docs' as a new top-level item in the site's main navigation menu.", "slots": [{"slot": "model", "right": ["TopLevelNav"], "acceptable": ["NavLink"], "wrong": ["FooterLink"]}]}
 {"id": "c14", "kind": "content", "prompt": "Add a link to the privacy policy in the site footer.", "slots": [{"slot": "model", "right": ["FooterLink"], "acceptable": ["Footer"], "wrong": ["NavLink"]}]}
 {"id": "c15", "kind": "content", "prompt": "Add a new visitor audience 'Healthcare' that banners can be personalized for.", "slots": [{"slot": "model", "right": ["Audience"], "acceptable": [], "wrong": ["Region", "Category"]}]}

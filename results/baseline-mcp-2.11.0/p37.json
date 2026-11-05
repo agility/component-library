@@ -1,0 +1,24 @@
+{
+  "id": "p37",
+  "kind": "page",
+  "seconds": 8.8,
+  "is_error": false,
+  "cost_usd": 0.035498,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The hero section at the top of the page, with the picture beside the text as requested."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Displays the partners' logos in a strip beneath the hero."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The contact form at the bottom of the page for partnership enquiries."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c15",
+  "kind": "content",
+  "seconds": 7.6,
+  "is_error": false,
+  "cost_usd": 0.0386158,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Audience",
+    "reason": "The instance already has an \"Audience\" content model (reference name: Audience, backed by the \"Audiences\" container, modelID 42) explicitly described as \"Used for personalization by a custom demographic.\" Banner/hero components (e.g., PersonalizedHeroItem, PersonalizedBackgroundHero) link to this Audience model to drive personalization. Since 'Healthcare' is a new demographic/audience segment, it belongs as a new content item within this existing Audience model/container rather than requiring a new content model."
+  }
+}

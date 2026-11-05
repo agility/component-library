@@ -1,0 +1,24 @@
+{
+  "id": "p38",
+  "kind": "page",
+  "seconds": 23.3,
+  "is_error": false,
+  "cost_usd": 0.0910226,
+  "num_turns": 10,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Section heading for the Why Us page (heading, with optional subheading/description)"
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Key stats shown in a single row (value + label tiles)"
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Grid of feature cards with images (nested BentoCard items each with an image/Graphic)"
+      }
+    ]
+  }
+}

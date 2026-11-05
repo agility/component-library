@@ -1,0 +1,24 @@
+{
+  "id": "p31",
+  "kind": "page",
+  "seconds": 13.0,
+  "is_error": false,
+  "cost_usd": 0.0587448,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ABTestHero",
+        "purpose": "Top-of-page hero built specifically for A/B testing \u2014 its 'Control' heading plus nested 'Variants' grid let marketing configure and test two different headlines (with matching description/CTA/image) for the paid ad traffic, tied to an Experiment Key."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Displays a single selected testimonial (via its linked-content dropdown to one TestimonialItem) to build trust/social proof right after the headline \u2014 matches the request for 'a single testimonial' rather than the multi-item 'Testimonials' list component."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Closing contact/lead-capture form (heading, description, submit URL, success/error/loading messages) for visitors converting from the ad \u2014 fulfills the 'contact form' requirement at the bottom of the page."
+      }
+    ]
+  }
+}

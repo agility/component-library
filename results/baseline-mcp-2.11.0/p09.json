@@ -1,0 +1,16 @@
+{
+  "id": "p09",
+  "kind": "page",
+  "seconds": 16.2,
+  "is_error": false,
+  "cost_usd": 0.057723,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonial",
+        "purpose": "Displays a single, large customer quote (pulled from the shared Testimonials content list) \u2014 placed directly beneath the existing hero (PersonalizedBackgroundHero/BackgroundHero) on the homepage. This is the only component needed for the request, since it's built specifically to feature one quote prominently, as opposed to 'Testimonials' which renders a whole list/carousel of multiple quotes."
+      }
+    ]
+  }
+}

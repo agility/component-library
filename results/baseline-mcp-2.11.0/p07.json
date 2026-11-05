@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 8.4,
+  "is_error": false,
+  "cost_usd": 0.043940400000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opens the campaign page with the hero section \u2014 heading, description, and call-to-action copy paired with an image, using the ImagePosition field set to 'left' so the image appears on the left side of the copy as requested."
+      }
+    ]
+  }
+}

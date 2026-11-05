@@ -1,0 +1,16 @@
+{
+  "id": "p16",
+  "kind": "page",
+  "seconds": 8.9,
+  "is_error": false,
+  "cost_usd": 0.0432134,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "carousel",
+        "purpose": "Displays the five product screenshots one at a time as slides, with built-in prev/next arrow navigation to move between them."
+      }
+    ]
+  }
+}

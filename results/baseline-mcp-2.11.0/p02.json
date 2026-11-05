@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 8.6,
+  "is_error": false,
+  "cost_usd": 0.0440006,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Covers the entire opening section: Heading field for the headline, Description field for the short paragraph, CallToAction (Link) field for the single button \u2014 all configured on the left via ImagePosition='right' \u2014 and the Image field for the product screenshot on the right."
+      }
+    ]
+  }
+}

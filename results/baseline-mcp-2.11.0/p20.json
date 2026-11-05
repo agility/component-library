@@ -1,0 +1,20 @@
+{
+  "id": "p20",
+  "kind": "page",
+  "seconds": 8.8,
+  "is_error": false,
+  "cost_usd": 0.049699,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page header at the top with a heading/subheading (e.g. 'Contact Us') introducing the page."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Covers the form, office address, phone number, and email \u2014 it has dedicated fields for heading, description, submitURL, success/error/loading messages, address, phone, and email, so a single instance of this component fulfills the entire request."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c09",
+  "kind": "content",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.0367498,
+  "num_turns": 3,
+  "answer": {
+    "referenceName": "LogoItem",
+    "reason": "The homepage's logo row is rendered by the \"Logo Strip\" component (LogoStrip), whose logos are stored as nested content items in the container \"home_LogoStrip_LogoItem\". That container's underlying content model is \"Logo Item\" (reference name LogoItem), so a new partner logo should be added as a new content item of this model within that container."
+  }
+}

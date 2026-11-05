@@ -1,0 +1,20 @@
+{
+  "id": "p21",
+  "kind": "page",
+  "seconds": 7.1,
+  "is_error": false,
+  "cost_usd": 0.0376686,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page heading/intro for the blog index (e.g. 'Blog' title and optional description) at the top of the page"
+      },
+      {
+        "referenceName": "PostListing",
+        "purpose": "The paged list of all blog posts \u2014 directly matches the request ('Shows a listing of blog posts with paging')"
+      }
+    ]
+  }
+}

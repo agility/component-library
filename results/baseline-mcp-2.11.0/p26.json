@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 21.3,
+  "is_error": false,
+  "cost_usd": 0.0754152,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro (Heading + Description fields), with no image field available \u2014 matches 'a title and one-line intro with no image'."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Displays the pricing plans as individual cards via its nested PricingTiers grid \u2014 covers 'the plans as cards'."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "Renders the full feature comparison grid across plans (Title/Subtitle + FeaturesJSON) \u2014 covers 'the full comparison grid'."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Lists billing-related Q&A via its nested faqs grid \u2014 covers 'then billing FAQs'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 19.1,
+  "is_error": false,
+  "cost_usd": 0.1137116,
+  "num_turns": 9,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "The \"features grid\" on the site is rendered by the Bento Section component (\"Shows a subheading, heading, and a list of 'Bento' cards. A great way to showcase some screenshots or graphics.\"). Its grid items are stored as content items in the BentoCard content model (container home_BentoSection_BentoCard), which has Eyebrow, Title, Description, and an ImageAttachment field called \"Graphic\" \u2014 exactly suited for a card with a screenshot. A new card for the features grid should be created as a new BentoCard content item."
+  }
+}

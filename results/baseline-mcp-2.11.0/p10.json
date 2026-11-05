@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 13.0,
+  "is_error": false,
+  "cost_usd": 0.052979399999999996,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Covers the entire 'What our customers say' section in one component: its Heading/Subheading fields provide the section title, the Testimonials linked-content field (search list box) lets you select the six customer quotes from the TestimonialItem list, and its CTA Text + CTA Link fields provide the 'read more stories' link."
+      }
+    ]
+  }
+}

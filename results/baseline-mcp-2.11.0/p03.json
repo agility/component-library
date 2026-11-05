@@ -1,0 +1,16 @@
+{
+  "id": "p03",
+  "kind": "page",
+  "seconds": 11.7,
+  "is_error": false,
+  "cost_usd": 0.0477364,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PersonalizedBackgroundHero",
+        "purpose": "The homepage's opening banner. Its shared layout/background/content fields (Heading, Description, CTAs, background style) cover the 'same layout for both' requirement, while its Personalization tab's nested 'personalizedHeroItems' grid lets you add one item targeted to healthcare visitors and one targeted to retail visitors, each with their own heading/audience text \u2014 covering the 'different opening banner to healthcare vs. retail visitors' requirement in a single component."
+      }
+    ]
+  }
+}

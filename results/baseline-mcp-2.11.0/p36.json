@@ -1,0 +1,24 @@
+{
+  "id": "p36",
+  "kind": "page",
+  "seconds": 15.7,
+  "is_error": false,
+  "cost_usd": 0.066292,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Title over a full-width photo: set Background Type to 'Background Image', upload the photo to the Background Image field, and enter the page title in the Heading field (Description/CTAs can be left minimal)."
+      },
+      {
+        "referenceName": "Header",
+        "purpose": "The 'Upcoming events' heading \u2014 use the generic Header component (model ID 25, not the global site Header model ID 15, which shares the same reference name) and set its Heading field to 'Upcoming events'."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Free-text list of event dates \u2014 a free-form rich text area where the marketer can type/paste the list of dates as plain text or a simple bulleted list."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.5,
+  "is_error": false,
+  "cost_usd": 0.045181,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The gradient banner at the top of the page \u2014 set Background Type to a gradient option, Heading to 'Join our team', and CTA 1 as the button linking to open roles."
+      }
+    ]
+  }
+}

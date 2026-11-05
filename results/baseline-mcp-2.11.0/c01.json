@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 5.5,
+  "is_error": false,
+  "cost_usd": 0.0353938,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Posts",
+    "reason": "The instance has a \"Post\" content model (displayName \"Post\", description \"A blog post or article\") exposed via the \"Posts\" container, which also links to Author and Category content via its fields. This matches the request to add a new blog article with an author and a category, so the new content item should be created in the \"Posts\" container/model."
+  }
+}
