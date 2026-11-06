@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "agility",
+  "homepage": "https://github.com/agility/component-library",
+  "items": [
+    {
+      "name": "agility-lib",
+      "type": "registry:lib",
+      "title": "Agility CMS data layer",
+      "description": "Content Fetch client, a cached getContentItem (Next.js Cache Components) and the Web Studio attribute helpers every Agility component uses.",
+      "dependencies": ["@agility/content-fetch", "@agility/nextjs", "server-only"],
+      "files": [
+        { "path": "registry/agility/lib/agility-sdk.ts", "type": "registry:lib", "target": "@lib/agility/agility-sdk.ts" },
+        { "path": "registry/agility/lib/get-content-item.ts", "type": "registry:lib", "target": "@lib/agility/get-content-item.ts" },
+        { "path": "registry/agility/lib/web-studio.ts", "type": "registry:lib", "target": "@lib/agility/web-studio.ts" }
+      ],
+      "envVars": {
+        "AGILITY_GUID": "",
+        "AGILITY_API_FETCH_KEY": "",
+        "AGILITY_API_PREVIEW_KEY": ""
+      },
+      "docs": "Set AGILITY_GUID and both API keys in .env.local (Settings > API Keys in the Agility Content Manager). getContentItem uses \"use cache\": set `cacheComponents: true` in next.config."
+    },
+    {
+      "name": "agility-pic",
+      "type": "registry:component",
+      "title": "AgilityPic",
+      "description": "A responsive <picture> for Agility images: explicit width and height, 1x/2x sources capped at the asset's width, SVGs untouched, and priority loading for the LCP image.",
+      "dependencies": ["@agility/nextjs"],
+      "files": [
+        { "path": "registry/agility/components/agility-pic.tsx", "type": "registry:component", "target": "@components/agility/agility-pic.tsx" }
+      ]
+    },
+    {
+      "name": "hero",
+      "type": "registry:block",
+      "title": "Hero",
+      "description": "Opens a page: a headline, a short paragraph and one button, with an image beside the text (left or right).",
+      "categories": ["page-openers"],
+      "registryDependencies": [
+        "button",
+        "agility/component-library/agility-lib",
+        "agility/component-library/agility-pic"
+      ],
+      "files": [
+        { "path": "registry/agility/blocks/hero/hero-block.tsx", "type": "registry:component", "target": "@components/agility/hero/hero-block.tsx" },
+        { "path": "registry/agility/blocks/hero/hero.tsx", "type": "registry:component", "target": "@components/agility/hero/hero.tsx" },
+        { "path": "models/components/Hero.json", "type": "registry:file", "target": "~/agility/models/components/Hero.json" }
+      ],
+      "meta": { "agilityModel": "Hero", "agilityModelKind": "component" },
+      "docs": "Register Hero in your Agility component index under the reference name \"Hero\". The model definition is in agility/models/components/Hero.json; create it in your instance if it isn't there yet."
+    }
+  ]
+}
