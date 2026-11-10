@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 6.6,
+  "is_error": false,
+  "cost_usd": 0.1665614,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The whole request: headline (Heading), short paragraph (Description), one button (CallToAction) on the left, and the product screenshot (Image) on the right, with ImagePosition set to 'right'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.0038334000000000003,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model (ID 11, container \"Posts\") is the instance's blog article model, described as \"A blog post or article.\" It has the fields this request needs: a Category linked-content dropdown (to the Category model) and an Author linked-content dropdown (to the Author model). It also has Heading, Slug, PostDate, Tags, Content, and Image. Author and Category are separate content models that the Post links to, so they are not stored inside it."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 6.4,
+  "is_error": false,
+  "cost_usd": 0.0506114,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The short mid-page section with the 'Ready to try it?' heading and a 'Start free trial' button, placed halfway down the product page's body zone."
+      }
+    ]
+  }
+}

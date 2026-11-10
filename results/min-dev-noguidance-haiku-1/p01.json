@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 11.4,
+  "is_error": false,
+  "cost_usd": 0.00302564,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The opening full-width banner. Its Heading field is the headline, PrimaryCTA and SecondaryCTA are the two buttons, and its Background dropdown set to \"image\" with the BackgroundImage field provides the background photo."
+      }
+    ]
+  }
+}

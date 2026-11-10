@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 12.9,
+  "is_error": false,
+  "cost_usd": 0.005299760000000001,
+  "num_turns": 11,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner. It renders under the menu, has a heading, description, and two CTA links (cta1, cta2) for the two buttons."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos. It has a nested list of logo items and an optional CTA."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots. Its description calls it a good way to showcase screenshots, and its cards are nested with a heading and subheading. FeatureGrid was rejected because its FeatureItem model only has an icon, not a screenshot."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats. It has a heading, description, and a nested list of stats (value + label) that can hold three entries."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One customer quote. It is a single-testimonial dropdown linked to TestimonialItem. The plural Testimonials component shows a list, so it doesn't fit a single quote."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form. It has a heading, description, submit URL, success/error messages, and office contact details."
+      }
+    ]
+  }
+}

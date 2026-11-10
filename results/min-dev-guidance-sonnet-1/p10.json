@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 5.4,
+  "is_error": false,
+  "cost_usd": 0.0486258,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "The whole request: the 'What our customers say' heading, the six customer quotes (selected Testimonial Items), and the optional CTA link to read more stories."
+      }
+    ]
+  }
+}

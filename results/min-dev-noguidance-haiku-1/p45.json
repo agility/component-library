@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 9.4,
+  "is_error": false,
+  "cost_usd": 0.0039012400000000003,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Covers the entire request: the office closure notice at the very top of the homepage, its link to closure details, and auto-hiding after the closure date via its StartDate/EndDate fields. Placed in main-content-zone above the existing PersonalizedBackgroundHero."
+      }
+    ]
+  }
+}

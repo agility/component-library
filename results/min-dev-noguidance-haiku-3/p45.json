@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.00409499,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Covers the whole request: it is the instance's 'Alert' message bar (\"Message bar\"), so it goes at the very top of the homepage's only content zone (main-content-zone on the Main Template). Its Message field holds the office-closure notice, its Link field points to the closure details, and its EndDate field (Date, no time) should be set to the day after the closure so the notice disappears automatically. StartDate can stay blank or be set to today. Dismissible can stay off, since the request doesn't ask for it."
+      }
+    ]
+  }
+}

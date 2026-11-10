@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 11.2,
+  "is_error": false,
+  "cost_usd": 0.00468864,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed feature-by-plan comparison grid placed below the plans. Its Heading and Columns fields hold the section title and plan names, and its Rows (ComparisonRow items: Feature, Values, Note) cover every feature across all plans."
+      }
+    ]
+  }
+}

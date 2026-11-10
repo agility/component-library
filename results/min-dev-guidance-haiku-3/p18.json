@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 6.6,
+  "is_error": false,
+  "cost_usd": 0.0042743799999999995,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed grid below the plans: a heading with a table that compares every feature across all plans, with one Comparison Row item per feature (values for each plan column plus a note). It matches the 'rows as content items' feature-by-plan comparison. PricingTable was rejected because it needs a hand-built features JSON structure that I don't have, and the plans themselves are assumed to already be on the page as PricingCards."
+      }
+    ]
+  }
+}

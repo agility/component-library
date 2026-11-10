@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 10.6,
+  "is_error": false,
+  "cost_usd": 0.062195600000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opens the page with the event title and a register button over a color gradient."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Holds the short agenda as free-form text."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Provides the registration form, with a configurable submit URL and success, error and loading messages. It is the closest usable form component. FormBuilder and AgilityFormBuilder are hidden, and NewsletterSignup only collects an email. Its office address, phone and email details would need to be left blank."
+      }
+    ]
+  }
+}

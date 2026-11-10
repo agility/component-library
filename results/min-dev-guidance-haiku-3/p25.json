@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.0032246999999999996,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with heading, description and two CTA buttons (top of page, renders under the menu)."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Row of customer logos as social proof directly below the opener."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid showcasing product screenshots as Bento cards with eyebrow, title, description and graphic."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats shown as value and label tiles under a centered heading."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One featured customer quote (name, title, quote, image)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form at the bottom of the page with heading, description, submit messages and office details."
+      }
+    ]
+  }
+}

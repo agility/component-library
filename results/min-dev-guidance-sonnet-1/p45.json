@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 6.3,
+  "is_error": false,
+  "cost_usd": 0.0491865,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Placed first, at the very top of the homepage, as a one-line notice about next week's office closure. Its link field points to the closure details. Its end date is set to the closure date, so it disappears after that date."
+      }
+    ]
+  }
+}

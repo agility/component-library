@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 40.4,
+  "is_error": false,
+  "cost_usd": 0.00400205,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro at the top of the page, with no image or buttons."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans shown side by side as priced cards, each with a name, price, highlights and a button. Leave its own title and subtitle empty to avoid repeating the Header."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The full comparison grid, with every feature as a row and a column per plan, placed under the plan cards."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs at the bottom of the page. Matched by name since it has no agent guidance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.0484204,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening gradient banner with the heading 'Join our team' and a button (CTA) linking to the open roles."
+      }
+    ]
+  }
+}

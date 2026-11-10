@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 5.2,
+  "is_error": false,
+  "cost_usd": 0.0488526,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The entire 'How it works' section: a heading above three numbered steps (1. Sign up, 2. Connect your data, 3. Publish). Steps fits ordered process and how-it-works sequences, so it covers the whole request on its own."
+      }
+    ]
+  }
+}

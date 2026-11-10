@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.009364570000000001,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The top-of-page gradient banner. Its Heading is 'Join our team', and its CTA 1 link is the button that opens the roles. It offers gradient backgrounds (yellow-pink, green-blue-yellow, grayscale, 3-reds). CTABanner was not used because it only has brand, dark, or image backgrounds, with no gradient option."
+      }
+    ]
+  }
+}

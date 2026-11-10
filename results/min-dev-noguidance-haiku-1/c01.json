@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 33.3,
+  "is_error": false,
+  "cost_usd": 0.00323036,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model (description: \"A blog post or article\") is the right home for a blog article. It has the fields needed for this request: a linked Author dropdown (Author model, Authors container) and a linked Category dropdown (Category model, Categories container). It also has Heading, Slug, PostDate, Content, and Image fields. The Post content list is in the Blog category. I did not save anything."
+  }
+}

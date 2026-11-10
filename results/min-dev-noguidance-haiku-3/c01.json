@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 34.8,
+  "is_error": false,
+  "cost_usd": 0.009688060000000002,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "A spring release blog article is a blog post, and the \"Post\" model is described as \"A blog post or article.\" It is a Content Item model, and it already has the fields the request needs: a Category linked-content dropdown (to the Category model, via the Categories container) and an Author linked-content dropdown (to the Author model, via the Authors container). Author and Category are not separate models to create. The \"Author\" and \"Category\" models hold the people and categories you would pick from, and they are not where the article itself belongs."
+  }
+}

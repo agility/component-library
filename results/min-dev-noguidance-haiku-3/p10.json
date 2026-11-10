@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.00437368,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Covers the whole 'What our customers say' section: Subheading and Heading for the section title, the Testimonials search list for selecting the six quotes (TestimonialItem records), and CTA Text and CTA Link for the link to read more stories."
+      }
+    ]
+  }
+}

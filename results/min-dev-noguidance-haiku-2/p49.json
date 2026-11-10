@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 7.1,
+  "is_error": false,
+  "cost_usd": 0.0034309200000000005,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The 'How it works' section itself: a heading plus a numbered sequence of steps covering the three parts of the request (sign up, connect your data, publish). Each step is a StepItem with a Title and Description."
+      }
+    ]
+  }
+}

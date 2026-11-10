@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 8.9,
+  "is_error": false,
+  "cost_usd": 0.0030955699999999997,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Opening full-width banner for the spring sale. Covers the headline (Heading), the two buttons (PrimaryCTA and SecondaryCTA), and the background photo (Background set to 'image' with BackgroundImage). Description is optional and can be left empty so the banner is only a headline and two buttons."
+      }
+    ]
+  }
+}

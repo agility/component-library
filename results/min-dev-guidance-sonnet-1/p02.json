@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.0486375,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Covers the whole request: the page opener with a headline, a short paragraph and one button on one side, and a product screenshot image on the other. Put the text on the left and the screenshot on the right."
+      }
+    ]
+  }
+}

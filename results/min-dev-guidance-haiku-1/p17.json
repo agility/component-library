@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 4.7,
+  "is_error": false,
+  "cost_usd": 0.0029965499999999997,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Presents the three plans side by side as cards. Each card carries its plan name, monthly price, currency, highlights, and a sign-up CTA button. It also provides the page's title and subtitle above the cards."
+      }
+    ]
+  }
+}

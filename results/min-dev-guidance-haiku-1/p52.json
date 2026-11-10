@@ -1,0 +1,28 @@
+{
+  "id": "p52",
+  "kind": "page",
+  "seconds": 8.4,
+  "is_error": false,
+  "cost_usd": 0.00323251,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "One-line notice about the new release at the very top of the page. It is a thin site-wide message bar, and its agent guidance fits a time-boxed launch notice."
+      },
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with a heading, description and two buttons. It renders under the menu when placed at the top, and its agent guidance covers two CTAs over a gradient or background image."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Row of customer logos as social proof, placed directly after the opening banner."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Final 'Get started' call-to-action band with heading, description and buttons, placed at the bottom of the page."
+      }
+    ]
+  }
+}

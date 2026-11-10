@@ -1,0 +1,16 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 9.7,
+  "is_error": false,
+  "cost_usd": 0.004016130000000001,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The 'Get a quote' section with a form. Its heading field can read 'Get a quote' and its description can invite project enquiries. It supplies the form submission (submit URL, success, error and loading messages). Caveat: the model has no name, company or project-details fields, so the form's inputs are not set by this component. Confirm on the front end that it renders those three inputs."
+      }
+    ]
+  }
+}

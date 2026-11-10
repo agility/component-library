@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.035338299999999996,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Office closure notice at the very top of the homepage. Its Message field holds the closure text and its Link field points to the details. Its EndDate field can be set to the closure date so the notice stops showing after that date."
+      }
+    ]
+  }
+}

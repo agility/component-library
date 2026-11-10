@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 7.1,
+  "is_error": false,
+  "cost_usd": 0.0031110800000000004,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The full-width opening banner: a headline, two buttons, and a background photo. It is the page opener, and its guidance lists \"top\" placement and up to two CTAs over a background image."
+      }
+    ]
+  }
+}

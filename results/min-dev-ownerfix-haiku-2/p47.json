@@ -1,0 +1,20 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 30.5,
+  "is_error": false,
+  "cost_usd": 0.00316592,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The core of the request: a feature-by-feature comparison of our product against two competitors, with features as rows and a column for each product. Its guidance says it is for comparing us with competitors, so it is the only component on this instance that fits."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Optional closing call to action after the comparison, so readers have a next step (for example, a trial or demo). It is a bottom-placed component, which fits the end of the page."
+      }
+    ]
+  }
+}

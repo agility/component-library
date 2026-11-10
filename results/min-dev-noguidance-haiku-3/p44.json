@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.0036105,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "First benefit: heading, paragraph, and picture, with the picture on the right (ImagePosition: right)."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Second benefit: heading, paragraph, and picture, with the picture on the left (ImagePosition: left)."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Third benefit: heading, paragraph, and picture, with the picture on the right (ImagePosition: right)."
+      }
+    ]
+  }
+}

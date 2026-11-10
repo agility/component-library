@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.00322548,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opener: the event title and a register button over a color gradient. It is the page-opening hero, placed at top, and its agent guidance fits a gradient background with one or two CTAs."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda written as free text. It is a free-form rich text block, which matches the request for an agenda in free text rather than a structured list of steps or features."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form at the bottom of the page. It is the only visible form component on this instance. Caveat: its guidance is aimed at contact and enquiry pages, and the FormBuilder and AgilityFormBuilder components are set to not visible, so they may not be available to add. Check that ContactUs can collect webinar registration fields before relying on it."
+      }
+    ]
+  }
+}

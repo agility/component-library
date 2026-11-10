@@ -1,0 +1,20 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.00384726,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards: each Pricing Tier shows name, monthly price, highlights and a CTA button. Its own title and subtitle introduce the section, so no Header is needed above it."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The comparison against competitors, feature by feature, with each row as a content item. Agility's guidance says to use this for us versus alternatives, and to avoid PricingTable for that, since PricingTable only compares our own plans."
+      }
+    ]
+  }
+}

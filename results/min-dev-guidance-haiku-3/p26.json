@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.00399926,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro for the pricing page, with no image or buttons."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans shown as side-by-side cards, each with a price and a button."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full feature-by-plan comparison grid, built from editable comparison rows."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs at the bottom of the page. This model has no agent guidance on the instance, so its fields should be checked before filling it in."
+      }
+    ]
+  }
+}

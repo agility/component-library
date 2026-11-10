@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 8.2,
+  "is_error": false,
+  "cost_usd": 0.00508925,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed grid comparing every feature across all plans, placed below the plans. Its heading sits above the table, and each feature is a ComparisonRow item (feature name, a value per plan column, and a note). This fits the 'feature by feature' comparison. PricingCards and PricingTable were not chosen: the plans are already on the page, and PricingTable needs hand-written JSON."
+      }
+    ]
+  }
+}

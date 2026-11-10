@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 15.4,
+  "is_error": false,
+  "cost_usd": 0.1610341,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model (\"A blog post or article.\") is the right fit for a blog article. It is used by the Posts container, and its description says it links to Author and Category items. The author and category are existing Author and Category entries chosen on the post, not new content models."
+  }
+}

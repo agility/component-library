@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 6.1,
+  "is_error": false,
+  "cost_usd": 0.0039545,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The page opener: a heading, description, one call-to-action, and a hero image. Its ImagePosition dropdown is set to \"left\" to meet the request for the image on the left beside the copy. It is the only component needed, since the request covers just the hero."
+      }
+    ]
+  }
+}

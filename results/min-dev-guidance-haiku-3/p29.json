@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 7.6,
+  "is_error": false,
+  "cost_usd": 0.00393582,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening hero covering the event title and the register button over a color gradient (top of page)."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short free-text agenda section beneath the hero."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form at the bottom of the page. It is the only visible form component on this instance; the editor should leave the address, phone and email fields blank."
+      }
+    ]
+  }
+}

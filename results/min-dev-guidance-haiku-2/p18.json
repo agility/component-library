@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.005210640000000001,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed feature-by-plan grid below the plans. Its Heading and Column Names set up the plan columns, and its Rows (ComparisonRow items) hold every feature with its per-plan values and notes. I considered PricingTable, but it needs a hand-built Features JSON structure that I haven't seen, and its guidance says not to guess that structure, so I didn't use it."
+      }
+    ]
+  }
+}

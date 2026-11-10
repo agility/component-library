@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 33.6,
+  "is_error": false,
+  "cost_usd": 0.0028841699999999997,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro at the top of the page, with no image. Header is a generic heading section with heading, subheading and description, so it fits without a graphic."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans shown as cards."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid. It has a heading, column names and rows from a shared list. PricingTable was not chosen because it takes a raw features JSON field instead of structured rows."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs at the bottom of the page."
+      }
+    ]
+  }
+}

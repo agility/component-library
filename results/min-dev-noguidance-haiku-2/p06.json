@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.8,
+  "is_error": false,
+  "cost_usd": 0.00294325,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The gradient banner at the top of the careers page. Its Heading is 'Join our team', its backgroundType is set to one of the gradient options, and its CTA 1 link is the button that opens the open roles."
+      }
+    ]
+  }
+}

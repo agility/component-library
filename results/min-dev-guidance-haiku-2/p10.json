@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 5.6,
+  "is_error": false,
+  "cost_usd": 0.00394417,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "The whole 'What our customers say' section: the Subheading and Heading, the six selected Testimonial Items (via the Testimonials search list box), and the 'read more stories' link through its CTA Text and CTA Link fields. It's the only component that covers the full request, since it holds multiple quotes plus a CTA."
+      }
+    ]
+  }
+}

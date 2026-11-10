@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 33.7,
+  "is_error": false,
+  "cost_usd": 0.00424781,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain page title and the one-sentence introduction at the top of the page. It has a heading and description with no image or buttons, which matches the request. Hero is too heavy for this."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The feature-by-feature comparison with competitors. Its rows are ComparisonRow content items and it has its own Heading field, so no extra Header is needed above it. It is not PricingTable, which is for our own plans."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The closing call to action to book a demo. Its primary button can link to the booking page, and it sits at the bottom of the page. ContactUs and NewsletterSignup are not used because the request asks for a button CTA, not a form."
+      }
+    ]
+  }
+}

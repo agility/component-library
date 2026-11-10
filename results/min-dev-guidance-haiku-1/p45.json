@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 9.4,
+  "is_error": false,
+  "cost_usd": 0.0045581400000000005,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Site-wide notice bar at the very top of the homepage (main-content-zone, placed above the existing PersonalizedBackgroundHero) announcing next week's office closure, with a Link field pointing to the closure details and Start/End Date fields so it disappears after the closure date."
+      }
+    ]
+  }
+}

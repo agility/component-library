@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.00285695,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The core of the 'How it works' section. It is the numbered-steps component (display name 'Process') with a Heading field and a shared list of step items, so it covers the three steps in order: sign up, connect your data, publish."
+      }
+    ]
+  }
+}

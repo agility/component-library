@@ -1,0 +1,7 @@
+{
+  "label": "min-dev-guidance-haiku-2",
+  "model": "haiku",
+  "mcp_url": "https://agility-mcp-server-8sun9u5av.publishwithagility.com/api/mcp",
+  "prompts": 20,
+  "ran_at": "2026-11-10T16:22:26Z"
+}

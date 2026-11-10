@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.005708980000000001,
+  "num_turns": 8,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "The product screenshot slider is the \"Carousel\" component (reference name \"carousel\"). Its \"Slides\" field is a LinkedContentNestedGrid whose contentModel is \"carouselSlide\", so each new slide must be a carouselSlide item. The carouselSlide model has the fields a slide needs (heading, description, background image, CTA). Other candidates were ruled out: BentoCard is for Bento Section cards shown together, GalleryImage is captioned images only, and FeatureItem is for Feature Grid items. No container or content in the instance was found for \"product screenshot\" beyond an unrelated blog post, so the slider's own nested model is the right target."
+  }
+}

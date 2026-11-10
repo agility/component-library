@@ -1,0 +1,20 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 9.3,
+  "is_error": false,
+  "cost_usd": 0.00379805,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans themselves. The request refers to 'the plans' as the content above the grid, and PricingCards is the card-style plan display with pricing tiers."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed grid below the plans that compares every feature across all plans. It has a heading, column names for the plans, and a shared list of comparison rows grouped into categories."
+      }
+    ]
+  }
+}

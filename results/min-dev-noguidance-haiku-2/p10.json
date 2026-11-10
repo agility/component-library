@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 31.8,
+  "is_error": false,
+  "cost_usd": 0.00390225,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Covers the whole section in one component: the 'What our customers say' heading and subheading, the selected list of six quotes (the instance has exactly six published testimonials in the testimonials container), and the CTA text and link to read more stories."
+      }
+    ]
+  }
+}

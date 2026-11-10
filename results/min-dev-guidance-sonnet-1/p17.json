@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.0486841,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Covers the whole request: three plans side by side as cards, each with its price and a sign-up button (CTA). It holds a title and subtitle plus Pricing Tier items, so one tier per plan."
+      }
+    ]
+  }
+}

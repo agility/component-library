@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 6.6,
+  "is_error": false,
+  "cost_usd": 0.00299882,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model (ID 11) is the blog/article model on instance 275bb356-d. Its description is \"A blog post or article,\" and its guidance says to use it for every editorial article in post listings and detail pages. It already has the fields the request needs: Heading, Slug, PostDate, a Category dropdown linked to the Category model, an Author dropdown linked to the Author model, Tags, rich-text Content, and an Image. Author and Category are linked content, so the article should reference existing Author and Category items rather than create new ones. No content was saved."
+  }
+}

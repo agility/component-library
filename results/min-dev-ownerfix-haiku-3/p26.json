@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.0032282,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro with no image or buttons. Its guidance says it is a plain heading with optional subheading and description, and it allows placement at the top."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as side-by-side cards, each with name, monthly price, highlights, and a CTA button. Its guidance says to use it for presenting plans with a button per plan."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The full comparison grid, with every feature as a row and a column per plan, placed under the plan cards. Its guidance names it as the feature-by-plan grid for a pricing page."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs at the bottom of the page. This model has no agent guidance, so I chose it by name for question-and-answer content; confirm its fields before use."
+      }
+    ]
+  }
+}

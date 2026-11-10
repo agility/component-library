@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 9.9,
+  "is_error": false,
+  "cost_usd": 0.00956804,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The opening full-width banner. It is built for the top of a page, rendering under the menu. It has a Heading, CTA 1 and CTA 2 (the two buttons), and a Background Type set to 'Background Image' with a Background Image field for the photo. Its Description field is required, so the marketer will need to supply a short line of copy even though the request only asked for a headline."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 29.9,
+  "is_error": false,
+  "cost_usd": 0.0371062,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "A slider is a carousel, and \"Carousel Slide\" (carouselSlide) is the model for a single slide in a Carousel component. It has a heading, description, image and CTA, which suit a product screenshot slide. \"Gallery Image\" is the other candidate, but it belongs to the Gallery component, which is a grid of captioned images and not a slider."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 38.2,
+  "is_error": false,
+  "cost_usd": 0.00386974,
+  "num_turns": 9,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "\"Picture tiles\" maps to the Bento Section component (BentoSection), which is described as a list of \"Bento\" cards for showcasing screenshots or graphics. Its BentoCards field is a nested grid whose items use the BentoCard content model. BentoCard has an Eyebrow, Title, Description, and a Graphic image attachment, which fits a tile with a large product screenshot. The other image-based option, GalleryImage (used by the Gallery \"Images\" component), is only an image plus caption in a shared grid, so it is a weaker fit for a tile in a picture-tile section. I did not save anything."
+  }
+}

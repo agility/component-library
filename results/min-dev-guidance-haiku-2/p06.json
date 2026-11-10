@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 8.5,
+  "is_error": false,
+  "cost_usd": 0.004009960000000001,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The gradient banner that opens the page with the heading 'Join our team', a description, and a button to open roles (CTA 1). Its backgroundType can be set to one of the gradient options (e.g. yellow-pink). It is the only component placed, since the request covers only the opening banner."
+      }
+    ]
+  }
+}

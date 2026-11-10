@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 8.0,
+  "is_error": false,
+  "cost_usd": 0.0037332000000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The whole request is a single page opener: a headline (Heading), a short paragraph (Description), one button (CallToAction link), and a product screenshot (Image) on the right via ImagePosition set to 'right'. Hero has exactly these fields and its guidance says it fits most page openers."
+      }
+    ]
+  }
+}

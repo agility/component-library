@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 18.9,
+  "is_error": false,
+  "cost_usd": 0.1845561,
+  "num_turns": 6,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "The Bento Section component is described as a good way to showcase screenshots or graphics, and its list items are Bento Cards. Each card has a required Graphic image plus an eyebrow, title and description, which suits a tile built around a large product screenshot. The other candidate was GalleryImage, which is just an image and caption in a plain image grid. It fits a simple photo gallery better than a screenshot tile."
+  }
+}

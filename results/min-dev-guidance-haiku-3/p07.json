@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 5.6,
+  "is_error": false,
+  "cost_usd": 0.0032067800000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opens the campaign page with a hero that has a heading, description, one CTA and an image. Its image can sit on the left, which covers the request for an image on the left beside the copy. It is the standard page-opener component and has a top placement."
+      }
+    ]
+  }
+}

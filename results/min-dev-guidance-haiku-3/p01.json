@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.0053697400000000005,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The full-width opening banner: a background photo with the spring sale headline and two buttons. Its guidance covers a heading, description and up to two CTAs over a background image, and it renders under the menu when placed at the top."
+      }
+    ]
+  }
+}

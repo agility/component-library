@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 6.9,
+  "is_error": false,
+  "cost_usd": 0.0056232700000000005,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro at the top of the page, with no image or buttons. Its guidance covers a plain heading with subheading and description, and rules out Hero for this case."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards: each plan's name, monthly price, highlights and a CTA button. Its guidance says it is for plans side by side with a button per plan."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid, feature by feature across plans. I chose it over PricingTable because its rows are editable content items, and PricingTable needs a hand-built JSON structure I'd have to guess."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs at the bottom of the page. It has no agent guidance on the instance, so this choice is based on its name alone."
+      }
+    ]
+  }
+}

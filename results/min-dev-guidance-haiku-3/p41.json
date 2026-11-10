@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 13.8,
+  "is_error": false,
+  "cost_usd": 0.005946350000000001,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The 'Ready to try it?' section with a 'Start free trial' button. Its Heading field takes 'Ready to try it?', its PrimaryCTA (required Link) takes 'Start free trial', and it's a full-width call-to-action band. The Secondary Button is optional and can be left empty since the request asks for one button. Placed in the body zone (main-content-zone) between the existing modules, which is the halfway position."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 10.0,
+  "is_error": false,
+  "cost_usd": 0.0026014600000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The whole request. Its Heading covers the headline, its Description covers the short paragraph, its single CallToAction link covers the one button, its ImagePosition is set to right so the Image covers the product screenshot on the right, and the model's own description (text on one side, graphic on the other) matches the layout asked for."
+      }
+    ]
+  }
+}

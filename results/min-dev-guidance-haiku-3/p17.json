@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 4.2,
+  "is_error": false,
+  "cost_usd": 0.00301711,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The three plans side by side as cards, each with its name, monthly price, highlights and a sign-up button. Its own title and subtitle cover the page heading, so no separate Header is needed."
+      }
+    ]
+  }
+}

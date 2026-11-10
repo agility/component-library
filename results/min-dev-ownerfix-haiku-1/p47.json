@@ -1,0 +1,16 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 30.8,
+  "is_error": false,
+  "cost_usd": 0.0037625799999999997,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Covers the whole request: a feature-by-feature comparison of our product against two competitors. Its Heading and Column Names fields hold our product and the two competitors, and each feature is a ComparisonRow item in the Rows grid. It is the only component needed, since it has its own heading, so no Header is required above it."
+      }
+    ]
+  }
+}

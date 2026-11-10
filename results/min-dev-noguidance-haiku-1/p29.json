@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.00433968,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: the event title (Heading) and a register button (CTA 1 link) over a gradient background (backgroundType set to a gradient such as yellow-pink). It is built for the top of a page and fits the 'title and register button over a gradient' request."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short free-text agenda between the hero and the form. It is the built-in free-form component for text, so it covers the agenda without a structured list."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form at the bottom. It is the only visible form component with a heading, description, submit URL and success/error messages. It is a contact form rather than a dedicated registration form, so the registration fields will need to be set up through its submit URL, and the marketer should confirm it fits."
+      }
+    ]
+  }
+}

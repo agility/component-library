@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.00302269,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Opening hero for the campaign page. Its ImagePosition dropdown has a 'Left' option, so the image sits on the left with the heading, description, and call-to-action copy on the right, as requested."
+      }
+    ]
+  }
+}

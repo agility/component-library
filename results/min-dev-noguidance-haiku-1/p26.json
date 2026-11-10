@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 9.7,
+  "is_error": false,
+  "cost_usd": 0.0035698500000000003,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Page title and one-line intro, with no image. The Header model is not a safe choice here: its list entry says generic heading section, but its details describe the global site header (SiteName, Logo, Navigation)."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans shown as cards (Pricing Tiers nested list)."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid, with a heading, column names, and shared ComparisonRow rows. PricingTable is a JSON-driven alternative but is not the grid editors manage row by row."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs (heading, subheading, nested FAQItem list)."
+      }
+    ]
+  }
+}

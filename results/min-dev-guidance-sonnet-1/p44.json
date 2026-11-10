@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 4.4,
+  "is_error": false,
+  "cost_usd": 0.050012100000000004,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 1: a heading and paragraph of text beside a picture, with the image on one side (e.g. left)."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 2: a heading and paragraph beside a picture, with the image on the opposite side (right) to alternate."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 3: a heading and paragraph beside a picture, with the image back on the first side (left) to continue the alternation."
+      }
+    ]
+  }
+}

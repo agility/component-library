@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.0033282800000000003,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro at the top of the page, with no image or buttons. Header's guidance covers a plain heading with optional subheading and description, and it rules out Hero and BackgroundHero because the request has no image."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as side-by-side cards, each with name, monthly price, highlights and a CTA button."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The full comparison grid below the cards, with each feature as a row and a column per plan. PricingTable is the right choice over ComparisonTable, which is for competitor comparisons."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs at the bottom of the page."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c12",
+  "kind": "content",
+  "seconds": 27.5,
+  "is_error": false,
+  "cost_usd": 0.004363430000000001,
+  "num_turns": 8,
+  "answer": {
+    "referenceName": "carouselSlide",
+    "reason": "A \"slider\" on this instance is the Carousel component (reference name \"carousel\"). Its \"Slides\" field is a nested grid of the \"carouselSlide\" content model (Carousel Slide), so a new slide belongs in carouselSlide. Its fields (Heading, Description, Background Image, Call To Action, CTA Text Override) cover a product screenshot slide. The Carousel Slide model is nested under the Carousel component's Slides field, so the new item is added as a child of that component rather than as a standalone list item. Other candidates such as Bento Card, Gallery Image, and Feature Item are used by other components, not the slider."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "p52",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.00408867,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "One-line notice about the new release at the very top of the page (thin site-wide message bar with optional link)."
+      },
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with heading, description, and two buttons over a background image or gradient."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Row of customer logos as social proof directly under the opening banner."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Final 'Get started' call to action band with heading, description, and buttons near the bottom of the page."
+      }
+    ]
+  }
+}

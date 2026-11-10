@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 5.2,
+  "is_error": false,
+  "cost_usd": 0.0028327499999999998,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post content model (ID 11, container \"Posts\") is the blog article model. Its guidance says it covers a blog post or article with heading, slug, date, category, tags, author, rich-text content and image, which matches the request. The Author and Category models exist as linked content, so the new article can link to an author and a category. I did not save anything."
+  }
+}

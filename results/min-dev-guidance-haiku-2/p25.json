@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.0034059400000000005,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with heading, description, and two CTA buttons over a gradient or background image (placed at top, under the menu)."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos row as social proof directly under the opening banner."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots: cards with eyebrow, title, description and a graphic, suited to product screenshots. FeatureGrid was rejected because it is icon-based, not screenshot-based."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats as a single row of value-and-label tiles under a centered heading. CompanyStats was rejected because it needs a section title and background image."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One featured customer quote with name, title, quote and image. The singular component fits one quote; Testimonials would show a list."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form with heading, description, submit messages, and office address, phone and email. NewsletterSignup was rejected because it is email-only, and CTABanner has no form."
+      }
+    ]
+  }
+}

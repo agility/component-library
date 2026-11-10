@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.17355569999999998,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening full-width banner for the spring sale: a headline (Heading), two buttons (cta1 and cta2), and a background photo (set Background Type to \"Background Image\" and add the photo in BackgroundImage). It's built for the top of a page, renders under the menu, and has a required Description field for a short line of sale copy. I chose it over CTABanner, which is a mid-page call-to-action banner and not a page-opening hero."
+      }
+    ]
+  }
+}

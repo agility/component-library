@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 6.4,
+  "is_error": false,
+  "cost_usd": 0.0037012,
+  "num_turns": 5,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "A spring release blog article is an editorial post, and the Post model (\"A blog post or article\") is the match. Its fields cover what was requested: a Category linked-content dropdown (Category model, Categories container), an Author linked-content dropdown (Author model, Authors container), plus Heading, Slug, PostDate, Tags, rich-text Content and an Image. Author and Category are not free text, so they must be selected from existing Author and Category items. Nothing was saved."
+  }
+}

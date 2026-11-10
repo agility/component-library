@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 38.1,
+  "is_error": false,
+  "cost_usd": 0.00497944,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The detailed grid below the plans: every feature as a row with a column per plan. It is fed by a JSON field (FeaturesJSON), has a Title and Subtitle, and is the right fit for a feature-by-plan matrix. It is not ComparisonTable, which is for competitors."
+      }
+    ]
+  }
+}

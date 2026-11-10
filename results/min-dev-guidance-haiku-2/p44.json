@@ -1,0 +1,24 @@
+{
+  "id": "p44",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.00402657,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 1 of 3: one paragraph beside a picture, with the image on the left (ImagePosition = left)."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 2 of 3: one paragraph beside a picture, with the image on the right (ImagePosition = right), so the sides alternate."
+      },
+      {
+        "referenceName": "MediaSplit",
+        "purpose": "Benefit 3 of 3: one paragraph beside a picture, with the image on the left (ImagePosition = left), completing the alternation."
+      }
+    ]
+  }
+}

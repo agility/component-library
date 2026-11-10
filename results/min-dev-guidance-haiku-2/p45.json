@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 8.7,
+  "is_error": false,
+  "cost_usd": 0.0040651,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "The office-closure notice at the very top of the homepage. It is a one-line message bar with a Message field, an optional Link field for the details page, and Start and End Date fields. The End Date makes it disappear after the closure. It is the only component needed for this request. Its guidance is top placement, max one per page, for time-boxed notices."
+      }
+    ]
+  }
+}

@@ -1,0 +1,594 @@
+{
+ "ABTestHero": {
+  "useWhen": "Top-of-page hero with heading, description, one CTA and an image, plus an Experiment Key and a list of A/B Test Hero Item variants. Use only when the page is running an A/B experiment on the hero.",
+  "avoidWhen": "No experiment is running: use Hero for a plain text-and-image hero. For a full-width background image or gradient hero use BackgroundHero. For audience-based (not experiment-based) variants use PersonalizedBackgroundHero.",
+  "alternatives": [
+   {
+    "referenceName": "Hero",
+    "when": "plain hero, no experiment"
+   },
+   {
+    "referenceName": "PersonalizedBackgroundHero",
+    "when": "variants chosen by audience"
+   },
+   {
+    "referenceName": "BackgroundHero",
+    "when": "full-width background hero"
+   }
+  ],
+  "placement": [
+   "top"
+  ],
+  "maxPerPage": 1
+ },
+ "AnnouncementBar": {
+  "useWhen": "A thin site-wide message bar with one line of text, an optional link, a dismissible toggle and start/end dates. Use for time-boxed notices such as a launch, event or outage.",
+  "avoidWhen": "The message needs a heading, description and buttons as a full-width section: use CTABanner. For capturing email addresses use NewsletterSignup. Not for permanent page content.",
+  "alternatives": [
+   {
+    "referenceName": "CTABanner",
+    "when": "full section with heading and buttons"
+   },
+   {
+    "referenceName": "NewsletterSignup",
+    "when": "collecting emails"
+   }
+  ],
+  "placement": [
+   "top"
+  ],
+  "maxPerPage": 1
+ },
+ "BackgroundHero": {
+  "useWhen": "Hero with heading, description and up to two CTAs over a color gradient or a background image. It renders under the menu when placed at the top, or as a normal section elsewhere.",
+  "avoidWhen": "You want text on one side and a separate image on the other: use Hero. For audience-specific variants use PersonalizedBackgroundHero; for an A/B experiment use ABTestHero. For a closing call-to-action band use CTABanner.",
+  "alternatives": [
+   {
+    "referenceName": "Hero",
+    "when": "text beside a separate image"
+   },
+   {
+    "referenceName": "PersonalizedBackgroundHero",
+    "when": "different content per audience"
+   },
+   {
+    "referenceName": "CTABanner",
+    "when": "closing CTA band, not an opener"
+   }
+  ],
+  "placement": [
+   "top",
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "CTABanner": {
+  "useWhen": "A full-width call-to-action band with heading, description, a primary and a secondary button, and a background style or image. Use to push one action, usually near the end of a page.",
+  "avoidWhen": "You need a page opener: use BackgroundHero or Hero. A one-line site notice is AnnouncementBar. Email capture is NewsletterSignup; a contact form is ContactUs.",
+  "alternatives": [
+   {
+    "referenceName": "BackgroundHero",
+    "when": "page-opening hero"
+   },
+   {
+    "referenceName": "NewsletterSignup",
+    "when": "email capture form"
+   },
+   {
+    "referenceName": "AnnouncementBar",
+    "when": "one-line notice"
+   }
+  ],
+  "placement": [
+   "bottom",
+   "body"
+  ]
+ },
+ "BentoSection": {
+  "useWhen": "A sub-heading and heading above a set of Bento Card items (eyebrow, title, description, graphic). Use to showcase product screenshots or graphics in a mosaic layout.",
+  "avoidWhen": "The items are short icon-plus-text features: use FeatureGrid. For a rotating set of full slides use carousel. For a plain image grid with captions use Gallery.",
+  "alternatives": [
+   {
+    "referenceName": "FeatureGrid",
+    "when": "icon and text feature list"
+   },
+   {
+    "referenceName": "Gallery",
+    "when": "plain captioned image grid"
+   },
+   {
+    "referenceName": "carousel",
+    "when": "rotating slides"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "carousel": {
+  "useWhen": "A subheading and heading above a rotating set of Carousel Slides, each with heading, description, background image and CTA. Use for several featured items that share one slot.",
+  "avoidWhen": "All items should be visible at once: use FeatureGrid, BentoSection or Gallery. Customer quotes belong in Testimonials. A single page-opening hero is Hero or BackgroundHero.",
+  "alternatives": [
+   {
+    "referenceName": "BentoSection",
+    "when": "showcase cards shown together"
+   },
+   {
+    "referenceName": "Gallery",
+    "when": "image-only grid"
+   },
+   {
+    "referenceName": "Testimonials",
+    "when": "customer quotes"
+   }
+  ],
+  "placement": [
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "CompanyStats": {
+  "useWhen": "A stats section with a section title, heading, description and optional background image above a list of Stat items. Use for an 'about us' or credibility section that needs a titled, image-backed look.",
+  "avoidWhen": "You want a simple centered heading above one row of stat tiles with no section title or background image: use StatsStrip. Pricing numbers belong in PricingCards.",
+  "alternatives": [
+   {
+    "referenceName": "StatsStrip",
+    "when": "plain single row of stat tiles"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "ComparisonTable": {
+  "useWhen": "A heading with a table: comma-style column names plus Comparison Row items (feature, values, note). Use to compare options, plans or competitors feature by feature.",
+  "avoidWhen": "You are listing plans with prices and buy buttons: use PricingCards. A features-by-plan matrix driven by JSON is PricingTable. For non-tabular benefit lists use FeatureGrid.",
+  "alternatives": [
+   {
+    "referenceName": "PricingTable",
+    "when": "plan feature matrix from JSON"
+   },
+   {
+    "referenceName": "PricingCards",
+    "when": "priced plans with CTAs"
+   },
+   {
+    "referenceName": "FeatureGrid",
+    "when": "benefits, not a table"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "ContactUs": {
+  "useWhen": "A contact form with heading, description, submit URL, success/error/loading messages, and office address, phone and email. Use on contact or sales-enquiry pages.",
+  "avoidWhen": "You only need an email address for a mailing list: use NewsletterSignup. For a closing button-based call to action use CTABanner.",
+  "alternatives": [
+   {
+    "referenceName": "NewsletterSignup",
+    "when": "email-only list signup"
+   },
+   {
+    "referenceName": "CTABanner",
+    "when": "button CTA, no form"
+   }
+  ],
+  "placement": [
+   "body",
+   "bottom"
+  ],
+  "maxPerPage": 1
+ },
+ "FeatureGrid": {
+  "useWhen": "A heading and subheading above a grid of Feature Items (title, description, icon, optional link), with a column-count choice. Use for product features or benefits.",
+  "avoidWhen": "Items are numbered stages in order: use Steps. Items are large screenshots or graphics: use BentoSection. Customer quotes are Testimonials; stats are StatsStrip.",
+  "alternatives": [
+   {
+    "referenceName": "Steps",
+    "when": "ordered process"
+   },
+   {
+    "referenceName": "BentoSection",
+    "when": "graphic-heavy cards"
+   },
+   {
+    "referenceName": "StatsStrip",
+    "when": "numeric highlights"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "Header": {
+  "useWhen": "A plain section heading with optional subheading and description, no image or buttons. Use to introduce or title a block of content lower on the page.",
+  "avoidWhen": "You need a page-opening hero with image or CTA: use Hero or BackgroundHero. Many components already carry their own heading, so don't add Header above them. It is not the site navigation header.",
+  "alternatives": [
+   {
+    "referenceName": "Hero",
+    "when": "opener with image and CTA"
+   },
+   {
+    "referenceName": "BackgroundHero",
+    "when": "opener over a background"
+   }
+  ],
+  "placement": [
+   "top",
+   "body"
+  ]
+ },
+ "Hero": {
+  "useWhen": "Standard page hero with heading, description, one CTA and an image placed left or right. Use for most page openers.",
+  "avoidWhen": "You want text over a full-width gradient or image: use BackgroundHero. For audience-personalized openers use PersonalizedBackgroundHero; for A/B testing use ABTestHero. For a mid-page image-and-text block use MediaSplit.",
+  "alternatives": [
+   {
+    "referenceName": "BackgroundHero",
+    "when": "text over background image or gradient"
+   },
+   {
+    "referenceName": "MediaSplit",
+    "when": "mid-page image and text"
+   },
+   {
+    "referenceName": "ABTestHero",
+    "when": "running an experiment"
+   }
+  ],
+  "placement": [
+   "top"
+  ],
+  "maxPerPage": 1
+ },
+ "MediaSplit": {
+  "useWhen": "A two-column block: eyebrow, heading, rich-text body and optional button beside an image on the left or right. Use for mid-page explanations that need formatted text.",
+  "avoidWhen": "It is the page opener: use Hero. Several parallel items belong in FeatureGrid or Steps. Free-form editorial content with no image layout fits RichTextArea better.",
+  "alternatives": [
+   {
+    "referenceName": "Hero",
+    "when": "page opener"
+   },
+   {
+    "referenceName": "FeatureGrid",
+    "when": "several short items"
+   },
+   {
+    "referenceName": "BentoSection",
+    "when": "multiple graphic cards"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "Gallery": {
+  "useWhen": "A heading and a grid of Gallery Images with captions, with a layout choice. Use for photos, screenshots or event pictures where the images themselves are the content.",
+  "avoidWhen": "Each card needs a title and description: use BentoSection. Customer or partner logos are LogoStrip. Rotating full slides are carousel.",
+  "alternatives": [
+   {
+    "referenceName": "BentoSection",
+    "when": "cards with title and description"
+   },
+   {
+    "referenceName": "LogoStrip",
+    "when": "customer or partner logos"
+   },
+   {
+    "referenceName": "carousel",
+    "when": "rotating slides"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "LogoStrip": {
+  "useWhen": "A row of customer or partner logos (Logo Items) with a short CTA description and link. Use as social proof under a hero or before a CTA.",
+  "avoidWhen": "You want quotes from customers: use Testimonials. Logos that should change by audience need PersonalizedLogoStrip, which is outside this set. General images go in Gallery.",
+  "alternatives": [
+   {
+    "referenceName": "Testimonials",
+    "when": "customer quotes"
+   },
+   {
+    "referenceName": "Gallery",
+    "when": "general images"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "PersonalizedBackgroundHero": {
+  "useWhen": "Hero with heading, description, two CTAs and a gradient or background image, plus Personalized Hero Items that swap content for different audiences. Use when the opener must change by visitor segment.",
+  "avoidWhen": "One message for everyone: use BackgroundHero or Hero. Variants meant for an A/B experiment, not audiences, belong in ABTestHero.",
+  "alternatives": [
+   {
+    "referenceName": "BackgroundHero",
+    "when": "same content for all visitors"
+   },
+   {
+    "referenceName": "ABTestHero",
+    "when": "A/B experiment"
+   },
+   {
+    "referenceName": "Hero",
+    "when": "simple text and image"
+   }
+  ],
+  "placement": [
+   "top"
+  ],
+  "maxPerPage": 1
+ },
+ "PricingCards": {
+  "useWhen": "A title and subtitle above Pricing Tier cards (name, monthly price, currency, highlights, CTA button, region). Use to present plans side by side with a button per plan.",
+  "avoidWhen": "You need a feature-by-plan matrix fed by JSON: use PricingTable. A general side-by-side comparison with no prices or buttons is ComparisonTable.",
+  "alternatives": [
+   {
+    "referenceName": "PricingTable",
+    "when": "feature matrix from JSON"
+   },
+   {
+    "referenceName": "ComparisonTable",
+    "when": "non-pricing comparison"
+   }
+  ],
+  "placement": [
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "PricingTable": {
+  "useWhen": "A title and subtitle above a features table built from a Features JSON text field. Use only when you already have the JSON structure for plan features.",
+  "avoidWhen": "You are building plans from content items: use PricingCards. A hand-edited comparison of features with rows as content is ComparisonTable. Do not guess JSON structure.",
+  "alternatives": [
+   {
+    "referenceName": "PricingCards",
+    "when": "plans as editable items"
+   },
+   {
+    "referenceName": "ComparisonTable",
+    "when": "rows as content items"
+   }
+  ],
+  "placement": [
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "Steps": {
+  "useWhen": "A heading above numbered Step items (title, description). Use for how-it-works, onboarding or process sequences where order matters.",
+  "avoidWhen": "Items are unordered benefits: use FeatureGrid. Items need images: use BentoSection. For a comparison across options use ComparisonTable.",
+  "alternatives": [
+   {
+    "referenceName": "FeatureGrid",
+    "when": "unordered features"
+   },
+   {
+    "referenceName": "BentoSection",
+    "when": "items with graphics"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "NewsletterSignup": {
+  "useWhen": "An email signup form with heading, description, button text, mailing list ID, consent text and success message. Use to grow a mailing list.",
+  "avoidWhen": "You need a contact or enquiry form with address, phone and email details: use ContactUs. A button-only call to action is CTABanner.",
+  "alternatives": [
+   {
+    "referenceName": "ContactUs",
+    "when": "enquiry form"
+   },
+   {
+    "referenceName": "CTABanner",
+    "when": "button-only CTA"
+   }
+  ],
+  "placement": [
+   "bottom",
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "StatsStrip": {
+  "useWhen": "A centered heading and description above a single row of Stat tiles (value and label). Use for a quick row of key numbers.",
+  "avoidWhen": "You need a section title and a background image around the stats: use CompanyStats. Pricing or plan details belong in PricingCards.",
+  "alternatives": [
+   {
+    "referenceName": "CompanyStats",
+    "when": "section title and background image"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "Testimonial": {
+  "useWhen": "A single customer quote: it links to one Testimonial Item (name, title, quote, image). Use to feature one quote prominently within a page.",
+  "avoidWhen": "You want several quotes with a heading and CTA: use Testimonials. Logos as social proof are LogoStrip. Do not use it to show a list.",
+  "alternatives": [
+   {
+    "referenceName": "Testimonials",
+    "when": "list of several quotes"
+   },
+   {
+    "referenceName": "LogoStrip",
+    "when": "logo social proof"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "Testimonials": {
+  "useWhen": "A subheading and heading above a list of selected Testimonial Items, with an optional CTA link. Use when showing multiple customer quotes together.",
+  "avoidWhen": "Only one quote is needed: use Testimonial. Rotating non-quote slides are carousel; customer logos are LogoStrip.",
+  "alternatives": [
+   {
+    "referenceName": "Testimonial",
+    "when": "one quote only"
+   },
+   {
+    "referenceName": "LogoStrip",
+    "when": "logos instead of quotes"
+   },
+   {
+    "referenceName": "carousel",
+    "when": "rotating slides that aren't quotes"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ },
+ "BentoCard": {
+  "useWhen": "One card inside a Bento Section: eyebrow, title, description and a graphic. Create one per card and link them from BentoSection.",
+  "avoidWhen": "The item is a feature with an icon and link: use FeatureItem. A captioned picture only is GalleryImage. A slide with a CTA is carouselSlide.",
+  "alternatives": [
+   {
+    "referenceName": "FeatureItem",
+    "when": "icon, text and link for Feature Grid"
+   },
+   {
+    "referenceName": "GalleryImage",
+    "when": "image with caption"
+   },
+   {
+    "referenceName": "carouselSlide",
+    "when": "slide with CTA"
+   }
+  ]
+ },
+ "carouselSlide": {
+  "useWhen": "One slide in a Carousel: heading, description, background image, call-to-action link and optional CTA text override. Link from the Carousel component.",
+  "avoidWhen": "The item feeds a Bento Section (BentoCard), a Feature Grid (FeatureItem) or an image gallery (GalleryImage).",
+  "alternatives": [
+   {
+    "referenceName": "BentoCard",
+    "when": "Bento Section card"
+   },
+   {
+    "referenceName": "FeatureItem",
+    "when": "Feature Grid item"
+   },
+   {
+    "referenceName": "GalleryImage",
+    "when": "Gallery image"
+   }
+  ]
+ },
+ "ComparisonRow": {
+  "useWhen": "One row of a Comparison Table: a feature name, its values for each column, and a note. Values must line up with the table's column names.",
+  "avoidWhen": "The content is a pricing plan (PricingTier) or an ordered process step (StepItem). A feature with icon and description is FeatureItem.",
+  "alternatives": [
+   {
+    "referenceName": "PricingTier",
+    "when": "a priced plan card"
+   },
+   {
+    "referenceName": "FeatureItem",
+    "when": "feature with icon and text"
+   },
+   {
+    "referenceName": "StepItem",
+    "when": "ordered process step"
+   }
+  ]
+ },
+ "FeatureItem": {
+  "useWhen": "One item in a Feature Grid: title, description, icon and optional link.",
+  "avoidWhen": "The card needs a large graphic and eyebrow for a Bento Section (BentoCard). A numbered process step is StepItem; a comparison row is ComparisonRow.",
+  "alternatives": [
+   {
+    "referenceName": "BentoCard",
+    "when": "graphic-led card"
+   },
+   {
+    "referenceName": "StepItem",
+    "when": "ordered step"
+   },
+   {
+    "referenceName": "ComparisonRow",
+    "when": "table row"
+   }
+  ]
+ },
+ "GalleryImage": {
+  "useWhen": "One image with a caption for the Gallery component.",
+  "avoidWhen": "The image needs a title, description or CTA: use BentoCard or carouselSlide. A person's quote with a photo is TestimonialItem.",
+  "alternatives": [
+   {
+    "referenceName": "BentoCard",
+    "when": "image with title and description"
+   },
+   {
+    "referenceName": "carouselSlide",
+    "when": "slide with CTA"
+   },
+   {
+    "referenceName": "TestimonialItem",
+    "when": "person's quote with photo"
+   }
+  ]
+ },
+ "Post": {
+  "useWhen": "A blog post or article: heading, slug, date, category, tags, author, rich-text content and image. Use for every editorial article shown in post listings and on post detail pages.",
+  "avoidWhen": "The content is a testimonial quote (TestimonialItem) or short supporting copy inside a page component. Static pages belong in page components, not Post.",
+  "alternatives": [
+   {
+    "referenceName": "TestimonialItem",
+    "when": "a customer quote"
+   }
+  ]
+ },
+ "PricingTier": {
+  "useWhen": "One pricing plan: region, name, description, monthly price, currency, CTA button and highlights. Link from the Pricing Cards component.",
+  "avoidWhen": "The row compares features across options (ComparisonRow), or the item is a feature without a price (FeatureItem).",
+  "alternatives": [
+   {
+    "referenceName": "ComparisonRow",
+    "when": "feature comparison row"
+   },
+   {
+    "referenceName": "FeatureItem",
+    "when": "feature without price"
+   }
+  ]
+ },
+ "StepItem": {
+  "useWhen": "One numbered step in the Steps component: a title and description.",
+  "avoidWhen": "The item is an unordered feature with icon and link (FeatureItem), or a card with a graphic (BentoCard).",
+  "alternatives": [
+   {
+    "referenceName": "FeatureItem",
+    "when": "unordered feature"
+   },
+   {
+    "referenceName": "BentoCard",
+    "when": "card with graphic"
+   }
+  ]
+ },
+ "TestimonialItem": {
+  "useWhen": "One customer quote: name, job title, quote text and photo. Reference it from the Testimonial or Testimonials components.",
+  "avoidWhen": "The item is a captioned picture (GalleryImage) or a carousel slide (carouselSlide). Long editorial content is Post.",
+  "alternatives": [
+   {
+    "referenceName": "GalleryImage",
+    "when": "image with caption"
+   },
+   {
+    "referenceName": "carouselSlide",
+    "when": "slide with CTA"
+   },
+   {
+    "referenceName": "Post",
+    "when": "long article"
+   }
+  ]
+ }
+}

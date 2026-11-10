@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.00377836,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The whole request: the headline, the short paragraph, the single button on the left, and the product screenshot on the right. Its fields are Heading, Description, CallToAction (one link), Image, and ImagePosition (set to \"left\" for text left, screenshot right). Its placement is top, so it is the page opener."
+      }
+    ]
+  }
+}
