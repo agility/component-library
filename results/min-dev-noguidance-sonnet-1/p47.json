@@ -1,0 +1,24 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 5.7,
+  "is_error": false,
+  "cost_usd": 0.035563700000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page introduction: a heading and short description framing the comparison of our product against the two competitors."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The feature-by-feature comparison. Column Names are our product plus the two competitors, and each row is one feature."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call to action (e.g. try or demo our product) for readers who finish the comparison."
+      }
+    ]
+  }
+}

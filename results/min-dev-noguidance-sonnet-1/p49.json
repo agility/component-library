@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.029478400000000002,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The whole 'How it works' section, shown as three numbered steps: sign up, connect your data, publish."
+      }
+    ]
+  }
+}

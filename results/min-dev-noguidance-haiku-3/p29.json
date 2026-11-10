@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 9.5,
+  "is_error": false,
+  "cost_usd": 0.00353604,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: the event title as the Heading, with a Register button as CTA 1, over a gradient background (backgroundType set to one of the gradient options such as yellow-pink)."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short free-text agenda below the hero. Rich Text Area accepts free-form text, so it fits an agenda written as prose."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form at the bottom. This is the closest visible form component, but it is a contact form, not a registration form, so it may not offer the attendee fields a webinar needs. The Form Builder components (FormBuilder, AgilityFormBuilder) are marked not visible on this instance, and NewsletterSignup only collects a mailing-list signup, so neither fits better."
+      }
+    ]
+  }
+}

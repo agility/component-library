@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 7.8,
+  "is_error": false,
+  "cost_usd": 0.04939400000000001,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening section: event title as the heading, a short description, and the register button (CTA 1, linking to the form below) over a gradient background (set backgroundType to a gradient option)."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "The short agenda, written as free text (for example a brief list of topics and times)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The registration form. It has a configurable submit URL and success, error and loading messages. Leave the office address and phone fields empty. NewsletterSignup was the alternative, but it only collects an email for a mailing list, which is too limited for event registration."
+      }
+    ]
+  }
+}

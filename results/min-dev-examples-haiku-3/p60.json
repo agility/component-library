@@ -1,0 +1,20 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 4.9,
+  "is_error": false,
+  "cost_usd": 0.0032485599999999997,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Pricing plans as cards: a heading and subtitle above one card per PricingTier item (name, monthly price, description, highlight bullets, CTA button)."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Competitor comparison: a heading, column names for our product and competitors, and ComparisonRow items comparing them feature by feature. Chosen over PricingTable because the request is a competitor comparison, not a grouped plan matrix."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p02",
+  "kind": "page",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.0037733800000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The whole request: the page opener with a headline (Heading), a short paragraph (Description), one button (CallToAction), and the product screenshot (Image) with ImagePosition set to 'left' for text on the left and screenshot on the right. Hero's fields match this exactly and it is the top-of-page hero (maxPerPage 1)."
+      }
+    ]
+  }
+}

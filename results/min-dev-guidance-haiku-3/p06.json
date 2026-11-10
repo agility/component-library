@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.1,
+  "is_error": false,
+  "cost_usd": 0.0031450200000000005,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening gradient banner (the 'Start with' part of the request). It is the top-of-page hero with a color gradient, so it covers the 'Join our team' heading, the banner text, and the button to open roles (one of its up-to-two CTAs). Its guidance places it at the top, and it is the right fit over Hero (which is image-beside-text) or PersonalizedBackgroundHero (only needed for audience-specific content)."
+      }
+    ]
+  }
+}

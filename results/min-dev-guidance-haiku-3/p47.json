@@ -1,0 +1,20 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 5.5,
+  "is_error": false,
+  "cost_usd": 0.0032400300000000005,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The core of the request: a heading with a feature-by-feature table comparing our product against both competitors, with one Comparison Row per feature (feature, values, note). Its agent guidance says it is the right choice for comparing options feature by feature."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Optional closing element after the table, with a full-width call to action (for example, a trial or demo) for readers who have finished comparing. It is not part of the comparison itself."
+      }
+    ]
+  }
+}

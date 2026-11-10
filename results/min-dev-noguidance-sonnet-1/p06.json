@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 5.2,
+  "is_error": false,
+  "cost_usd": 0.15907390000000002,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Gradient banner at the top of the careers page with the 'Join our team' heading and a button to open roles."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 13.7,
+  "is_error": false,
+  "cost_usd": 0.004138,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The 'Ready to try it?' section with a 'Start free trial' button. Its Heading field takes 'Ready to try it?' and its Primary Button takes 'Start free trial'. It is the only component needed, since it covers both the heading and the button. Placed after the ABTestHero and before the Testimonials module, which is about halfway down the Features page. Assumption: 'product page' means the Features page (pageID 6), the only one with a product-like name."
+      }
+    ]
+  }
+}

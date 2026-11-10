@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.00990623,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The detailed grid below the plans: a title and subtitle plus a plan-by-feature matrix with features grouped into sections (Features, Analysis, Support) and yes/no, number, or text values for every plan. This is the component the instance guidance names for comparing many features across plans. PricingCards is not added because the plans are already above; ComparisonTable is not used because it is for editor-managed rows, not pricing plans."
+      }
+    ]
+  }
+}

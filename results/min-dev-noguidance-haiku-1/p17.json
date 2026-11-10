@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 7.9,
+  "is_error": false,
+  "cost_usd": 0.00363124,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request. It has a heading (Title, Subtitle) and a nested list of Pricing Tiers, each with a Name, Description, PriceMonthly, Currency and CurrencySymbol for the price, a ctaButton link for the sign-up button, and Highlights. Three tiers give three side-by-side cards."
+      }
+    ]
+  }
+}

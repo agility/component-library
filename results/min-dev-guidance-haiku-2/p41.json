@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 10.3,
+  "is_error": false,
+  "cost_usd": 0.00427316,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The 'Ready to try it?' section halfway down the product page: Heading = 'Ready to try it?', Primary Button = 'Start free trial' (Link field). It is the only component needed. It has a heading and button and is a full-width call-to-action band, so it covers the whole request. Its agent guidance places it at body or bottom, which suits mid-page. Leave the Description, Secondary Button and Background Image empty unless you want them. Leave Background at 'brand' (the default) or choose 'dark'."
+      }
+    ]
+  }
+}

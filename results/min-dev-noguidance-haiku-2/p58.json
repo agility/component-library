@@ -1,0 +1,20 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 8.0,
+  "is_error": false,
+  "cost_usd": 0.00300005,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The 'Get a quote' section itself: heading and description, plus the form with submit URL, success/error/loading messages. Closest visible form component, but its model has no name, company, or project-details fields, so those inputs can't be confirmed from the model."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Optional fallback if ContactUs can't hold the name, company, and project-details fields. Would hold an intro or the quote-request copy, but cannot collect form input."
+      }
+    ]
+  }
+}

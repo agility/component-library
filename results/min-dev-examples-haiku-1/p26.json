@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 10.6,
+  "is_error": false,
+  "cost_usd": 0.00344694,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro with no image or buttons. Header is the plain heading block for this, and Hero is excluded because it carries an image."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards, one per PricingTier with name, monthly price, description, highlight bullets and CTA. Its own heading and subtitle can be left empty so the Header above is not duplicated."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The full comparison grid: a plan-by-feature matrix with grouped features and yes/no or text values. PricingTable is the pricing-specific option; ComparisonTable is for non-pricing comparisons."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs closing the page."
+      }
+    ]
+  }
+}

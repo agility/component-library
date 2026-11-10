@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 6.2,
+  "is_error": false,
+  "cost_usd": 0.00287866,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The opening hero that the request asks for: a heading, description, and call-to-action beside an image. Its ImagePosition dropdown has a Left option, which puts the image on the left as requested. It is the top component on the page."
+      }
+    ]
+  }
+}

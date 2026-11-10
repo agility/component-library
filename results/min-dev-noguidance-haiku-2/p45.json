@@ -1,0 +1,16 @@
+{
+  "id": "p45",
+  "kind": "page",
+  "seconds": 10.1,
+  "is_error": false,
+  "cost_usd": 0.00330029,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "Covers the whole request: the office-closure notice at the very top of the homepage. Its Message field holds the closure text, its Link field points to the details page, and its EndDate field hides it after the closure date. It goes first in the homepage's only zone, main-content-zone, above the PersonalizedBackgroundHero. Leave Dismissible off since the request doesn't ask for it. Set StartDate only if the notice should appear before next week. Confirm the exact closure date for EndDate, because the request doesn't name it."
+      }
+    ]
+  }
+}

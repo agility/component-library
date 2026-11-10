@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 9.0,
+  "is_error": false,
+  "cost_usd": 0.0036604,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request: a Title and Subtitle heading, then three plans side by side as cards. Each card is a PricingTier nested item with a price (PriceMonthly, Currency, CurrencySymbol) and a sign-up button (ctaButton link). It is the only component with card-style plans and per-plan CTA buttons, so no other component is needed."
+      }
+    ]
+  }
+}

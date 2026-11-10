@@ -51,6 +51,12 @@ customer's catalog often has them. That's where guidance has something to fix.
 | `baseline-lookalikes-mcp-2.11.0-haiku` | 2026-11-05 | Haiku | 2.11.0 | none | 108/121 (89.3%) | 209/242 | 10 | 2 |
 | `quickwins-mcp-2.12.0-preview` | 2026-11-05 | Sonnet | 2.12.0 (PR preview) | none | 112/121 (92.6%) | 223/242 | 4 | 0 |
 | `quickwins-mcp-2.12.0-preview-haiku` | 2026-11-05 | Haiku | 2.12.0 (PR preview) | none | 109/121 (90.1%) | 216/242 | 6 | 1 |
+| `min-dev-noguidance-haiku-{1,2,3}` (20 prompts, dev) | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | none | 30.0/33 avg | 57.0/66 avg | 2.67 | 0 |
+| `min-dev-noguidance-sonnet-1` | 2026-11-10 | Sonnet | 2.13.0 (PR preview) | none | 30/33 | 57/66 | 3 | 0 |
+| `min-dev-guidance-haiku-{1,2,3}` | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind-written | 31/33 (all three) | 60/66 (all three) | 2 | 0 |
+| `min-dev-guidance-sonnet-1` | 2026-11-10 | Sonnet | 2.13.0 (PR preview) | blind-written | 31/33 | 60/66 | 2 | 0 |
+| `min-dev-ownerfix-haiku-{1,2,3}` (6 prompts) | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind + 2 owner fixes | 12/12 (all three) | 24/24 | 0 | 0 |
+| `min-dev-examples-haiku-{1,2,3}` (6 prompts) | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind, pricing models written from fields + example items | 12/12 (all three) | 24/24 | 0 | 0 |
 
 **Baseline notes.** The one violation is the core gap: asked for a registration form, the agent chose a
 *disabled* legacy form builder, because MCP 2.11.0 doesn't say a model is disabled. The other miss named the
@@ -67,4 +73,78 @@ disabled form builder twice. Those are the mistakes agent guidance and the disab
 choosing the disabled form builder; Haiku chose it once instead of twice, and fell for 6 look-alikes instead
 of 10. The other changes are a point or two either way, which one run of each can't tell from noise. **From
 here, run each configuration three times and compare the averages.**
+
+### The minimum guidance eval (2026-11-10, dev)
+
+**Set-up.** A dev copy of the eval instance (a dev test-instance lease cloned from the dev demo site, plus the eight
+thin-named components and the disabled `LegacyHero`, copied from the production eval instance). **20 prompts:** the 12
+that had ever failed in the runs above (p01, p06, p07, p18, p25, p26, p29, p52, p58, c01, c11, c12) and 8 controls that
+always passed and use the same components (p02, p10, p17, p41, p44, p45, p47, p49). MCP 2.13.0 (PR #90's dev preview).
+**The guidance was written blind:** a separate headless Claude session saw only the models' names, descriptions and
+fields ([`writer-input-catalog.json`](../results/min-dev-guidance-inputs/writer-input-catalog.json)), never the prompts,
+and wrote guidance for 32 models ([`guidance-blind.json`](../results/min-dev-guidance-inputs/guidance-blind.json)), as a
+customer's developer would. `LegacyHero` was deprecated in favour of `Hero`.
+
+**Results.**
+
+| | Hard 12: score | Hard 12: look-alikes | Controls: score | Violations |
+|---|---|---|---|---|
+| Haiku, no guidance (avg of 3) | 41.0/50 | 2.67 | 16/16 | 0 |
+| Haiku, guidance (avg of 3) | 44.0/50 | 2.00 | 16/16 | 0 |
+| Sonnet, no guidance | 41/50 | 3 | 16/16 | 0 |
+| Sonnet, guidance | 44/50 | 2 | 16/16 | 0 |
+
+- **Guidance fixed the openers.** The thin "Banner" no longer opens a page (p01: 2 of 3 Haiku runs wrong → 0 of 3),
+  and the plain title on a pricing page is chosen every time (p26 opener).
+- **Guidance made the choice deterministic.** All three Haiku runs and the Sonnet run scored exactly the same with
+  guidance; without it, Haiku ranged 55–60.
+- **The two misses left are the guidance's own call.** Reading only the fields, the writer saw that `PricingTable`
+  is driven by a JSON field and steered plan-feature grids to `ComparisonTable`; every run followed it (p18, p26
+  compare). After correcting just those two models' guidance, as a site owner would on seeing it
+  ([`guidance-owner-fix.json`](../results/min-dev-guidance-inputs/guidance-owner-fix.json); not blind), the six
+  pricing and comparison prompts scored 12/12 in all three runs, competitor comparisons included.
+- **The disabled form builder is no longer chosen even without guidance:** MCP 2.13.0 labels disabled models.
+
+**Against the bar set beforehand** (Haiku look-alikes on the hard set down by half, no violations, controls within ±2):
+look-alikes fell by a quarter (2.67 → 2.00), so the bar was **not met as written**; violations 0 and controls unchanged
+were met. Every look-alike left came from what the guidance said, and fixing two entries cleared them, so agents
+follow guidance closely: it's as good as what's written. That argues for Draft with AI plus a person's review, and for
+reference guidance in our own starters.
+
+**Size.** The `get_component_models` text on this instance: 2,883 bytes with no guidance (34 components, about 85 bytes
+each); 7,425 bytes with guidance on 23 of them, about 197 bytes more per guided component. Fully guided, that's about
+28 KB (~7k tokens) at 100 components and 55 KB (~14k tokens) at 200, against 8 KB and 17 KB without.
+
+**Found while setting up**, and since fixed: the Management API refused every guidance write (400 "An item with the
+same key has already been added. Key: Header") on an instance where a component and a content model share a reference
+name, so the first dev copy's `Header` content model was renamed `SiteHeader`. MCP's `save_model_guidance` rejected
+`maxPerPage: null`, though the API accepts it. Both are fixed in the PRs; see the follow-up below.
+
+### Follow-up: pricing guidance written from examples, and the two fixes (2026-11-10, dev)
+
+**Set-up.** A fresh dev copy of the demo site with its `Header` component and `Header` content model both left in
+place, plus the same look-alikes and disabled `LegacyHero`. Management API on the dev lane with the fix (names are
+looked up within the model's own kind); MCP #90's current dev preview (`save_model_guidance` takes nulls).
+
+**The fixes, on that copy.** Guidance and deprecation writes on components and on both `Header` models all save; a
+component naming a content model as its alternative gets a 400 that says so. All 33 models' guidance went in through
+`save_model_guidance` exactly as the writer produced it, 13 of them with `maxPerPage: null`, with no errors.
+
+**Blind again, but with examples.** A new headless session, which never saw the prompts, rewrote the guidance for the
+six pricing and comparison models (`PricingTable`, `PricingCards`, `ComparisonTable`, `PricingOffersforAccounts`,
+`PricingTier`, `ComparisonRow`) from their fields **plus up to three of the instance's own published items each**
+([`writer-input-catalog.json`](../results/min-dev-examples-inputs/writer-input-catalog.json),
+[`guidance-pricing-with-examples.json`](../results/min-dev-examples-inputs/guidance-pricing-with-examples.json)): closer
+to what Draft with AI would see. Everything else kept the first blind guidance.
+
+| Six pricing and comparison prompts (p17, p18, p26, p47, p54, p60), Haiku ×3 | Right | Look-alikes |
+|---|---|---|
+| Blind, fields only (first run; p17, p18, p26, p47 only) | 4/6 slots in every run | 2 per run (p18, p26 compare → `ComparisonTable`) |
+| Blind, fields + example items | 12/12 in every run | 0 |
+| Blind + two owner fixes (first run) | 12/12 in every run | 0 |
+
+Seeing a real `PricingTable` item (plans as columns, features grouped into sections) was enough for the writer to send
+plan-feature grids to `PricingTable` and keep `ComparisonTable` for comparing options or competitors. That matches the
+hand fix without anyone correcting it. For Draft with AI: give the drafter the model's published items, not only its
+fields. Cost of this follow-up: about $0.48 ($0.38 writer, $0.10 runs).
 

@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 8.7,
+  "is_error": false,
+  "cost_usd": 0.009837730000000001,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro with no image or buttons. Its guidance is a plain heading with optional subheading and description, which fits the request."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards, one per PricingTier item with name, monthly price, description, highlight bullets and CTA. Its guidance is a short plan lineup where each plan gets its own card."
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The full comparison grid: a plan-by-feature matrix grouped into sections with yes/no, number or text values. PricingTable is the pricing-specific choice; ComparisonTable is for non-pricing comparisons."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs at the bottom of the page."
+      }
+    ]
+  }
+}

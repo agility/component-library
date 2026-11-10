@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 15.2,
+  "is_error": false,
+  "cost_usd": 0.005973600000000001,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The detailed grid below the plans. Its guidance describes a title, subtitle and plan-by-feature matrix with features grouped into sections and yes/no, number or text values, which covers comparing every feature across all plans. It is the only component that fits this, and it allows one per page. Assumes the plans already sit above it on the page; if not, PricingCards would be the lineup component."
+      }
+    ]
+  }
+}

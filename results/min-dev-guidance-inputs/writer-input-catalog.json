@@ -1,0 +1,1619 @@
+{
+ "components": [
+  {
+   "referenceName": "ABTestHero",
+   "displayName": "A/B Test Hero",
+   "description": "A basic hero for A/B testing. A component with text on the side and graphic on the other.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "ExperimentKey",
+     "label": "Experiment Key",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Control",
+     "label": "Control",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CallToAction",
+     "label": "Call To Action",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ImagePosition",
+     "label": "Image Position",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Variants",
+     "label": "Variants",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Variants",
+     "label": "Variants",
+     "type": "Content",
+     "description": null,
+     "linksTo": "ABTestHeroItem"
+    }
+   ]
+  },
+  {
+   "referenceName": "AnnouncementBar",
+   "displayName": "Alert",
+   "description": "Message bar.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Message",
+     "label": "Message",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Link",
+     "label": "Link",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Dismissible",
+     "label": "Dismissible",
+     "type": "Boolean",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "StartDate",
+     "label": "Start Date",
+     "type": "Date",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "EndDate",
+     "label": "End Date",
+     "type": "Date",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "BackgroundHero",
+   "displayName": "Background Hero",
+   "description": "A hero with either color gradient or a background image to be used at the top of a page (renders under the menu) or elsewhere rendered normally.. ",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Content",
+     "label": "Content",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta1",
+     "label": "CTA 1",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta2",
+     "label": "CTA 2",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Background",
+     "label": "Background",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Details",
+     "label": "Details",
+     "type": "CustomSection",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "backgroundType",
+     "label": "Background Type",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "BackgroundImage",
+     "label": "Background Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "CTABanner",
+   "displayName": "Banner",
+   "description": "Banner with heading and buttons.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PrimaryCTA",
+     "label": "Primary Button",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "SecondaryCTA",
+     "label": "Secondary Button",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Background",
+     "label": "Background",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "BackgroundImage",
+     "label": "Background Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "BentoSection",
+   "displayName": "Bento Section",
+   "description": "Shows a subheading, heading, and a list of \"Bento\" cards.  A great way to showcase some screenshots or graphics.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Subheading",
+     "label": "Sub-heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "BentoCards",
+     "label": "Bento Cards",
+     "type": "Content",
+     "description": null,
+     "linksTo": "BentoCard"
+    }
+   ]
+  },
+  {
+   "referenceName": "carousel",
+   "displayName": "Carousel",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "subheading",
+     "label": "Subheading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Slides",
+     "label": "Slides",
+     "type": "Content",
+     "description": null,
+     "linksTo": "carouselSlide"
+    }
+   ]
+  },
+  {
+   "referenceName": "CompanyStats",
+   "displayName": "Company Stats",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Details",
+     "label": "Details",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "sectionTitle",
+     "label": "Section Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "backgroundImage",
+     "label": "Background Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Stats",
+     "label": "Stats",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "stats",
+     "label": "Stats",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Stat"
+    }
+   ]
+  },
+  {
+   "referenceName": "ComparisonTable",
+   "displayName": "Comparison",
+   "description": "Table.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Columns",
+     "label": "Column Names",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Rows",
+     "label": "Rows",
+     "type": "Content",
+     "description": null,
+     "linksTo": "ComparisonRow"
+    }
+   ]
+  },
+  {
+   "referenceName": "ContactUs",
+   "displayName": "Contact Us",
+   "description": "A contact form component with configuration for form submission",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "description",
+     "label": "Description",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "submitURL",
+     "label": "Submit URL",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Notes",
+     "label": "Notes",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "successMessage",
+     "label": "Success Message",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "errorMessage",
+     "label": "Error Message",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "loadingMessage",
+     "label": "Loading Message",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "address",
+     "label": "Office Address",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "phone",
+     "label": "Phone Number",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "email",
+     "label": "Email Address",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "FeatureGrid",
+   "displayName": "Features",
+   "description": "Grid of items.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Subheading",
+     "label": "Subheading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Columns",
+     "label": "Columns",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Items",
+     "label": "Items",
+     "type": "Content",
+     "description": null,
+     "linksTo": "FeatureItem"
+    }
+   ]
+  },
+  {
+   "referenceName": "Header",
+   "displayName": "Header",
+   "description": "A generic header section that can have just a heading, but also a subheading and description.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Subheading",
+     "label": "Subheading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "Hero",
+   "displayName": "Hero",
+   "description": "A basic hero component with text on the side and graphic on the other.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CallToAction",
+     "label": "Call To Action",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ImagePosition",
+     "label": "Image Position",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "MediaSplit",
+   "displayName": "Image + Text",
+   "description": "Image and text.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Eyebrow",
+     "label": "Eyebrow",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Body",
+     "label": "Body",
+     "type": "Html",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ImagePosition",
+     "label": "Image Position",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CTA",
+     "label": "Button",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "Gallery",
+   "displayName": "Images",
+   "description": "Image grid.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Layout",
+     "label": "Layout",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Images",
+     "label": "Images",
+     "type": "Content",
+     "description": null,
+     "linksTo": "GalleryImage"
+    }
+   ]
+  },
+  {
+   "referenceName": "LogoStrip",
+   "displayName": "Logo Strip",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "ctaDescription",
+     "label": "CTA Description",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta",
+     "label": "CTA",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Logos",
+     "label": "Logos",
+     "type": "Content",
+     "description": null,
+     "linksTo": "LogoItem"
+    }
+   ]
+  },
+  {
+   "referenceName": "PersonalizedBackgroundHero",
+   "displayName": "Personalized Background Hero",
+   "description": "A hero with either color gradient or a background image and personalization options for different audiences",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Content",
+     "label": "Content",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta1",
+     "label": "CTA 1",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta2",
+     "label": "CTA 2",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Background",
+     "label": "Background",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Details",
+     "label": "Background Details",
+     "type": "CustomSection",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "backgroundType",
+     "label": "Background Type",
+     "type": "DropdownList",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "BackgroundImage",
+     "label": "Background Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Personalization",
+     "label": "Personalization",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "personalizedHeroItems",
+     "label": "Personalized Hero Items",
+     "type": "Content",
+     "description": null,
+     "linksTo": "PersonalizedHeroItem"
+    }
+   ]
+  },
+  {
+   "referenceName": "PricingCards",
+   "displayName": "Pricing Cards",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Heading",
+     "label": "Heading",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Subtitle",
+     "label": "Subtitle",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Cards",
+     "label": "Cards",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PricingTiers",
+     "label": "Pricing Tiers",
+     "type": "Content",
+     "description": null,
+     "linksTo": "PricingTier"
+    }
+   ]
+  },
+  {
+   "referenceName": "PricingTable",
+   "displayName": "Pricing Table",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Subtitle",
+     "label": "Subtitle",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "FeaturesJSON",
+     "label": "Features JSON",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "Steps",
+   "displayName": "Process",
+   "description": "Numbered items.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "StepItems",
+     "label": "Steps",
+     "type": "Content",
+     "description": null,
+     "linksTo": "StepItem"
+    }
+   ]
+  },
+  {
+   "referenceName": "NewsletterSignup",
+   "displayName": "Signup",
+   "description": "Signup form.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ButtonText",
+     "label": "Button Text",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ListID",
+     "label": "Mailing List ID",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ConsentText",
+     "label": "Consent Text",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "SuccessMessage",
+     "label": "Success Message",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "StatsStrip",
+   "displayName": "Stats Strip",
+   "description": "A centered heading and description above a single row of key stats (value + label) shown as tiles.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Details",
+     "label": "Details",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Stats",
+     "label": "Stats",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "stats",
+     "label": "Stats",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Stat"
+    }
+   ]
+  },
+  {
+   "referenceName": "Testimonial",
+   "displayName": "Testimonial",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Testimonial",
+     "label": "Testimonial",
+     "type": "Content",
+     "description": null,
+     "linksTo": "TestimonialItem"
+    },
+    {
+     "name": "Testimonial_TextField",
+     "label": "Testimonial_TextField",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Testimonial_ValueField",
+     "label": "Testimonial_ValueField",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "Testimonials",
+   "displayName": "Testimonials",
+   "description": "Shows a entire list of selected testimonials.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Subheading",
+     "label": "Subheading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ctaText",
+     "label": "CTA Text",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ctaLink",
+     "label": "CTA Link",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Testimonials",
+     "label": "Testimonials",
+     "type": "Content",
+     "description": null,
+     "linksTo": "TestimonialItem"
+    },
+    {
+     "name": "Testimonials_TextField",
+     "label": "Testimonials_TextField",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Testimonials_ValueField",
+     "label": "Testimonials_ValueField",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  }
+ ],
+ "contentModels": [
+  {
+   "referenceName": "BentoCard",
+   "displayName": "Bento Card",
+   "description": "Used on the Bento components.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Eyebrow",
+     "label": "Eyebrow",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Graphic",
+     "label": "Graphic",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "carouselSlide",
+   "displayName": "Carousel Slide",
+   "description": "A single slide used within a Carousel component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "image",
+     "label": "Background Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "cta",
+     "label": "Call To Action",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ctaText",
+     "label": "CTA Text Override",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "ComparisonRow",
+   "displayName": "Comparison Row",
+   "description": "Used in the Comparison Table component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Feature",
+     "label": "Feature",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Values",
+     "label": "Values",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Note",
+     "label": "Note",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "FeatureItem",
+   "displayName": "Feature Item",
+   "description": "Used in the Feature Grid component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Icon",
+     "label": "Icon",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Link",
+     "label": "Link",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "GalleryImage",
+   "displayName": "Gallery Image",
+   "description": "Used in the Gallery component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Caption",
+     "label": "Caption",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "Post",
+   "displayName": "Post",
+   "description": "A blog post or article.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Details",
+     "label": "Details",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Slug",
+     "label": "Slug",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PostDate",
+     "label": "Post Date",
+     "type": "Date",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Category",
+     "label": "Choose Category",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Category"
+    },
+    {
+     "name": "CategoryID",
+     "label": "CategoryID",
+     "type": "Integer",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CategoryName",
+     "label": "Category",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Tags",
+     "label": "Choose Tags",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Tag"
+    },
+    {
+     "name": "TagIDs",
+     "label": "TagIDs",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "TagNames",
+     "label": "Tags",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Author",
+     "label": "Choose Author",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Author"
+    },
+    {
+     "name": "AuthorID",
+     "label": "AuthorID",
+     "type": "Integer",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "AuthorName",
+     "label": "Author",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Content",
+     "label": "Content",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Content",
+     "label": "Content",
+     "type": "Html",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Image",
+     "label": "Image",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ImagePrompt",
+     "label": "Image Prompt",
+     "type": "CustomSection",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "PricingTier",
+   "displayName": "Pricing Tier",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Region",
+     "label": "Choose Region",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Region"
+    },
+    {
+     "name": "Name",
+     "label": "Name",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PriceMonthly",
+     "label": "Price Monthly",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Currency",
+     "label": "Currency",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CurrencySymbol",
+     "label": "Currency Symbol",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ctaButton",
+     "label": "CTA Button",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Highlights",
+     "label": "Highlights",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "RegionName",
+     "label": "Region",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "RegionID",
+     "label": "RegionID",
+     "type": "Integer",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "StepItem",
+   "displayName": "Step",
+   "description": "Used in the Steps component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  },
+  {
+   "referenceName": "TestimonialItem",
+   "displayName": "Testimonial Item",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Name",
+     "label": "Name",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Quote",
+     "label": "Quote",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Image",
+     "label": "Image",
+     "type": "ImageAttachment",
+     "description": null,
+     "linksTo": null
+    }
+   ]
+  }
+ ],
+ "otherComponentsOnInstance": [
+  {
+   "referenceName": "FormBuilder",
+   "displayName": "Form",
+   "description": "Create a form on the website for submission of data that can be stored in User Content and emailed.",
+   "disabled": true
+  },
+  {
+   "referenceName": "AgilityFormBuilder",
+   "displayName": "Form Builder",
+   "description": "Create a form on the website for submission of data that can be stored in User Content, emailed and/or posted to a web hook.",
+   "disabled": true
+  },
+  {
+   "referenceName": "FrequentlyAskedQuestions",
+   "displayName": "Frequently Asked Questions",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "LegacyHero",
+   "displayName": "Hero (Legacy)",
+   "description": "A basic hero component with text on the side and graphic on the other.",
+   "disabled": true
+  },
+  {
+   "referenceName": "PersonalizedLogoStrip",
+   "displayName": "Personalized Logo Strip",
+   "description": "Shows items from the Companies list, with personalized items shown if possible.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PostDetails",
+   "displayName": "Post Details",
+   "description": "Shows a blog post details.  Meant for the blog post details page.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PostListing",
+   "displayName": "Post Listing",
+   "description": "Shows a listing of blog posts with paging.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PricingOffersforAccounts",
+   "displayName": "Pricing Offers for Accounts",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "RichTextArea",
+   "displayName": "Rich Text Area",
+   "description": "A free-form rich text area where you can enter text, graphics, media and HTML.",
+   "disabled": false
+  },
+  {
+   "referenceName": "ServiceListing",
+   "displayName": "Service Listing",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "TeamListing",
+   "displayName": "Team Listing",
+   "description": "Shows a team listing.",
+   "disabled": false
+  }
+ ],
+ "otherContentModelsOnInstance": [
+  {
+   "referenceName": "ABTestHeroItem",
+   "displayName": "A/B Test Hero Item"
+  },
+  {
+   "referenceName": "AISearchConfiguration",
+   "displayName": "AI Search Configuration"
+  },
+  {
+   "referenceName": "Audience",
+   "displayName": "Audience"
+  },
+  {
+   "referenceName": "Author",
+   "displayName": "Author"
+  },
+  {
+   "referenceName": "Category",
+   "displayName": "Category"
+  },
+  {
+   "referenceName": "CustomerProfile",
+   "displayName": "Customer Profile"
+  },
+  {
+   "referenceName": "FAQItem",
+   "displayName": "FAQ Item"
+  },
+  {
+   "referenceName": "Footer",
+   "displayName": "Footer"
+  },
+  {
+   "referenceName": "FooterLink",
+   "displayName": "Footer Link"
+  },
+  {
+   "referenceName": "FooterSocialLink",
+   "displayName": "Footer Social Link"
+  },
+  {
+   "referenceName": "globalsettings",
+   "displayName": "Global Settings"
+  },
+  {
+   "referenceName": "Header",
+   "displayName": "Header"
+  },
+  {
+   "referenceName": "LogoItem",
+   "displayName": "Logo Item"
+  },
+  {
+   "referenceName": "NavLink",
+   "displayName": "Nav Link"
+  },
+  {
+   "referenceName": "PersonalizedHeroItem",
+   "displayName": "Personalized Hero Item"
+  },
+  {
+   "referenceName": "Region",
+   "displayName": "Region"
+  },
+  {
+   "referenceName": "Stat",
+   "displayName": "Stat"
+  },
+  {
+   "referenceName": "Tag",
+   "displayName": "Tag"
+  },
+  {
+   "referenceName": "TopLevelNav",
+   "displayName": "Top Level Nav"
+  }
+ ]
+}

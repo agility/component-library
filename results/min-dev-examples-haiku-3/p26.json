@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 9.0,
+  "is_error": false,
+  "cost_usd": 0.009959120000000002,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro at the top, with no image or buttons"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Plans shown as cards, one per pricing tier with price, description, highlights and CTA"
+      },
+      {
+        "referenceName": "PricingTable",
+        "purpose": "Full comparison grid of plans by grouped features"
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs at the bottom of the page"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 5.4,
+  "is_error": false,
+  "cost_usd": 0.00312464,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The 'How it works' section itself: a numbered, ordered process covering the three steps in sequence. 1) Sign up, 2) Connect your data, 3) Publish. Order matters here, which is why it fits better than FeatureGrid. It carries its own heading, so no separate Header is needed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.00309468,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The whole 'Get a quote' section: its Heading and Description fields carry the 'Get a quote' title and intro, and the component renders the form and submits it (via Submit URL, with success, error and loading messages). It is the only visible form component on this instance. Its model has no custom fields, so it cannot add company or project-details inputs. The name, company and project fields therefore depend on the form's submit endpoint or on a form model I could not confirm."
+      }
+    ]
+  }
+}

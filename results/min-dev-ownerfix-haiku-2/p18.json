@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 6.4,
+  "is_error": false,
+  "cost_usd": 0.00321282,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "\"A detailed grid comparing every feature across all plans\" placed below the plans. Its agent guidance describes it as the feature-by-plan grid on a pricing page, with every feature as a row and a column per plan. ComparisonTable is for competitors and PricingCards is for the priced plan cards, so neither fits."
+      }
+    ]
+  }
+}

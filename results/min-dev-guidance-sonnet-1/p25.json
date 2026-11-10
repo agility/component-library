@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 6.7,
+  "is_error": false,
+  "cost_usd": 0.0511699,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with two buttons (supports up to two CTAs over a gradient or background image)."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos as social proof under the hero."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots (graphic-heavy cards with title, description and screenshot). FeatureGrid only has icons, so it doesn't fit."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats shown as one row of value-and-label tiles."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One customer quote (a single Testimonial Item)."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form at the bottom of the page."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.0395764,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Detailed grid comparing every feature across all plans. Column Names hold the plans and the linked Rows hold the features. It goes below the plans section."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.0396745,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "The whole request in one component. Its Heading/Subheading carry the 'What our customers say' title. Its Testimonials list holds the six quotes. Its CTA Text and CTA Link give the link to read more stories."
+      }
+    ]
+  }
+}

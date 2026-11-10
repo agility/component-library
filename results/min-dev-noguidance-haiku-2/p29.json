@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.00411957,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opening block. Covers the event title (Heading), a register button (cta1 link), and the gradient background (backgroundType, e.g. yellow-pink or another gradient). Description is required, so it can take a one-line event summary."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda in free text. Covers the 'short agenda in free text' part of the request."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form at the bottom. Covers the 'registration form' part of the request, with heading, description, submit URL, and success and error messages. Caveat: it is a contact form, and the model has no custom field definitions, so registration-specific fields (name, company, etc.) may not be configurable here."
+      }
+    ]
+  }
+}

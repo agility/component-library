@@ -1,0 +1,16 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 5.6,
+  "is_error": false,
+  "cost_usd": 0.0031339500000000004,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Covers the whole request: a feature-by-feature comparison of our product against two competitors. Its heading introduces the table, its column names are the three products, and each Comparison Row item holds one feature with its values for each product and an optional note. The agent guidance says this component is for comparing options feature by feature, and the other options in the list (PricingTable, PricingCards, FeatureGrid) don't fit."
+      }
+    ]
+  }
+}

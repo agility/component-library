@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 22.9,
+  "is_error": false,
+  "cost_usd": 0.0035287,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Covers the whole request: a short 'Ready to try it?' section with a 'Start free trial' button. Its Heading field takes 'Ready to try it?' and its Primary Button (required) takes 'Start free trial'. Leave Description and Secondary Button empty to keep it short, and use the default brand-colour background."
+      }
+    ]
+  }
+}

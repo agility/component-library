@@ -1,0 +1,28 @@
+{
+  "id": "p52",
+  "kind": "page",
+  "seconds": 7.0,
+  "is_error": false,
+  "cost_usd": 0.00336341,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "AnnouncementBar",
+        "purpose": "One-line notice about the new release at the very top of the page. It is a thin site-wide message bar with an optional link and dates, which suits a time-boxed launch notice."
+      },
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner directly below the notice. It has a heading, description, and up to two CTA buttons over a gradient or background image, and it is the only component that fits the full-width opener with two buttons."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Row of customer logos as social proof, placed after the hero."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Final 'Get started' call-to-action band at the bottom of the page, with a heading, description, and primary and secondary buttons."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p29",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.00430905,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Page opener at the top of the page: the webinar event title as the Heading, a short description, a register button as CTA 1, and a color gradient background (for example yellow-pink) as requested."
+      },
+      {
+        "referenceName": "RichTextArea",
+        "purpose": "Short agenda in free text, placed directly below the hero. RichTextArea is the free-form text component, and the agenda needs no structured items."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Registration form below the agenda. It is the closest available form: heading, description, submit URL and success/error/loading messages. Its address, phone and email fields are contact details, so they can be left blank for a registration form. Note that no dedicated registration or event form exists on this instance. The FormBuilder and AgilityFormBuilder components are hidden, and NewsletterSignup only collects an email address."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 36.5,
+  "is_error": false,
+  "cost_usd": 0.0039047400000000003,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The detailed feature-by-plan grid placed below the plans: every feature is a row with a column per plan. Its Title, Subtitle and Features JSON fields carry the comparison content. This is the only component the request calls for."
+      }
+    ]
+  }
+}

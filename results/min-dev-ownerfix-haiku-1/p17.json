@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 38.2,
+  "is_error": false,
+  "cost_usd": 0.0036891800000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request: a title and subtitle above three plan cards side by side, each with its name, price, highlights, and a sign-up (CTA) button. Its Pricing Tiers nested list holds the three plans. It has a title and subtitle, so no separate Header is needed above it."
+      }
+    ]
+  }
+}

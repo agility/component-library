@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 14.9,
+  "is_error": false,
+  "cost_usd": 0.0056035600000000005,
+  "num_turns": 8,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Covers the whole request: a 'Ready to try it?' heading and a 'Start free trial' primary button. It is placed halfway down the page, between the existing ABTestHero and Testimonials modules. Its Heading and PrimaryCTA fields hold the text and link, and the optional Description, SecondaryCTA and background options can stay empty or default."
+      }
+    ]
+  }
+}

@@ -1,0 +1,450 @@
+{
+ "components": [
+  {
+   "referenceName": "ComparisonTable",
+   "displayName": "Comparison",
+   "description": "Table.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Heading",
+     "label": "Heading",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Columns",
+     "label": "Column Names",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Rows",
+     "label": "Rows",
+     "type": "Content",
+     "description": null,
+     "linksTo": "ComparisonRow"
+    }
+   ],
+   "exampleItems": []
+  },
+  {
+   "referenceName": "PricingCards",
+   "displayName": "Pricing Cards",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "tab_Heading",
+     "label": "Heading",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Subtitle",
+     "label": "Subtitle",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "tab_Cards",
+     "label": "Cards",
+     "type": "Tab",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PricingTiers",
+     "label": "Pricing Tiers",
+     "type": "Content",
+     "description": null,
+     "linksTo": "PricingTier"
+    }
+   ],
+   "exampleItems": [
+    {
+     "title": "Pricing that scales with your team",
+     "subtitle": "Sample pricing for a fictional demo \u2014 not Agility CMS pricing",
+     "pricingTiers": "pricing_pricingcards_pricing6d351a"
+    }
+   ]
+  },
+  {
+   "referenceName": "PricingTable",
+   "displayName": "Pricing Table",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Title",
+     "label": "Title",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Subtitle",
+     "label": "Subtitle",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "FeaturesJSON",
+     "label": "Features JSON",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    }
+   ],
+   "exampleItems": [
+    {
+     "featuresJSON": "[\r\n  {\r\n    \"name\": \"Starter\",\r\n    \"href\": \"/contact-us\",\r\n    \"features\": [\r\n      { \"section\": \"Features\", \"name\": \"Accounts\", \"value\": 3 },\r\n      { \"section\": \"Features\", \"name\": \"Active projects\", \"value\": 5 },\r\n      { \"section\": \"Features\", \"name\": \"Connected integrations\", \"value\": \"Select\" },\r\n      { \"section\": \"Features\", \"name\": \"Contacts\", \"value\": 100 },\r\n      { \"section\": \"Features\", \"name\": \"AI automations\", \"value\": false },\r\n      { \"section\": \"Analysis\", \"name\": \"Custom workflows\", \"value\": false },\r\n      { \"section\": \"Analysis\", \"name\": \"Dashboard reporting\", \"value\": false },\r\n      { \"section\": \"Analysis\", \"name\": \"Community insights\", \"value\": false },\r\n      { \"section\": \"Analysis\", \"name\": \"Performance analytics\", \"value\": false },\r\n      { \"section\": \"Support\", \"name\": \"Email support\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"24 / 7 call center support\", \"value\": false },\r\n      { \"section\": \"Support\", \"name\": \"Dedicated account manager\", \"value\": false }\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Growth\",\r\n    \"href\": \"#\",\r\n    \"features\": [\r\n      { \"section\": \"Features\", \"name\": \"Accounts\", \"value\": 10 },\r\n      { \"section\": \"Features\", \"name\": \"Active projects\", \"value\": \"Unlimited\" },\r\n      { \"section\": \"Features\", \"name\": \"Connected integrations\", \"value\": \"100+\" },\r\n      { \"section\": \"Features\", \"name\": \"Contacts\", \"value\": 1000 },\r\n      { \"section\": \"Features\", \"name\": \"AI automations\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Custom workflows\", \"value\": \"5 / month\" },\r\n      { \"section\": \"Analysis\", \"name\": \"Dashboard reporting\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Community insights\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Performance analytics\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"Email support\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"24 / 7 call center support\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"Dedicated account manager\", \"value\": false }\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Enterprise\",\r\n    \"href\": \"#\",\r\n    \"features\": [\r\n      { \"section\": \"Features\", \"name\": \"Accounts\", \"value\": \"Unlimited\" },\r\n      { \"section\": \"Features\", \"name\": \"Active projects\", \"value\": \"Unlimited\" },\r\n      { \"section\": \"Features\", \"name\": \"Connected integrations\", \"value\": \"100+\" },\r\n      { \"section\": \"Features\", \"name\": \"Contacts\", \"value\": \"Unlimited\" },\r\n      { \"section\": \"Features\", \"name\": \"AI automations\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Custom workflows\", \"value\": \"Unlimited\" },\r\n      { \"section\": \"Analysis\", \"name\": \"Dashboard reporting\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Community insights\", \"value\": true },\r\n      { \"section\": \"Analysis\", \"name\": \"Performance analytics\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"Email support\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"24 / 7 call center support\", \"value\": true },\r\n      { \"section\": \"Support\", \"name\": \"Dedicated account manager\", \"value\": true }\r\n    ]\r\n  }\r\n]\r\n"
+    }
+   ]
+  },
+  {
+   "referenceName": "PricingOffersforAccounts",
+   "displayName": "Pricing Offers for Accounts",
+   "description": null,
+   "disabled": false,
+   "fields": [],
+   "exampleItems": []
+  }
+ ],
+ "contentModels": [
+  {
+   "referenceName": "ComparisonRow",
+   "displayName": "Comparison Row",
+   "description": "Used in the Comparison Table component.",
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Feature",
+     "label": "Feature",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Values",
+     "label": "Values",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Note",
+     "label": "Note",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    }
+   ],
+   "exampleItems": []
+  },
+  {
+   "referenceName": "PricingTier",
+   "displayName": "Pricing Tier",
+   "description": null,
+   "disabled": false,
+   "fields": [
+    {
+     "name": "Region",
+     "label": "Choose Region",
+     "type": "Content",
+     "description": null,
+     "linksTo": "Region"
+    },
+    {
+     "name": "Name",
+     "label": "Name",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Description",
+     "label": "Description",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "PriceMonthly",
+     "label": "Price Monthly",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Currency",
+     "label": "Currency",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "CurrencySymbol",
+     "label": "Currency Symbol",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "ctaButton",
+     "label": "CTA Button",
+     "type": "Link",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "Highlights",
+     "label": "Highlights",
+     "type": "LongText",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "RegionName",
+     "label": "Region",
+     "type": "Text",
+     "description": null,
+     "linksTo": null
+    },
+    {
+     "name": "RegionID",
+     "label": "RegionID",
+     "type": "Integer",
+     "description": null,
+     "linksTo": null
+    }
+   ],
+   "exampleItems": [
+    {
+     "name": "Starter",
+     "description": "Everything you need to start moving fast.",
+     "priceMonthly": "99",
+     "currency": "USD",
+     "currencySymbol": "$",
+     "ctaButton": {
+      "href": "/contact-us",
+      "target": "",
+      "text": "Start now"
+     },
+     "highlights": "Includes up to 3 team members\r\nLaunch and manage up to 5 active projects\r\nConnect a curated set of your favorite tools"
+    },
+    {
+     "name": "Growth",
+     "description": "All the flexibility your growing team needs.",
+     "priceMonthly": "150",
+     "currency": "USD",
+     "currencySymbol": "$",
+     "ctaButton": {
+      "href": "/contact-us",
+      "target": "",
+      "text": "Start now"
+     },
+     "highlights": "Up to 10 team members\r\nUnlimited active projects\r\nConnect to over 50 tools and platforms\r\nGalaxyAI automations\r\n5 custom workflows per month"
+    },
+    {
+     "name": "Enterprise",
+     "description": "Added flexibility to scale without limits.",
+     "priceMonthly": "399",
+     "currency": "USD",
+     "currencySymbol": "$",
+     "ctaButton": {
+      "href": "/contact-us",
+      "target": "",
+      "text": "Get started"
+     },
+     "highlights": "Unlimited active team members\r\nUnlimited active projects\r\nConnect to over 100 tools and platforms\r\nGalaxyAI automations\r\nUnlimited custom workflows"
+    }
+   ]
+  }
+ ],
+ "otherComponentsOnInstance": [
+  {
+   "referenceName": "FormBuilder",
+   "displayName": "Form",
+   "description": "Create a form on the website for submission of data that can be stored in User Content and emailed.",
+   "disabled": true
+  },
+  {
+   "referenceName": "AgilityFormBuilder",
+   "displayName": "Form Builder",
+   "description": "Create a form on the website for submission of data that can be stored in User Content, emailed and/or posted to a web hook.",
+   "disabled": true
+  },
+  {
+   "referenceName": "FrequentlyAskedQuestions",
+   "displayName": "Frequently Asked Questions",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "LegacyHero",
+   "displayName": "Hero (Legacy)",
+   "description": "A basic hero component with text on the side and graphic on the other.",
+   "disabled": true
+  },
+  {
+   "referenceName": "PersonalizedLogoStrip",
+   "displayName": "Personalized Logo Strip",
+   "description": "Shows items from the Companies list, with personalized items shown if possible.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PostDetails",
+   "displayName": "Post Details",
+   "description": "Shows a blog post details.  Meant for the blog post details page.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PostListing",
+   "displayName": "Post Listing",
+   "description": "Shows a listing of blog posts with paging.",
+   "disabled": false
+  },
+  {
+   "referenceName": "PricingOffersforAccounts",
+   "displayName": "Pricing Offers for Accounts",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "RichTextArea",
+   "displayName": "Rich Text Area",
+   "description": "A free-form rich text area where you can enter text, graphics, media and HTML.",
+   "disabled": false
+  },
+  {
+   "referenceName": "ServiceListing",
+   "displayName": "Service Listing",
+   "description": null,
+   "disabled": false
+  },
+  {
+   "referenceName": "TeamListing",
+   "displayName": "Team Listing",
+   "description": "Shows a team listing.",
+   "disabled": false
+  },
+  "ABTestHero",
+  "AnnouncementBar",
+  "BackgroundHero",
+  "CTABanner",
+  "BentoSection",
+  "carousel",
+  "CompanyStats",
+  "ContactUs",
+  "FeatureGrid",
+  "Header",
+  "Hero",
+  "MediaSplit",
+  "Gallery",
+  "LogoStrip",
+  "PersonalizedBackgroundHero",
+  "Steps",
+  "NewsletterSignup",
+  "StatsStrip",
+  "Testimonial",
+  "Testimonials"
+ ],
+ "otherContentModelsOnInstance": [
+  "BentoCard",
+  "carouselSlide",
+  "FeatureItem",
+  "GalleryImage",
+  "Post",
+  "StepItem",
+  "TestimonialItem",
+  {
+   "referenceName": "ABTestHeroItem",
+   "displayName": "A/B Test Hero Item"
+  },
+  {
+   "referenceName": "AISearchConfiguration",
+   "displayName": "AI Search Configuration"
+  },
+  {
+   "referenceName": "Audience",
+   "displayName": "Audience"
+  },
+  {
+   "referenceName": "Author",
+   "displayName": "Author"
+  },
+  {
+   "referenceName": "Category",
+   "displayName": "Category"
+  },
+  {
+   "referenceName": "CustomerProfile",
+   "displayName": "Customer Profile"
+  },
+  {
+   "referenceName": "FAQItem",
+   "displayName": "FAQ Item"
+  },
+  {
+   "referenceName": "Footer",
+   "displayName": "Footer"
+  },
+  {
+   "referenceName": "FooterLink",
+   "displayName": "Footer Link"
+  },
+  {
+   "referenceName": "FooterSocialLink",
+   "displayName": "Footer Social Link"
+  },
+  {
+   "referenceName": "globalsettings",
+   "displayName": "Global Settings"
+  },
+  {
+   "referenceName": "Header",
+   "displayName": "Header"
+  },
+  {
+   "referenceName": "LogoItem",
+   "displayName": "Logo Item"
+  },
+  {
+   "referenceName": "NavLink",
+   "displayName": "Nav Link"
+  },
+  {
+   "referenceName": "PersonalizedHeroItem",
+   "displayName": "Personalized Hero Item"
+  },
+  {
+   "referenceName": "Region",
+   "displayName": "Region"
+  },
+  {
+   "referenceName": "Stat",
+   "displayName": "Stat"
+  },
+  {
+   "referenceName": "Tag",
+   "displayName": "Tag"
+  },
+  {
+   "referenceName": "TopLevelNav",
+   "displayName": "Top Level Nav"
+  }
+ ]
+}

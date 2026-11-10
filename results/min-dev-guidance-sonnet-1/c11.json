@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.0472449,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "A tile with a large product screenshot is a graphic-led card in a Bento Section, so it belongs in BentoCard. Its guidance describes one card with an eyebrow, title, description and a graphic, linked from BentoSection. GalleryImage is only a captioned picture, and FeatureItem is an icon-and-link item. Neither fits a screenshot tile."
+  }
+}

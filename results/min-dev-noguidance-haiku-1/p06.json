@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 9.5,
+  "is_error": false,
+  "cost_usd": 0.009506510000000001,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The opening gradient banner. It supports gradient backgrounds (yellow-pink, green-blue-yellow, grayscale, 3-reds), so it covers the gradient requirement. Its Heading would be 'Join our team', and CTA 1 would be the button that opens the roles, for example a link to the open roles listing. It is designed for the top of a page, which suits a careers landing page."
+      }
+    ]
+  }
+}

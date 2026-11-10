@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 6.9,
+  "is_error": false,
+  "cost_usd": 0.00315124,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The full-width opening banner: a headline, a description, two CTA buttons, and a background photo. It is marked for the top of the page and renders under the menu. The other hero options don't fit: Hero puts the image beside the text, and ABTestHero and PersonalizedBackgroundHero are for experiments or audience variants, which were not requested."
+      }
+    ]
+  }
+}

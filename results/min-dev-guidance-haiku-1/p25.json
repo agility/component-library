@@ -1,0 +1,36 @@
+{
+  "id": "p25",
+  "kind": "page",
+  "seconds": 5.8,
+  "is_error": false,
+  "cost_usd": 0.0033083800000000005,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Full-width opening banner with heading, description and two buttons. Placed at the top; it is the only component that combines a full-width background with two CTAs."
+      },
+      {
+        "referenceName": "LogoStrip",
+        "purpose": "Customer logos row as social proof, directly under the opening banner."
+      },
+      {
+        "referenceName": "BentoSection",
+        "purpose": "Features grid with screenshots. Bento cards show graphics well; FeatureGrid is for icon-and-text features, so it doesn't fit a screenshot-led grid."
+      },
+      {
+        "referenceName": "StatsStrip",
+        "purpose": "Three key stats as a single row of value and label tiles. It fits a plain row of numbers without a background image; CompanyStats is the alternative if a titled, image-backed section is wanted."
+      },
+      {
+        "referenceName": "Testimonial",
+        "purpose": "One customer quote. The single-quote component is used instead of Testimonials, which shows a list of several quotes."
+      },
+      {
+        "referenceName": "ContactUs",
+        "purpose": "Final contact form at the bottom of the page, with heading, description, and submission messages."
+      }
+    ]
+  }
+}

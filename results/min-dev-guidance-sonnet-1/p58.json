@@ -1,0 +1,16 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 6.9,
+  "is_error": false,
+  "cost_usd": 0.060709,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The whole request: a 'Get a quote' section with a form for name, company and project details. Set the heading to 'Get a quote' and point the submit URL at the form handler. The model has no per-field configuration, so the name, company and project-details inputs are assumed to be built into the form's rendering."
+      }
+    ]
+  }
+}

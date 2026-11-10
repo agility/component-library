@@ -1,0 +1,16 @@
+{
+  "id": "p58",
+  "kind": "page",
+  "seconds": 7.6,
+  "is_error": false,
+  "cost_usd": 0.0385131,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ContactUs",
+        "purpose": "The whole request: a 'Get a quote' section with a submittable form. Set the heading to 'Get a quote' and use the description for the intro text. The form's submit URL, success message, error message and loading message are configurable. The model has no fields for choosing the form inputs. Name, company and project details would have to come from the front-end form or the submit endpoint, so the marketer should confirm that. The office address, phone and email fields can be left empty."
+      }
+    ]
+  }
+}

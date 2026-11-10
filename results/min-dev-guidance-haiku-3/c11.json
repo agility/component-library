@@ -1,0 +1,12 @@
+{
+  "id": "c11",
+  "kind": "content",
+  "seconds": 8.3,
+  "is_error": false,
+  "cost_usd": 0.00521541,
+  "num_turns": 7,
+  "answer": {
+    "referenceName": "BentoCard",
+    "reason": "The \"picture tiles\" section is the Bento Section component (BentoSection), whose Bento Cards field is a nested grid of the BentoCard content list. Each tile is a BentoCard item with Eyebrow, Title, Description and a Graphic image field, which fits a large product screenshot. Alternatives were ruled out: GalleryImage (Gallery) is captioned pictures only, FeatureItem is icon-and-link, and carouselSlide is a rotating slide with a CTA. I did not save anything."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.0037638000000000003,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison of our product against two competitors: a heading, three column names (our product plus the two competitors), and one row per feature."
+      }
+    ]
+  }
+}

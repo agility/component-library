@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 7.6,
+  "is_error": false,
+  "cost_usd": 0.00392517,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Page title and one-line intro with no image. Its guidance is a plain section heading with optional subheading and description, no image or buttons, and it is allowed at the top of a page."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards: each tier has a name, monthly price, highlights and a CTA button. Its guidance says to use it for plans side by side with a button per plan."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid, with comparison rows entered as content items (feature, values, note). I chose it over PricingTable because PricingTable needs a features JSON structure I don't have."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs. It has a subheading, a heading and a nested list of FAQ items, which fits a question-and-answer block."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p10",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.0049484,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Testimonials",
+        "purpose": "Covers the whole request in one module: the 'What our customers say' heading (Heading field, with a Subheading above it), the six quotes (linked TestimonialItem entries picked in the Testimonials field), and the link to read more stories (CTA Text and CTA Link fields)."
+      }
+    ]
+  }
+}

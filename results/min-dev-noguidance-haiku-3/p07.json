@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.003255,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The opening hero: a text block (Heading, Description, Call To Action) beside a hero image. Its ImagePosition field is set to \"left\" to meet the request for the image on the left. It is the only component needed for the request."
+      }
+    ]
+  }
+}

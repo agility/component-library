@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 7.8,
+  "is_error": false,
+  "cost_usd": 0.0036577999999999997,
+  "num_turns": 7,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request: three plans side by side as cards. Its Title and Subtitle cover the page heading, and its nested PricingTiers list holds one Pricing Tier item per plan. Each tier has a price (PriceMonthly with CurrencySymbol and Currency), a CTA Button link for sign-up, a description, and highlights."
+      }
+    ]
+  }
+}

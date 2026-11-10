@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 6.8,
+  "is_error": false,
+  "cost_usd": 0.0034871800000000003,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The detailed grid below the plans that compares every feature across all plans. Its Heading field titles the grid, its Columns field lists the plan names, and its Rows field (ComparisonRow list) holds one row per feature."
+      }
+    ]
+  }
+}

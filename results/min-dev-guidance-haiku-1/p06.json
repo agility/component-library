@@ -1,0 +1,16 @@
+{
+  "id": "p06",
+  "kind": "page",
+  "seconds": 7.3,
+  "is_error": false,
+  "cost_usd": 0.00311784,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "The opening gradient banner with the 'Join our team' heading and a button to open roles. Its agent guidance says it fits a page opener with heading, description and up to two CTAs over a color gradient, and it renders under the menu when placed at the top."
+      }
+    ]
+  }
+}

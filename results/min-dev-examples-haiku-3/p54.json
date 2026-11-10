@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 6.6,
+  "is_error": false,
+  "cost_usd": 0.0033715200000000002,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain title and one-sentence intro at the top of the 'Compare us' page. Its guidance is a plain heading with optional subheading and description, no image or buttons, which fits. Hero was rejected as too heavy for a title and one sentence."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The feature-by-feature comparison with competitors. Its guidance is a heading, column names and ComparisonRow items for comparing options side by side across the same features. PricingTable was rejected because this is not a pricing comparison."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call to action to book a demo. Its guidance is a full-width band with heading, description and buttons, used near the end of a page to push one action."
+      }
+    ]
+  }
+}

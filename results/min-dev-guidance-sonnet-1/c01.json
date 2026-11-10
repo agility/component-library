@@ -1,0 +1,12 @@
+{
+  "id": "c01",
+  "kind": "content",
+  "seconds": 5.7,
+  "is_error": false,
+  "cost_usd": 0.0455027,
+  "num_turns": 4,
+  "answer": {
+    "referenceName": "Post",
+    "reason": "The Post model is the blog post/article model (heading, slug, date, category, tags, author, rich-text content, image), stored in the Posts container. Author and Category are separate models that the Post links to, so they are not the place for the article itself."
+  }
+}

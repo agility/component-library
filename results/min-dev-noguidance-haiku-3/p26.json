@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 9.8,
+  "is_error": false,
+  "cost_usd": 0.00413205,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Title and one-line intro at the top, with no image. Its Heading is required, and Subheading and Description are optional, so I'd fill Heading and Description and leave Subheading empty. (Model ID 25 is the generic section. A different model also uses the reference name \"Header\" with ID 15, which is the global site header, so use ID 25.)"
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards. It has a Title and Subtitle heading plus a nested list of PricingTier items for the plan cards."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid. It has a Heading, Column Names, and a shared list of ComparisonRow items grouped by category. I chose it over PricingTable because it is built as a row-by-column comparison, while PricingTable is a single features JSON blob."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "Billing FAQs at the bottom. It has a Subheading, a Heading, and a nested list of FAQItem questions and answers."
+      }
+    ]
+  }
+}

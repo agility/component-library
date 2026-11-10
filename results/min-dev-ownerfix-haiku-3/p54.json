@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 5.1,
+  "is_error": false,
+  "cost_usd": 0.00322577,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "The plain title and one-sentence intro at the top of the 'Compare us' page. It has no image or buttons, which matches the request for a plain title with one sentence."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The feature-by-feature comparison with competitors, with features as rows and each competitor as a column. Its guidance covers comparing us against alternatives, not our own pricing plans."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The closing call to action to book a demo, a full-width band with a heading and a primary button. It sits at the bottom of the page."
+      }
+    ]
+  }
+}

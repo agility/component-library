@@ -1,0 +1,20 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 8.4,
+  "is_error": false,
+  "cost_usd": 0.0030959,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The core 'How it works' section: a numbered Process component (Heading + StepItems) that lays out the three steps in order: 1. Sign up, 2. Connect your data, 3. Publish. Its own Heading field carries the 'How it works' title, so no separate header is needed."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "A closing call-to-action banner with a heading, description, and Primary/Secondary buttons, so readers can act on the flow (e.g. 'Sign up' as the primary button). Placed after the steps, it gives the section an ending action."
+      }
+    ]
+  }
+}

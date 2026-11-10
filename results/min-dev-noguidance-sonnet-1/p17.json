@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 6.4,
+  "is_error": false,
+  "cost_usd": 0.035378400000000004,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request: a title and subtitle, then three plan cards side by side (one PricingTier per plan). Each card carries its price and sign-up button. It's the only component on the page."
+      }
+    ]
+  }
+}

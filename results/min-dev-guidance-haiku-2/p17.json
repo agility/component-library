@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 4.1,
+  "is_error": false,
+  "cost_usd": 0.0032116900000000006,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Covers the whole request: three plans side by side as cards, each with its name, price (monthly price and currency), highlights, and a sign-up CTA button. It also provides the title and subtitle above the cards. It is the only component on the instance built for priced plans with a button per plan, and its guidance allows one per page."
+      }
+    ]
+  }
+}

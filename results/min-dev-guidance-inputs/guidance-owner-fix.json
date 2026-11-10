@@ -1,0 +1,35 @@
+{
+ "PricingTable": {
+  "version": 1,
+  "useWhen": "The feature-by-plan grid on a pricing page: every feature as a row, a column per plan, under the plan cards.",
+  "avoidWhen": "Comparing us with competitors (use ComparisonTable), or the plans themselves with prices and buttons (use PricingCards).",
+  "alternatives": [
+   {
+    "referenceName": "ComparisonTable",
+    "when": "us versus competitors"
+   },
+   {
+    "referenceName": "PricingCards",
+    "when": "the plans as priced cards"
+   }
+  ],
+  "placement": [
+   "body"
+  ],
+  "maxPerPage": 1
+ },
+ "ComparisonTable": {
+  "version": 1,
+  "useWhen": "Comparing our product with competitors or alternatives, feature by feature, with rows as content items.",
+  "avoidWhen": "Comparing our own plans' features on a pricing page: use PricingTable.",
+  "alternatives": [
+   {
+    "referenceName": "PricingTable",
+    "when": "our plans' features on a pricing page"
+   }
+  ],
+  "placement": [
+   "body"
+  ]
+ }
+}

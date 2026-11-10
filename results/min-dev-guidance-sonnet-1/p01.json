@@ -1,0 +1,16 @@
+{
+  "id": "p01",
+  "kind": "page",
+  "seconds": 7.7,
+  "is_error": false,
+  "cost_usd": 0.0485193,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Opens the spring sale landing page with a full-width banner: a headline, two CTA buttons, and a background photo."
+      }
+    ]
+  }
+}

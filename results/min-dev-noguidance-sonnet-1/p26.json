@@ -1,0 +1,28 @@
+{
+  "id": "p26",
+  "kind": "page",
+  "seconds": 10.5,
+  "is_error": false,
+  "cost_usd": 0.060867899999999996,
+  "num_turns": 9,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "BackgroundHero",
+        "purpose": "Page title and one-line intro with no image. Use a gradient background type, not the background image, and leave the CTAs empty."
+      },
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans shown as cards, one pricing tier per card."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The full comparison grid: plan names as columns and feature rows."
+      },
+      {
+        "referenceName": "FrequentlyAskedQuestions",
+        "purpose": "The billing FAQs, as question and answer items."
+      }
+    ]
+  }
+}

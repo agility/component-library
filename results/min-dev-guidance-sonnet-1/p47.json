@@ -1,0 +1,24 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.0493764,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Page opener introducing the comparison of our product against the two competitors, with a CTA."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The core of the request: a feature-by-feature table with columns for our product and the two competitors, and one row per feature."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call to action (e.g. try or demo our product) after the reader has seen the comparison."
+      }
+    ]
+  }
+}

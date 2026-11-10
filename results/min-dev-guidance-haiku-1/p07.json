@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 6.2,
+  "is_error": false,
+  "cost_usd": 0.00374317,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "The campaign page opener: a heading, description, one call-to-action, and a hero image beside the copy. Its ImagePosition dropdown is set to \"left\" to meet the request for the image on the left. Its model is confirmed to have that option, and its guidance names it as the standard page hero."
+      }
+    ]
+  }
+}

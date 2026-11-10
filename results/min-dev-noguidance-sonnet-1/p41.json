@@ -1,0 +1,16 @@
+{
+  "id": "p41",
+  "kind": "page",
+  "seconds": 5.9,
+  "is_error": false,
+  "cost_usd": 0.0357138,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Covers the whole request. Place it at the middle of the product page, between existing sections. Heading: 'Ready to try it?'. Primary Button: 'Start free trial'. Leave the secondary button, description and background image empty to keep the section short."
+      }
+    ]
+  }
+}

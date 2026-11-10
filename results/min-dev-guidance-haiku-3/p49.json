@@ -1,0 +1,16 @@
+{
+  "id": "p49",
+  "kind": "page",
+  "seconds": 4.8,
+  "is_error": false,
+  "cost_usd": 0.00309273,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Steps",
+        "purpose": "The whole 'How it works' section: a heading above three numbered steps in order (1. Sign up, 2. Connect your data, 3. Publish). Its agent guidance says to use it for how-it-works and onboarding sequences where order matters."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 6.1,
+  "is_error": false,
+  "cost_usd": 0.0029854200000000003,
+  "num_turns": 6,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Intro heading (with optional subheading and description) that frames the page as a comparison of our product against two competitors."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Core feature-by-feature comparison. Its Columns field names our product and the two competitors, and its Rows grid holds one row per feature."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call-to-action after the comparison, with a primary button and an optional secondary button to move readers toward trying or buying the product."
+      }
+    ]
+  }
+}

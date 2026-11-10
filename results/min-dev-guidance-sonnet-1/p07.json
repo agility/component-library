@@ -1,0 +1,16 @@
+{
+  "id": "p07",
+  "kind": "page",
+  "seconds": 5.8,
+  "is_error": false,
+  "cost_usd": 0.0515309,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Hero",
+        "purpose": "Campaign page opener: hero image beside the copy (heading, description, CTA), with the image positioned on the left."
+      }
+    ]
+  }
+}
