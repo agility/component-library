@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.00317058,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The whole request: a heading and subtitle above three plan cards side by side, each with its price and a sign-up (CTA) button. Its guidance says it renders one card per PricingTier item, with name, monthly price, description, highlight bullets and CTA button."
+      }
+    ]
+  }
+}

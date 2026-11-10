@@ -1,0 +1,16 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 7.4,
+  "is_error": false,
+  "cost_usd": 0.00318103,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison of our product against two competitors. Its heading, column names (our product plus the two competitors) and ComparisonRow items cover the whole request. Its agent guidance says it is for side-by-side feature comparison and that PricingTable is for pricing plans, so I did not use PricingTable, since the request doesn't mention pricing."
+      }
+    ]
+  }
+}

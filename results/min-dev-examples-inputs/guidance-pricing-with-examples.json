@@ -1,0 +1,56 @@
+{
+  "ComparisonTable": {
+    "useWhen": "Renders a feature-by-feature comparison grid: a heading, a set of column names, and rows of ComparisonRow items. Use it to compare options, plans or competitors side by side across the same list of features.",
+    "avoidWhen": "Don't use it to present prices with buttons or a plan lineup; use PricingCards for that, or PricingTable when plans need a grouped, sectioned feature matrix with yes/no values.",
+    "alternatives": [
+      { "referenceName": "PricingTable", "when": "comparing pricing plans by grouped features" },
+      { "referenceName": "PricingCards", "when": "showing priced plan cards with CTAs" }
+    ],
+    "placement": ["body"],
+    "maxPerPage": null
+  },
+  "PricingCards": {
+    "useWhen": "Renders a heading and subtitle above a row of pricing cards, one per linked PricingTier item (name, monthly price, description, highlight bullets, CTA button). Use it for a short plan lineup where each plan gets its own card.",
+    "avoidWhen": "Don't use it for a long feature-by-feature matrix; use PricingTable. Don't use it for a neutral comparison with no prices or CTAs; use ComparisonTable.",
+    "alternatives": [
+      { "referenceName": "PricingTable", "when": "many features compared across plans" },
+      { "referenceName": "ComparisonTable", "when": "non-pricing side-by-side comparison" }
+    ],
+    "placement": ["body"],
+    "maxPerPage": 1
+  },
+  "PricingTable": {
+    "useWhen": "Renders a title, subtitle and a plan-by-feature matrix built from a JSON list of plans, each with a name, link and features grouped into sections (Features, Analysis, Support) with true/false, number or text values. Use it when visitors need to compare many features across plans.",
+    "avoidWhen": "Don't use it for simple plan cards with price and a CTA; use PricingCards. Don't use it for non-pricing comparisons that editors should manage as rows; use ComparisonTable. The JSON must stay valid.",
+    "alternatives": [
+      { "referenceName": "PricingCards", "when": "plan cards with price and CTA" },
+      { "referenceName": "ComparisonTable", "when": "editor-managed comparison rows, not pricing JSON" }
+    ],
+    "placement": ["body"],
+    "maxPerPage": 1
+  },
+  "PricingOffersforAccounts": {
+    "useWhen": "Shows pricing offers personalized for the signed-in or identified account. It has no editable fields, so it is just dropped onto a page where account-specific offers belong.",
+    "avoidWhen": "Don't use it for ordinary public pricing, where you control the content; use PricingCards or PricingTable. It carries no content of your own, so don't expect it to display a heading or tiers you write.",
+    "alternatives": [
+      { "referenceName": "PricingCards", "when": "editor-written plan cards" },
+      { "referenceName": "PricingTable", "when": "editor-written plan feature matrix" }
+    ],
+    "placement": ["body"],
+    "maxPerPage": 1
+  },
+  "ComparisonRow": {
+    "useWhen": "One row in a ComparisonTable: a feature name, its values text (one value per column) and an optional note. Create one per feature and link them in the table's Rows field.",
+    "avoidWhen": "Don't use it for pricing plans; use PricingTier. It is not displayed on its own, so it is only useful when linked from a ComparisonTable.",
+    "alternatives": [
+      { "referenceName": "PricingTier", "when": "a priced plan card, not a comparison row" }
+    ]
+  },
+  "PricingTier": {
+    "useWhen": "One plan for a PricingCards component: name, short description, monthly price, currency and symbol, CTA link, and highlight bullets (one per line). Create one per plan, such as Starter, Growth and Enterprise.",
+    "avoidWhen": "Don't use it for a feature row in a comparison; use ComparisonRow. It isn't shown on its own, so link it from a PricingCards component. Leave the Region fields alone unless the plan is region-specific.",
+    "alternatives": [
+      { "referenceName": "ComparisonRow", "when": "a feature row in a comparison table" }
+    ]
+  }
+}

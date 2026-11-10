@@ -1,0 +1,16 @@
+{
+  "id": "p18",
+  "kind": "page",
+  "seconds": 10.8,
+  "is_error": false,
+  "cost_usd": 0.00421907,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingTable",
+        "purpose": "The detailed feature-by-plan grid below the plans. It has a title, subtitle and a FeaturesJSON matrix that lists every plan with features grouped into sections (Features, Analysis, Support) and true/false, number or text values. That fits 'compare every feature across all plans.' This assumes the plans themselves already sit above on the page. If they don't, PricingCards is the component for the plan cards and would go above this one."
+      }
+    ]
+  }
+}

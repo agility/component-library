@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.00352047,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "The plain title and one-sentence intro at the top of the page. Header is the plain heading component with an optional description and no image or buttons, which matches the request. It is the only option here that is not a hero or a CTA."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The feature-by-feature comparison with competitors. It takes a heading, column names for the competitors, and editor-managed ComparisonRow items. It is the non-pricing comparison, so it fits a competitor comparison better than PricingTable or PricingCards."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "The closing call to action to book a demo. It is a full-width band with heading, description, and primary and secondary buttons, placed at the bottom of the page."
+      }
+    ]
+  }
+}

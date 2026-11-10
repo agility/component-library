@@ -1,0 +1,16 @@
+{
+  "id": "p17",
+  "kind": "page",
+  "seconds": 8.1,
+  "is_error": false,
+  "cost_usd": 0.01046121,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "Covers the whole request. It renders a title and subtitle above a row of cards, one per PricingTier item, so three tiers give three side-by-side plan cards. Each card carries its price (monthly price) and a CTA button for sign-up. Use it once on the page (maxPerPage is 1)."
+      }
+    ]
+  }
+}

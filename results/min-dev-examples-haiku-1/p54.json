@@ -1,0 +1,24 @@
+{
+  "id": "p54",
+  "kind": "page",
+  "seconds": 5.5,
+  "is_error": false,
+  "cost_usd": 0.00334935,
+  "num_turns": 4,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "Header",
+        "purpose": "Plain title and one sentence at the top of the 'Compare us' page (plain heading with description, no image or buttons)."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison with competitors: a heading, competitor column names, and ComparisonRow items."
+      },
+      {
+        "referenceName": "CTABanner",
+        "purpose": "Closing call to action to book a demo: heading, description, primary and secondary buttons at the bottom of the page."
+      }
+    ]
+  }
+}

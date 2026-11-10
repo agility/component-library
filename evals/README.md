@@ -56,6 +56,7 @@ customer's catalog often has them. That's where guidance has something to fix.
 | `min-dev-guidance-haiku-{1,2,3}` | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind-written | 31/33 (all three) | 60/66 (all three) | 2 | 0 |
 | `min-dev-guidance-sonnet-1` | 2026-11-10 | Sonnet | 2.13.0 (PR preview) | blind-written | 31/33 | 60/66 | 2 | 0 |
 | `min-dev-ownerfix-haiku-{1,2,3}` (6 prompts) | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind + 2 owner fixes | 12/12 (all three) | 24/24 | 0 | 0 |
+| `min-dev-examples-haiku-{1,2,3}` (6 prompts) | 2026-11-10 | Haiku ×3 | 2.13.0 (PR preview) | blind, pricing models written from fields + example items | 12/12 (all three) | 24/24 | 0 | 0 |
 
 **Baseline notes.** The one violation is the core gap: asked for a registration form, the agent chose a
 *disabled* legacy form builder, because MCP 2.11.0 doesn't say a model is disabled. The other miss named the
@@ -114,8 +115,36 @@ reference guidance in our own starters.
 each); 7,425 bytes with guidance on 23 of them, about 197 bytes more per guided component. Fully guided, that's about
 28 KB (~7k tokens) at 100 components and 55 KB (~14k tokens) at 200, against 8 KB and 17 KB without.
 
-**Found while setting up** (fixed in neither PR yet): the Management API refuses every guidance write (400 "An item
-with the same key has already been added. Key: Header") on an instance where a component and a content model share a
-reference name; the dev copy's `Header` content model was renamed `SiteHeader` to run the eval. MCP's
-`save_model_guidance` rejects `maxPerPage: null`, though the API accepts it.
+**Found while setting up**, and since fixed: the Management API refused every guidance write (400 "An item with the
+same key has already been added. Key: Header") on an instance where a component and a content model share a reference
+name, so the first dev copy's `Header` content model was renamed `SiteHeader`. MCP's `save_model_guidance` rejected
+`maxPerPage: null`, though the API accepts it. Both are fixed in the PRs; see the follow-up below.
+
+### Follow-up: pricing guidance written from examples, and the two fixes (2026-11-10, dev)
+
+**Set-up.** A fresh dev copy of the demo site with its `Header` component and `Header` content model both left in
+place, plus the same look-alikes and disabled `LegacyHero`. Management API on the dev lane with the fix (names are
+looked up within the model's own kind); MCP #90's current dev preview (`save_model_guidance` takes nulls).
+
+**The fixes, on that copy.** Guidance and deprecation writes on components and on both `Header` models all save; a
+component naming a content model as its alternative gets a 400 that says so. All 33 models' guidance went in through
+`save_model_guidance` exactly as the writer produced it, 13 of them with `maxPerPage: null`, with no errors.
+
+**Blind again, but with examples.** A new headless session, which never saw the prompts, rewrote the guidance for the
+six pricing and comparison models (`PricingTable`, `PricingCards`, `ComparisonTable`, `PricingOffersforAccounts`,
+`PricingTier`, `ComparisonRow`) from their fields **plus up to three of the instance's own published items each**
+([`writer-input-catalog.json`](../results/min-dev-examples-inputs/writer-input-catalog.json),
+[`guidance-pricing-with-examples.json`](../results/min-dev-examples-inputs/guidance-pricing-with-examples.json)): closer
+to what Draft with AI would see. Everything else kept the first blind guidance.
+
+| Six pricing and comparison prompts (p17, p18, p26, p47, p54, p60), Haiku ×3 | Right | Look-alikes |
+|---|---|---|
+| Blind, fields only (first run; p17, p18, p26, p47 only) | 4/6 slots in every run | 2 per run (p18, p26 compare → `ComparisonTable`) |
+| Blind, fields + example items | 12/12 in every run | 0 |
+| Blind + two owner fixes (first run) | 12/12 in every run | 0 |
+
+Seeing a real `PricingTable` item (plans as columns, features grouped into sections) was enough for the writer to send
+plan-feature grids to `PricingTable` and keep `ComparisonTable` for comparing options or competitors. That matches the
+hand fix without anyone correcting it. For Draft with AI: give the drafter the model's published items, not only its
+fields. Cost of this follow-up: about $0.48 ($0.38 writer, $0.10 runs).
 

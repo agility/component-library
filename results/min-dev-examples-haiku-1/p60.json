@@ -1,0 +1,20 @@
+{
+  "id": "p60",
+  "kind": "page",
+  "seconds": 6.0,
+  "is_error": false,
+  "cost_usd": 0.0041213,
+  "num_turns": 5,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "PricingCards",
+        "purpose": "The plans as cards: a heading and subtitle above a row of PricingTier cards, each with name, monthly price, description, highlight bullets and a CTA button."
+      },
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "The competitor comparison: a heading, column names for our product and the competitors, and feature rows (ComparisonRow items) comparing them side by side."
+      }
+    ]
+  }
+}

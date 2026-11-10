@@ -1,0 +1,16 @@
+{
+  "id": "p47",
+  "kind": "page",
+  "seconds": 4.8,
+  "is_error": false,
+  "cost_usd": 0.0032061999999999998,
+  "num_turns": 3,
+  "answer": {
+    "components": [
+      {
+        "referenceName": "ComparisonTable",
+        "purpose": "Feature-by-feature comparison of our product against the two competitors. It has a heading, column names for the three products, and ComparisonRow items for each feature. It is the only component the request needs."
+      }
+    ]
+  }
+}
